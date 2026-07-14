@@ -1,0 +1,92 @@
+{
+  "id": "goblin-ep16-7",
+  "title": "Goodbye Is My Old Duty",
+  "drama": "Goblin",
+  "youtubeId": "ahR5FVxrWsM",
+  "episode": 16,
+  "part": 7,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "소식", "romanization": "sosik", "english": "news; word",
+      "spanish": "noticia", "portuguese": "notícia", "indonesian": "kabar",
+      "japanese": "知らせ", "thai": "ข่าว", "french": "nouvelles",
+      "partOfSpeech": "noun", "emoji": "📨",
+      "example": "오랜만에 반가운 소식을 들었어요.",
+      "exampleRomanization": "oraenmane bangaun sosigeul deureosseoyo.",
+      "exampleTranslation": "I heard some welcome news after a long time.", "timestamp": 0.0
+    },
+    {
+      "korean": "출근", "romanization": "chulgeun", "english": "going to work",
+      "spanish": "ir al trabajo", "portuguese": "ir ao trabalho", "indonesian": "berangkat kerja",
+      "japanese": "出勤", "thai": "ไปทำงาน", "french": "aller au travail",
+      "partOfSpeech": "noun", "emoji": "🏢",
+      "example": "저는 아홉 시까지 출근해요.",
+      "exampleRomanization": "jeoneun ahop sikkaji chulgeunhaeyo.",
+      "exampleTranslation": "I go to work by nine o'clock.", "timestamp": 54.0
+    },
+    {
+      "korean": "마지막", "romanization": "majimak", "english": "last; final",
+      "spanish": "último", "portuguese": "último", "indonesian": "terakhir",
+      "japanese": "最後", "thai": "สุดท้าย", "french": "dernier",
+      "partOfSpeech": "noun", "emoji": "🔚",
+      "example": "이번이 마지막 기회예요.",
+      "exampleRomanization": "ibeoni majimak gihoeyeyo.",
+      "exampleTranslation": "This is the last chance.", "timestamp": 54.2
+    },
+    {
+      "korean": "행복하다", "romanization": "haengbokhada", "english": "to be happy",
+      "spanish": "ser feliz", "portuguese": "ser feliz", "indonesian": "bahagia",
+      "japanese": "幸せだ", "thai": "มีความสุข", "french": "être heureux",
+      "partOfSpeech": "adjective", "emoji": "😊",
+      "example": "가족과 있을 때 가장 행복해요.",
+      "exampleRomanization": "gajokgwa isseul ttae gajang haengbokhaeyo.",
+      "exampleTranslation": "I'm happiest when I'm with my family.", "timestamp": 57.0
+    },
+    {
+      "korean": "살다", "romanization": "salda", "english": "to live",
+      "spanish": "vivir", "portuguese": "viver", "indonesian": "hidup; tinggal",
+      "japanese": "生きる; 住む", "thai": "อยู่; มีชีวิต", "french": "vivre",
+      "partOfSpeech": "verb", "emoji": "🏡",
+      "example": "저는 서울에 살아요.",
+      "exampleRomanization": "jeoneun seoure sarayo.",
+      "exampleTranslation": "I live in Seoul.", "timestamp": 57.4
+    },
+    {
+      "korean": "시간", "romanization": "sigan", "english": "time; hour",
+      "spanish": "tiempo; hora", "portuguese": "tempo; hora", "indonesian": "waktu",
+      "japanese": "時間", "thai": "เวลา", "french": "temps; heure",
+      "partOfSpeech": "noun", "emoji": "🕐",
+      "example": "지금 시간이 몇 시예요?",
+      "exampleRomanization": "jigeum sigani myeot siyeyo?",
+      "exampleTranslation": "What time is it now?", "timestamp": 57.6
+    },
+    {
+      "korean": "모습", "romanization": "moseup", "english": "appearance; figure",
+      "spanish": "aspecto", "portuguese": "aparência", "indonesian": "penampilan",
+      "japanese": "姿", "thai": "รูปลักษณ์", "french": "apparence",
+      "partOfSpeech": "noun", "emoji": "🧑",
+      "example": "웃는 모습이 참 보기 좋아요.",
+      "exampleRomanization": "utneun moseubi cham bogi joayo.",
+      "exampleTranslation": "Your smiling figure looks so nice.", "timestamp": 57.8
+    },
+    {
+      "korean": "걱정", "romanization": "geokjeong", "english": "worry",
+      "spanish": "preocupación", "portuguese": "preocupação", "indonesian": "kekhawatiran",
+      "japanese": "心配", "thai": "ความกังวล", "french": "souci",
+      "partOfSpeech": "noun", "emoji": "😟",
+      "example": "걱정하지 말고 편히 쉬어요.",
+      "exampleRomanization": "geokjeonghaji malgo pyeonhi swieoyo.",
+      "exampleTranslation": "Don't worry and rest comfortably.", "timestamp": 75.0
+    },
+    {
+      "korean": "이별", "romanization": "ibyeol", "english": "parting; breakup",
+      "spanish": "despedida", "portuguese": "separação", "indonesian": "perpisahan",
+      "japanese": "別れ", "thai": "การจากลา", "french": "séparation",
+      "partOfSpeech": "noun", "emoji": "💔",
+      "example": "이별은 언제나 아쉬워요.",
+      "exampleRomanization": "ibyeoreun eonjena aswiwoyo.",
+      "exampleTranslation": "Partings are always sad.", "timestamp": 75.62
+    }
+  ]
+}

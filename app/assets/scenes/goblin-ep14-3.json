@@ -1,0 +1,164 @@
+{
+  "id": "goblin-ep14-3",
+  "title": "Reunited After Nine Years",
+  "drama": "Goblin",
+  "youtubeId": "fWMXsac8iLQ",
+  "episode": 14,
+  "part": 3,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "여전히", "romanization": "yeojeonhi", "english": "still; as before",
+      "spanish": "todavía", "portuguese": "ainda", "indonesian": "masih",
+      "japanese": "相変わらず", "thai": "ยังคง", "french": "toujours",
+      "partOfSpeech": "adverb", "emoji": "🔁",
+      "example": "그는 여전히 친절해요.",
+      "exampleRomanization": "geuneun yeojeonhi chinjeolhaeyo.",
+      "exampleTranslation": "He is still kind.", "timestamp": 3.48
+    },
+    {
+      "korean": "소문", "romanization": "somun", "english": "rumor",
+      "spanish": "rumor", "portuguese": "boato", "indonesian": "rumor; kabar",
+      "japanese": "噂", "thai": "ข่าวลือ", "french": "rumeur",
+      "partOfSpeech": "noun", "emoji": "🗣️",
+      "example": "이상한 소문이 돌고 있어요.",
+      "exampleRomanization": "isanghan somuni dolgo isseoyo.",
+      "exampleTranslation": "A strange rumor is going around.", "timestamp": 12.36
+    },
+    {
+      "korean": "도깨비", "romanization": "dokkaebi", "english": "goblin",
+      "spanish": "duende", "portuguese": "duende", "indonesian": "goblin",
+      "japanese": "鬼", "thai": "ภูตผี", "french": "gobelin",
+      "partOfSpeech": "noun", "emoji": "👺",
+      "example": "옛날이야기에 도깨비가 나와요.",
+      "exampleRomanization": "yennariyagie dokkaebiga nawayo.",
+      "exampleTranslation": "A goblin appears in the old tale.", "timestamp": 12.6
+    },
+    {
+      "korean": "먼지", "romanization": "meonji", "english": "dust",
+      "spanish": "polvo", "portuguese": "poeira", "indonesian": "debu",
+      "japanese": "ほこり", "thai": "ฝุ่น", "french": "poussière",
+      "partOfSpeech": "noun", "emoji": "🌫️",
+      "example": "책상에 먼지가 쌓였어요.",
+      "exampleRomanization": "chaeksange meonjiga ssayeosseoyo.",
+      "exampleTranslation": "Dust piled up on the desk.", "timestamp": 19.24
+    },
+    {
+      "korean": "바람", "romanization": "baram", "english": "wind",
+      "spanish": "viento", "portuguese": "vento", "indonesian": "angin",
+      "japanese": "風", "thai": "ลม", "french": "vent",
+      "partOfSpeech": "noun", "emoji": "🌬️",
+      "example": "오늘은 바람이 많이 불어요.",
+      "exampleRomanization": "oneureun barami mani bureoyo.",
+      "exampleTranslation": "It's very windy today.", "timestamp": 19.4
+    },
+    {
+      "korean": "비", "romanization": "bi", "english": "rain",
+      "spanish": "lluvia", "portuguese": "chuva", "indonesian": "hujan",
+      "japanese": "雨", "thai": "ฝน", "french": "pluie",
+      "partOfSpeech": "noun", "emoji": "🌧️",
+      "example": "아침부터 비가 내려요.",
+      "exampleRomanization": "achimbuteo biga naeryeoyo.",
+      "exampleTranslation": "It's been raining since morning.", "timestamp": 19.6
+    },
+    {
+      "korean": "기억", "romanization": "gieok", "english": "memory",
+      "spanish": "recuerdo", "portuguese": "memória", "indonesian": "ingatan",
+      "japanese": "記憶", "thai": "ความทรงจำ", "french": "souvenir",
+      "partOfSpeech": "noun", "emoji": "🧠",
+      "example": "그날의 기억이 아직 생생해요.",
+      "exampleRomanization": "geunarui gieogi ajik saengsaenghaeyo.",
+      "exampleTranslation": "The memory of that day is still vivid.", "timestamp": 44.96
+    },
+    {
+      "korean": "삼촌", "romanization": "samchon", "english": "uncle",
+      "spanish": "tío", "portuguese": "tio", "indonesian": "paman",
+      "japanese": "おじ", "thai": "ลุง; อา", "french": "oncle",
+      "partOfSpeech": "noun", "emoji": "👨",
+      "example": "삼촌이 용돈을 주셨어요.",
+      "exampleRomanization": "samchoni yongdoneul jusyeosseoyo.",
+      "exampleTranslation": "My uncle gave me allowance.", "timestamp": 63.0
+    },
+    {
+      "korean": "슬프다", "romanization": "seulpeuda", "english": "to be sad",
+      "spanish": "estar triste", "portuguese": "estar triste", "indonesian": "sedih",
+      "japanese": "悲しい", "thai": "เศร้า", "french": "être triste",
+      "partOfSpeech": "adjective", "emoji": "😞",
+      "example": "그 소식을 듣고 너무 슬펐어요.",
+      "exampleRomanization": "geu sosigeul deutgo neomu seulpeosseoyo.",
+      "exampleTranslation": "I was so sad to hear that news.", "timestamp": 83.0
+    },
+    {
+      "korean": "사랑", "romanization": "sarang", "english": "love",
+      "spanish": "amor", "portuguese": "amor", "indonesian": "cinta",
+      "japanese": "愛", "thai": "ความรัก", "french": "amour",
+      "partOfSpeech": "noun", "emoji": "💕",
+      "example": "그들의 사랑은 오래 이어졌어요.",
+      "exampleRomanization": "geudeurui sarangeun orae ieojyeosseoyo.",
+      "exampleTranslation": "Their love lasted a long time.", "timestamp": 90.0
+    },
+    {
+      "korean": "문", "romanization": "mun", "english": "door",
+      "spanish": "puerta", "portuguese": "porta", "indonesian": "pintu",
+      "japanese": "ドア", "thai": "ประตู", "french": "porte",
+      "partOfSpeech": "noun", "emoji": "🚪",
+      "example": "문을 조용히 닫아 주세요.",
+      "exampleRomanization": "muneul joyonghi dada juseyo.",
+      "exampleTranslation": "Please close the door quietly.", "timestamp": 93.0
+    },
+    {
+      "korean": "발견하다", "romanization": "balgyeonhada", "english": "to discover; to find",
+      "spanish": "descubrir", "portuguese": "descobrir", "indonesian": "menemukan",
+      "japanese": "発見する", "thai": "ค้นพบ", "french": "découvrir",
+      "partOfSpeech": "verb", "emoji": "🔍",
+      "example": "새로운 사실을 발견했어요.",
+      "exampleRomanization": "saeroun sasireul balgyeonhaesseoyo.",
+      "exampleTranslation": "I discovered a new fact.", "timestamp": 93.2
+    },
+    {
+      "korean": "오다", "romanization": "oda", "english": "to come",
+      "spanish": "venir", "portuguese": "vir", "indonesian": "datang",
+      "japanese": "来る", "thai": "มา", "french": "venir",
+      "partOfSpeech": "verb", "emoji": "🚶",
+      "example": "친구가 우리 집에 왔어요.",
+      "exampleRomanization": "chinguga uri jibe wasseoyo.",
+      "exampleTranslation": "My friend came to my house.", "timestamp": 113.0
+    },
+    {
+      "korean": "늦다", "romanization": "neutda", "english": "to be late",
+      "spanish": "llegar tarde", "portuguese": "atrasar-se", "indonesian": "terlambat",
+      "japanese": "遅れる", "thai": "สาย", "french": "être en retard",
+      "partOfSpeech": "adjective", "emoji": "⏰",
+      "example": "버스를 놓쳐서 늦었어요.",
+      "exampleRomanization": "beoseureul nochyeoseo neujeosseoyo.",
+      "exampleTranslation": "I was late because I missed the bus.", "timestamp": 134.0
+    },
+    {
+      "korean": "용서하다", "romanization": "yongseohada", "english": "to forgive",
+      "spanish": "perdonar", "portuguese": "perdoar", "indonesian": "memaafkan",
+      "japanese": "許す", "thai": "ให้อภัย", "french": "pardonner",
+      "partOfSpeech": "verb", "emoji": "🕊️",
+      "example": "그의 실수를 용서해 주세요.",
+      "exampleRomanization": "geuui silsureul yongseohae juseyo.",
+      "exampleTranslation": "Please forgive his mistake.", "timestamp": 144.0
+    },
+    {
+      "korean": "지키다", "romanization": "jikida", "english": "to protect; to keep",
+      "spanish": "proteger", "portuguese": "proteger", "indonesian": "melindungi",
+      "japanese": "守る", "thai": "ปกป้อง", "french": "protéger",
+      "partOfSpeech": "verb", "emoji": "🛡️",
+      "example": "약속을 꼭 지킬게요.",
+      "exampleRomanization": "yaksogeul kkok jikilgeyo.",
+      "exampleTranslation": "I will surely keep my promise.", "timestamp": 156.0
+    },
+    {
+      "korean": "죄", "romanization": "joe", "english": "sin; crime",
+      "spanish": "pecado", "portuguese": "pecado", "indonesian": "dosa",
+      "japanese": "罪", "thai": "บาป", "french": "péché",
+      "partOfSpeech": "noun", "emoji": "⛓️",
+      "example": "그는 자신의 죄를 뉘우쳤어요.",
+      "exampleRomanization": "geuneun jasinui joereul nwiuchyeosseoyo.",
+      "exampleTranslation": "He repented of his sin.", "timestamp": 165.0
+    }
+  ]
+}

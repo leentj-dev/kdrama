@@ -1,0 +1,137 @@
+{
+  "id": "goblin-ep15-2",
+  "title": "Sitting Beside You",
+  "drama": "Goblin",
+  "youtubeId": "PILvByQV77Q",
+  "episode": 15,
+  "part": 2,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "미래", "romanization": "mirae", "english": "future",
+      "spanish": "futuro", "portuguese": "futuro", "indonesian": "masa depan",
+      "japanese": "未来", "thai": "อนาคต", "french": "avenir",
+      "partOfSpeech": "noun", "emoji": "🔮",
+      "example": "미래를 위해 저축하고 있어요.",
+      "exampleRomanization": "miraereul wihae jeochukago isseoyo.",
+      "exampleTranslation": "I'm saving up for the future.", "timestamp": 1.0
+    },
+    {
+      "korean": "대표", "romanization": "daepyo", "english": "CEO; representative",
+      "spanish": "director", "portuguese": "diretor", "indonesian": "direktur",
+      "japanese": "代表", "thai": "ตัวแทน; ซีอีโอ", "french": "directeur",
+      "partOfSpeech": "noun", "emoji": "💼",
+      "example": "회사 대표님이 인사말을 했어요.",
+      "exampleRomanization": "hoesa daepyonimi insamareul haesseoyo.",
+      "exampleTranslation": "The company CEO gave a greeting.", "timestamp": 4.6
+    },
+    {
+      "korean": "만나다", "romanization": "mannada", "english": "to meet",
+      "spanish": "encontrarse", "portuguese": "encontrar", "indonesian": "bertemu",
+      "japanese": "会う", "thai": "พบ", "french": "rencontrer",
+      "partOfSpeech": "verb", "emoji": "🤝",
+      "example": "내일 친구를 만나기로 했어요.",
+      "exampleRomanization": "naeil chingureul mannagiro haesseoyo.",
+      "exampleTranslation": "I arranged to meet a friend tomorrow.", "timestamp": 7.3
+    },
+    {
+      "korean": "웃음", "romanization": "useum", "english": "laughter; smile",
+      "spanish": "risa", "portuguese": "riso", "indonesian": "tawa",
+      "japanese": "笑い", "thai": "เสียงหัวเราะ", "french": "rire",
+      "partOfSpeech": "noun", "emoji": "😄",
+      "example": "그의 웃음이 참 밝아요.",
+      "exampleRomanization": "geuui useumi cham balgayo.",
+      "exampleTranslation": "His laughter is so bright.", "timestamp": 11.8
+    },
+    {
+      "korean": "첫사랑", "romanization": "cheossarang", "english": "first love",
+      "spanish": "primer amor", "portuguese": "primeiro amor", "indonesian": "cinta pertama",
+      "japanese": "初恋", "thai": "รักแรก", "french": "premier amour",
+      "partOfSpeech": "noun", "emoji": "💘",
+      "example": "첫사랑을 아직 기억해요.",
+      "exampleRomanization": "cheossarangeul ajik gieokhaeyo.",
+      "exampleTranslation": "I still remember my first love.", "timestamp": 30.0
+    },
+    {
+      "korean": "비싸다", "romanization": "bissada", "english": "to be expensive",
+      "spanish": "ser caro", "portuguese": "ser caro", "indonesian": "mahal",
+      "japanese": "高い", "thai": "แพง", "french": "être cher",
+      "partOfSpeech": "adjective", "emoji": "💰",
+      "example": "이 가방은 너무 비싸요.",
+      "exampleRomanization": "i gabangeun neomu bissayo.",
+      "exampleTranslation": "This bag is too expensive.", "timestamp": 35.24
+    },
+    {
+      "korean": "소용", "romanization": "soyong", "english": "use; avail",
+      "spanish": "utilidad", "portuguese": "utilidade", "indonesian": "gunanya",
+      "japanese": "無駄; 効果", "thai": "ประโยชน์", "french": "utilité",
+      "partOfSpeech": "noun", "emoji": "🚫",
+      "example": "이제 와서 후회해도 소용없어요.",
+      "exampleRomanization": "ije waseo huhoehaedo soyongeopseoyo.",
+      "exampleTranslation": "There's no use regretting now.", "timestamp": 40.0
+    },
+    {
+      "korean": "까먹다", "romanization": "kkameokda", "english": "to forget (casual)",
+      "spanish": "olvidar", "portuguese": "esquecer", "indonesian": "lupa",
+      "japanese": "忘れる", "thai": "ลืม", "french": "oublier",
+      "partOfSpeech": "verb", "emoji": "🤦",
+      "example": "비밀번호를 까먹었어요.",
+      "exampleRomanization": "bimilbeonhoreul kkameogeosseoyo.",
+      "exampleTranslation": "I forgot my password.", "timestamp": 42.0
+    },
+    {
+      "korean": "헤어지다", "romanization": "heeojida", "english": "to break up; to part",
+      "spanish": "romper", "portuguese": "terminar; separar-se", "indonesian": "putus",
+      "japanese": "別れる", "thai": "เลิกกัน", "french": "rompre",
+      "partOfSpeech": "verb", "emoji": "💔",
+      "example": "두 사람은 작년에 헤어졌어요.",
+      "exampleRomanization": "du sarameun jangnyeone heeojyeosseoyo.",
+      "exampleTranslation": "The two broke up last year.", "timestamp": 43.0
+    },
+    {
+      "korean": "추억", "romanization": "chueok", "english": "memory (fond)",
+      "spanish": "recuerdo", "portuguese": "recordação", "indonesian": "kenangan",
+      "japanese": "思い出", "thai": "ความทรงจำ", "french": "souvenir",
+      "partOfSpeech": "noun", "emoji": "📷",
+      "example": "여행의 추억이 참 소중해요.",
+      "exampleRomanization": "yeohaengui chueogi cham sojunghaeyo.",
+      "exampleTranslation": "The memories of the trip are precious.", "timestamp": 53.0
+    },
+    {
+      "korean": "예쁘다", "romanization": "yeppeuda", "english": "to be pretty",
+      "spanish": "ser bonita", "portuguese": "ser bonita", "indonesian": "cantik",
+      "japanese": "きれいだ", "thai": "สวย", "french": "être joli",
+      "partOfSpeech": "adjective", "emoji": "🌸",
+      "example": "오늘 옷이 참 예뻐요.",
+      "exampleRomanization": "oneul osi cham yeppeoyo.",
+      "exampleTranslation": "Your outfit is really pretty today.", "timestamp": 58.0
+    },
+    {
+      "korean": "주문하다", "romanization": "jumunhada", "english": "to order",
+      "spanish": "pedir", "portuguese": "pedir; encomendar", "indonesian": "memesan",
+      "japanese": "注文する", "thai": "สั่ง", "french": "commander",
+      "partOfSpeech": "verb", "emoji": "🧾",
+      "example": "커피 두 잔을 주문했어요.",
+      "exampleRomanization": "keopi du janeul jumunhaesseoyo.",
+      "exampleTranslation": "I ordered two cups of coffee.", "timestamp": 61.64
+    },
+    {
+      "korean": "내일", "romanization": "naeil", "english": "tomorrow",
+      "spanish": "mañana", "portuguese": "amanhã", "indonesian": "besok",
+      "japanese": "明日", "thai": "พรุ่งนี้", "french": "demain",
+      "partOfSpeech": "noun", "emoji": "📅",
+      "example": "내일 아침에 만나요.",
+      "exampleRomanization": "naeil achime mannayo.",
+      "exampleTranslation": "Let's meet tomorrow morning.", "timestamp": 64.26
+    },
+    {
+      "korean": "비행기", "romanization": "bihaenggi", "english": "airplane",
+      "spanish": "avión", "portuguese": "avião", "indonesian": "pesawat",
+      "japanese": "飛行機", "thai": "เครื่องบิน", "french": "avion",
+      "partOfSpeech": "noun", "emoji": "✈️",
+      "example": "비행기가 곧 이륙해요.",
+      "exampleRomanization": "bihaenggiga got iryukhaeyo.",
+      "exampleTranslation": "The airplane will take off soon.", "timestamp": 68.0
+    }
+  ]
+}

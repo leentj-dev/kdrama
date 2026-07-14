@@ -1,0 +1,155 @@
+{
+  "id": "goblin-ep15-3",
+  "title": "Sunny's Reunion",
+  "drama": "Goblin",
+  "youtubeId": "kve9W-Mcrso",
+  "episode": 15,
+  "part": 3,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "놀라다", "romanization": "nollada", "english": "to be surprised",
+      "spanish": "sorprenderse", "portuguese": "surpreender-se", "indonesian": "terkejut",
+      "japanese": "驚く", "thai": "ตกใจ", "french": "être surpris",
+      "partOfSpeech": "verb", "emoji": "😲",
+      "example": "갑작스러운 소식에 놀랐어요.",
+      "exampleRomanization": "gapjakseureoun sosige nollasseoyo.",
+      "exampleTranslation": "I was surprised by the sudden news.", "timestamp": 0.0
+    },
+    {
+      "korean": "앉다", "romanization": "anda", "english": "to sit",
+      "spanish": "sentarse", "portuguese": "sentar-se", "indonesian": "duduk",
+      "japanese": "座る", "thai": "นั่ง", "french": "s'asseoir",
+      "partOfSpeech": "verb", "emoji": "🪑",
+      "example": "여기 의자에 앉으세요.",
+      "exampleRomanization": "yeogi uijae anjeuseyo.",
+      "exampleTranslation": "Please sit on this chair.", "timestamp": 22.46
+    },
+    {
+      "korean": "처음", "romanization": "cheoeum", "english": "first time; beginning",
+      "spanish": "primera vez", "portuguese": "primeira vez", "indonesian": "pertama",
+      "japanese": "初めて", "thai": "ครั้งแรก", "french": "première fois",
+      "partOfSpeech": "noun", "emoji": "1️⃣",
+      "example": "한국은 이번이 처음이에요.",
+      "exampleRomanization": "hangugeun ibeoni cheoeumieyo.",
+      "exampleTranslation": "This is my first time in Korea.", "timestamp": 28.44
+    },
+    {
+      "korean": "가게", "romanization": "gage", "english": "store; shop",
+      "spanish": "tienda", "portuguese": "loja", "indonesian": "toko",
+      "japanese": "店", "thai": "ร้าน", "french": "magasin",
+      "partOfSpeech": "noun", "emoji": "🏪",
+      "example": "집 앞에 작은 가게가 있어요.",
+      "exampleRomanization": "jip ape jageun gagega isseoyo.",
+      "exampleTranslation": "There's a small store in front of my house.", "timestamp": 35.68
+    },
+    {
+      "korean": "편지", "romanization": "pyeonji", "english": "letter",
+      "spanish": "carta", "portuguese": "carta", "indonesian": "surat",
+      "japanese": "手紙", "thai": "จดหมาย", "french": "lettre",
+      "partOfSpeech": "noun", "emoji": "✉️",
+      "example": "할머니께 편지를 썼어요.",
+      "exampleRomanization": "halmeonikke pyeonjireul sseosseoyo.",
+      "exampleTranslation": "I wrote a letter to my grandmother.", "timestamp": 35.9
+    },
+    {
+      "korean": "울다", "romanization": "ulda", "english": "to cry",
+      "spanish": "llorar", "portuguese": "chorar", "indonesian": "menangis",
+      "japanese": "泣く", "thai": "ร้องไห้", "french": "pleurer",
+      "partOfSpeech": "verb", "emoji": "😭",
+      "example": "아이가 크게 울었어요.",
+      "exampleRomanization": "aiga keuge ureosseoyo.",
+      "exampleTranslation": "The child cried loudly.", "timestamp": 41.0
+    },
+    {
+      "korean": "춥다", "romanization": "chupda", "english": "to be cold",
+      "spanish": "hacer frío", "portuguese": "estar frio", "indonesian": "dingin",
+      "japanese": "寒い", "thai": "หนาว", "french": "avoir froid",
+      "partOfSpeech": "adjective", "emoji": "🥶",
+      "example": "밖이 너무 추워요.",
+      "exampleRomanization": "bakki neomu chuwoyo.",
+      "exampleTranslation": "It's very cold outside.", "timestamp": 41.2
+    },
+    {
+      "korean": "닮다", "romanization": "damda", "english": "to resemble",
+      "spanish": "parecerse", "portuguese": "parecer-se", "indonesian": "mirip",
+      "japanese": "似ている", "thai": "เหมือน", "french": "ressembler",
+      "partOfSpeech": "verb", "emoji": "👯",
+      "example": "언니와 저는 많이 닮았어요.",
+      "exampleRomanization": "eonniwa jeoneun mani dalmasseoyo.",
+      "exampleTranslation": "My sister and I look alike.", "timestamp": 54.0
+    },
+    {
+      "korean": "얼굴", "romanization": "eolgul", "english": "face",
+      "spanish": "cara", "portuguese": "rosto", "indonesian": "wajah",
+      "japanese": "顔", "thai": "ใบหน้า", "french": "visage",
+      "partOfSpeech": "noun", "emoji": "😊",
+      "example": "그의 얼굴이 밝아 보여요.",
+      "exampleRomanization": "geuui eolguri balga boyeoyo.",
+      "exampleTranslation": "His face looks bright.", "timestamp": 57.68
+    },
+    {
+      "korean": "이름", "romanization": "ireum", "english": "name",
+      "spanish": "nombre", "portuguese": "nome", "indonesian": "nama",
+      "japanese": "名前", "thai": "ชื่อ", "french": "nom",
+      "partOfSpeech": "noun", "emoji": "🏷️",
+      "example": "이름이 어떻게 되세요?",
+      "exampleRomanization": "ireumi eotteoke doeseyo?",
+      "exampleTranslation": "What is your name?", "timestamp": 62.64
+    },
+    {
+      "korean": "보고 싶다", "romanization": "bogo sipda", "english": "to miss (someone)",
+      "spanish": "extrañar", "portuguese": "sentir falta", "indonesian": "kangen",
+      "japanese": "会いたい", "thai": "คิดถึง", "french": "manquer",
+      "partOfSpeech": "verb", "emoji": "🥺",
+      "example": "가족이 정말 보고 싶어요.",
+      "exampleRomanization": "gajogi jeongmal bogo sipeoyo.",
+      "exampleTranslation": "I really miss my family.", "timestamp": 77.0
+    },
+    {
+      "korean": "잘생기다", "romanization": "jalsaenggida", "english": "to be handsome",
+      "spanish": "ser guapo", "portuguese": "ser bonito", "indonesian": "tampan",
+      "japanese": "ハンサムだ", "thai": "หล่อ", "french": "être beau",
+      "partOfSpeech": "adjective", "emoji": "😎",
+      "example": "그 배우는 정말 잘생겼어요.",
+      "exampleRomanization": "geu baeuneun jeongmal jalsaenggyeosseoyo.",
+      "exampleTranslation": "That actor is really handsome.", "timestamp": 89.04
+    },
+    {
+      "korean": "궁금하다", "romanization": "gunggeumhada", "english": "to be curious",
+      "spanish": "tener curiosidad", "portuguese": "estar curioso", "indonesian": "penasaran",
+      "japanese": "気になる", "thai": "อยากรู้", "french": "être curieux",
+      "partOfSpeech": "adjective", "emoji": "🤔",
+      "example": "결과가 정말 궁금해요.",
+      "exampleRomanization": "gyeolgwaga jeongmal gunggeumhaeyo.",
+      "exampleTranslation": "I'm really curious about the result.", "timestamp": 89.3
+    },
+    {
+      "korean": "감사하다", "romanization": "gamsahada", "english": "to be thankful",
+      "spanish": "agradecer", "portuguese": "agradecer", "indonesian": "berterima kasih",
+      "japanese": "感謝する", "thai": "ขอบคุณ", "french": "remercier",
+      "partOfSpeech": "verb", "emoji": "🙏",
+      "example": "도와주셔서 감사해요.",
+      "exampleRomanization": "dowajusyeoseo gamsahaeyo.",
+      "exampleTranslation": "Thank you for helping me.", "timestamp": 97.32
+    },
+    {
+      "korean": "장사", "romanization": "jangsa", "english": "business; trade",
+      "spanish": "negocio", "portuguese": "negócio", "indonesian": "dagang",
+      "japanese": "商売", "thai": "การค้าขาย", "french": "commerce",
+      "partOfSpeech": "noun", "emoji": "🏬",
+      "example": "요즘 장사가 잘 돼요.",
+      "exampleRomanization": "yojeum jangsaga jal dwaeyo.",
+      "exampleTranslation": "Business is going well these days.", "timestamp": 105.08
+    },
+    {
+      "korean": "반갑다", "romanization": "bangapda", "english": "to be glad (to meet)",
+      "spanish": "encantado", "portuguese": "prazer", "indonesian": "senang bertemu",
+      "japanese": "うれしい", "thai": "ยินดี", "french": "enchanté",
+      "partOfSpeech": "adjective", "emoji": "🤗",
+      "example": "만나서 정말 반가워요.",
+      "exampleRomanization": "mannaseo jeongmal bangawoyo.",
+      "exampleTranslation": "I'm really glad to meet you.", "timestamp": 116.86
+    }
+  ]
+}

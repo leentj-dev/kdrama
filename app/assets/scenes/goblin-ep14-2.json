@@ -1,0 +1,65 @@
+{
+  "id": "goblin-ep14-2",
+  "title": "Meeting Again",
+  "drama": "Goblin",
+  "youtubeId": "n3FtrIvDe0A",
+  "episode": 14,
+  "part": 2,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "저", "romanization": "jeo", "english": "I; me (polite)",
+      "spanish": "yo", "portuguese": "eu", "indonesian": "saya",
+      "japanese": "私", "thai": "ฉัน (สุภาพ)", "french": "je; moi",
+      "partOfSpeech": "noun", "emoji": "🙋",
+      "example": "저는 학생이에요.",
+      "exampleRomanization": "jeoneun haksaengieyo.",
+      "exampleTranslation": "I am a student.", "timestamp": 59.52
+    },
+    {
+      "korean": "너", "romanization": "neo", "english": "you (casual)",
+      "spanish": "tú", "portuguese": "você", "indonesian": "kamu",
+      "japanese": "君", "thai": "เธอ", "french": "tu; toi",
+      "partOfSpeech": "noun", "emoji": "👉",
+      "example": "너는 뭐 먹고 싶어?",
+      "exampleRomanization": "neoneun mwo meokgo sipeo?",
+      "exampleTranslation": "What do you want to eat?", "timestamp": 61.52
+    },
+    {
+      "korean": "사랑하다", "romanization": "saranghada", "english": "to love",
+      "spanish": "amar", "portuguese": "amar", "indonesian": "mencintai",
+      "japanese": "愛する", "thai": "รัก", "french": "aimer",
+      "partOfSpeech": "verb", "emoji": "❤️",
+      "example": "저는 가족을 정말 사랑해요.",
+      "exampleRomanization": "jeoneun gajogeul jeongmal saranghaeyo.",
+      "exampleTranslation": "I really love my family.", "timestamp": 76.0
+    },
+    {
+      "korean": "죄송하다", "romanization": "joesonghada", "english": "to be sorry (polite)",
+      "spanish": "sentirlo", "portuguese": "sentir muito", "indonesian": "minta maaf",
+      "japanese": "申し訳ない", "thai": "ขอโทษ", "french": "être désolé",
+      "partOfSpeech": "adjective", "emoji": "🙇",
+      "example": "늦어서 정말 죄송해요.",
+      "exampleRomanization": "neujeoseo jeongmal joesonghaeyo.",
+      "exampleTranslation": "I'm really sorry for being late.", "timestamp": 153.26
+    },
+    {
+      "korean": "감정", "romanization": "gamjeong", "english": "emotion; feeling",
+      "spanish": "emoción", "portuguese": "emoção", "indonesian": "emosi",
+      "japanese": "感情", "thai": "อารมณ์", "french": "émotion",
+      "partOfSpeech": "noun", "emoji": "💗",
+      "example": "감정을 솔직하게 표현하세요.",
+      "exampleRomanization": "gamjeongeul soljikage pyohyeonhaseyo.",
+      "exampleTranslation": "Express your feelings honestly.", "timestamp": 153.4
+    },
+    {
+      "korean": "심하다", "romanization": "simhada", "english": "to be severe; to be extreme",
+      "spanish": "ser grave", "portuguese": "ser grave", "indonesian": "parah",
+      "japanese": "ひどい", "thai": "รุนแรง", "french": "être grave",
+      "partOfSpeech": "adjective", "emoji": "🌡️",
+      "example": "오늘 미세먼지가 심해요.",
+      "exampleRomanization": "oneul misemeonjiga simhaeyo.",
+      "exampleTranslation": "The fine dust is severe today.", "timestamp": 153.6
+    }
+  ]
+}

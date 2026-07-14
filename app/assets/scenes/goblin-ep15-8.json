@@ -1,0 +1,137 @@
+{
+  "id": "goblin-ep15-8",
+  "title": "Sweet Talk Under the Blanket",
+  "drama": "Goblin",
+  "youtubeId": "ucz1oPdYh04",
+  "episode": 15,
+  "part": 8,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "고기", "romanization": "gogi", "english": "meat",
+      "spanish": "carne", "portuguese": "carne", "indonesian": "daging",
+      "japanese": "肉", "thai": "เนื้อ", "french": "viande",
+      "partOfSpeech": "noun", "emoji": "🍖",
+      "example": "저녁으로 고기를 구워 먹었어요.",
+      "exampleRomanization": "jeonyeogeuro gogireul guwo meogeosseoyo.",
+      "exampleTranslation": "I grilled meat for dinner.", "timestamp": 0.0
+    },
+    {
+      "korean": "냄새", "romanization": "naemsae", "english": "smell",
+      "spanish": "olor", "portuguese": "cheiro", "indonesian": "bau",
+      "japanese": "匂い", "thai": "กลิ่น", "french": "odeur",
+      "partOfSpeech": "noun", "emoji": "👃",
+      "example": "빵 냄새가 참 좋아요.",
+      "exampleRomanization": "ppang naemsaega cham joayo.",
+      "exampleTranslation": "The smell of bread is so nice.", "timestamp": 0.2
+    },
+    {
+      "korean": "불", "romanization": "bul", "english": "fire",
+      "spanish": "fuego", "portuguese": "fogo", "indonesian": "api",
+      "japanese": "火", "thai": "ไฟ", "french": "feu",
+      "partOfSpeech": "noun", "emoji": "🔥",
+      "example": "가스레인지 불을 껐어요.",
+      "exampleRomanization": "gaseureinji bureul kkeosseoyo.",
+      "exampleTranslation": "I turned off the stove fire.", "timestamp": 10.0
+    },
+    {
+      "korean": "먹다", "romanization": "meokda", "english": "to eat",
+      "spanish": "comer", "portuguese": "comer", "indonesian": "makan",
+      "japanese": "食べる", "thai": "กิน", "french": "manger",
+      "partOfSpeech": "verb", "emoji": "🍚",
+      "example": "저녁으로 김치찌개를 먹었어요.",
+      "exampleRomanization": "jeonyeogeuro gimchijjigaereul meogeosseoyo.",
+      "exampleTranslation": "I ate kimchi stew for dinner.", "timestamp": 13.0
+    },
+    {
+      "korean": "책", "romanization": "chaek", "english": "book",
+      "spanish": "libro", "portuguese": "livro", "indonesian": "buku",
+      "japanese": "本", "thai": "หนังสือ", "french": "livre",
+      "partOfSpeech": "noun", "emoji": "📖",
+      "example": "주말에 책을 두 권 읽었어요.",
+      "exampleRomanization": "jumare chaegeul du gwon ilgeosseoyo.",
+      "exampleTranslation": "I read two books over the weekend.", "timestamp": 30.0
+    },
+    {
+      "korean": "읽다", "romanization": "ikda", "english": "to read",
+      "spanish": "leer", "portuguese": "ler", "indonesian": "membaca",
+      "japanese": "読む", "thai": "อ่าน", "french": "lire",
+      "partOfSpeech": "verb", "emoji": "📕",
+      "example": "매일 밤 책을 읽어요.",
+      "exampleRomanization": "maeil bam chaegeul ilgeoyo.",
+      "exampleTranslation": "I read a book every night.", "timestamp": 38.2
+    },
+    {
+      "korean": "쓰다", "romanization": "sseuda", "english": "to write",
+      "spanish": "escribir", "portuguese": "escrever", "indonesian": "menulis",
+      "japanese": "書く", "thai": "เขียน", "french": "écrire",
+      "partOfSpeech": "verb", "emoji": "✍️",
+      "example": "일기를 매일 써요.",
+      "exampleRomanization": "ilgireul maeil sseoyo.",
+      "exampleTranslation": "I write in my diary every day.", "timestamp": 42.32
+    },
+    {
+      "korean": "거짓말", "romanization": "geojinmal", "english": "lie",
+      "spanish": "mentira", "portuguese": "mentira", "indonesian": "kebohongan",
+      "japanese": "嘘", "thai": "คำโกหก", "french": "mensonge",
+      "partOfSpeech": "noun", "emoji": "🤥",
+      "example": "거짓말을 하면 안 돼요.",
+      "exampleRomanization": "geojinmareul hamyeon an dwaeyo.",
+      "exampleTranslation": "You must not tell a lie.", "timestamp": 45.32
+    },
+    {
+      "korean": "귀엽다", "romanization": "gwiyeopda", "english": "to be cute",
+      "spanish": "ser lindo", "portuguese": "ser fofo", "indonesian": "imut",
+      "japanese": "かわいい", "thai": "น่ารัก", "french": "être mignon",
+      "partOfSpeech": "adjective", "emoji": "🥰",
+      "example": "강아지가 정말 귀여워요.",
+      "exampleRomanization": "gangajiga jeongmal gwiyeowoyo.",
+      "exampleTranslation": "The puppy is really cute.", "timestamp": 46.98
+    },
+    {
+      "korean": "티나다", "romanization": "tinada", "english": "to be obvious; to show",
+      "spanish": "notarse", "portuguese": "ser óbvio", "indonesian": "kelihatan",
+      "japanese": "ばれる", "thai": "เห็นชัด", "french": "se voir",
+      "partOfSpeech": "verb", "emoji": "🫣",
+      "example": "긴장한 게 다 티나요.",
+      "exampleRomanization": "ginjanghan ge da tinayo.",
+      "exampleTranslation": "It's obvious that you're nervous.", "timestamp": 49.76
+    },
+    {
+      "korean": "이불", "romanization": "ibul", "english": "blanket; duvet",
+      "spanish": "manta", "portuguese": "edredom", "indonesian": "selimut",
+      "japanese": "布団", "thai": "ผ้าห่ม", "french": "couverture",
+      "partOfSpeech": "noun", "emoji": "🛏️",
+      "example": "추워서 이불을 덮었어요.",
+      "exampleRomanization": "chuwoseo ibureul deopeosseoyo.",
+      "exampleTranslation": "I pulled up the blanket because it was cold.", "timestamp": 63.76
+    },
+    {
+      "korean": "야하다", "romanization": "yahada", "english": "to be racy; risqué",
+      "spanish": "ser atrevido", "portuguese": "ser picante", "indonesian": "genit; vulgar",
+      "japanese": "色っぽい", "thai": "ทะลึ่ง", "french": "être osé",
+      "partOfSpeech": "adjective", "emoji": "😳",
+      "example": "그 장면이 좀 야했어요.",
+      "exampleRomanization": "geu jangmyeoni jom yahaesseoyo.",
+      "exampleTranslation": "That scene was a bit racy.", "timestamp": 67.0
+    },
+    {
+      "korean": "따뜻하다", "romanization": "ttatteuthada", "english": "to be warm",
+      "spanish": "estar cálido", "portuguese": "estar quente", "indonesian": "hangat",
+      "japanese": "暖かい", "thai": "อบอุ่น", "french": "être chaud",
+      "partOfSpeech": "adjective", "emoji": "🌞",
+      "example": "봄 날씨가 참 따뜻해요.",
+      "exampleRomanization": "bom nalssiga cham ttatteuthaeyo.",
+      "exampleTranslation": "The spring weather is really warm.", "timestamp": 75.84
+    },
+    {
+      "korean": "졸리다", "romanization": "jollida", "english": "to be sleepy",
+      "spanish": "tener sueño", "portuguese": "estar com sono", "indonesian": "mengantuk",
+      "japanese": "眠い", "thai": "ง่วง", "french": "avoir sommeil",
+      "partOfSpeech": "adjective", "emoji": "🥱",
+      "example": "점심 먹고 나니 졸려요.",
+      "exampleRomanization": "jeomsim meokgo nani jollyeoyo.",
+      "exampleTranslation": "I feel sleepy after lunch.", "timestamp": 84.12
+    }
+  ]
+}

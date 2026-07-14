@@ -1,0 +1,146 @@
+{
+  "id": "goblin-ep13-9",
+  "title": "Pulling the Sword",
+  "drama": "Goblin",
+  "youtubeId": "Y1hty9DtJSU",
+  "episode": 13,
+  "part": 9,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "알다", "romanization": "alda", "english": "to know",
+      "spanish": "saber", "portuguese": "saber", "indonesian": "tahu",
+      "japanese": "知る", "thai": "รู้", "french": "savoir",
+      "partOfSpeech": "verb", "emoji": "💡",
+      "example": "그 사실을 이미 알았어요.",
+      "exampleRomanization": "geu sasireul imi arasseoyo.",
+      "exampleTranslation": "I already knew that fact.", "timestamp": 0.0
+    },
+    {
+      "korean": "이유", "romanization": "iyu", "english": "reason",
+      "spanish": "razón", "portuguese": "razão", "indonesian": "alasan",
+      "japanese": "理由", "thai": "เหตุผล", "french": "raison",
+      "partOfSpeech": "noun", "emoji": "❓",
+      "example": "지각한 이유를 말해 보세요.",
+      "exampleRomanization": "jigakan iyureul malhae boseyo.",
+      "exampleTranslation": "Please tell me the reason you were late.", "timestamp": 2.2
+    },
+    {
+      "korean": "몸", "romanization": "mom", "english": "body",
+      "spanish": "cuerpo", "portuguese": "corpo", "indonesian": "tubuh",
+      "japanese": "体", "thai": "ร่างกาย", "french": "corps",
+      "partOfSpeech": "noun", "emoji": "🧍",
+      "example": "요즘 몸이 좀 안 좋아요.",
+      "exampleRomanization": "yojeum momi jom an joayo.",
+      "exampleTranslation": "My body feels a bit off these days.", "timestamp": 6.68
+    },
+    {
+      "korean": "손", "romanization": "son", "english": "hand",
+      "spanish": "mano", "portuguese": "mão", "indonesian": "tangan",
+      "japanese": "手", "thai": "มือ", "french": "main",
+      "partOfSpeech": "noun", "emoji": "✋",
+      "example": "밥 먹기 전에 손을 씻으세요.",
+      "exampleRomanization": "bap meokgi jeone soneul ssiseuseyo.",
+      "exampleTranslation": "Wash your hands before eating.", "timestamp": 8.4
+    },
+    {
+      "korean": "검", "romanization": "geom", "english": "sword",
+      "spanish": "espada", "portuguese": "espada", "indonesian": "pedang",
+      "japanese": "剣", "thai": "ดาบ", "french": "épée",
+      "partOfSpeech": "noun", "emoji": "🗡️",
+      "example": "기사는 검을 뽑았어요.",
+      "exampleRomanization": "gisaneun geomeul ppobasseoyo.",
+      "exampleTranslation": "The knight drew his sword.", "timestamp": 8.6
+    },
+    {
+      "korean": "운명", "romanization": "unmyeong", "english": "fate; destiny",
+      "spanish": "destino", "portuguese": "destino", "indonesian": "takdir",
+      "japanese": "運命", "thai": "โชคชะตา", "french": "destin",
+      "partOfSpeech": "noun", "emoji": "🔮",
+      "example": "우리는 운명처럼 만났어요.",
+      "exampleRomanization": "urineun unmyeongcheoreom mannasseoyo.",
+      "exampleTranslation": "We met as if by fate.", "timestamp": 10.64
+    },
+    {
+      "korean": "죽다", "romanization": "jukda", "english": "to die",
+      "spanish": "morir", "portuguese": "morrer", "indonesian": "mati",
+      "japanese": "死ぬ", "thai": "ตาย", "french": "mourir",
+      "partOfSpeech": "verb", "emoji": "💀",
+      "example": "화분의 꽃이 죽었어요.",
+      "exampleRomanization": "hwabunui kkochi jugeosseoyo.",
+      "exampleTranslation": "The flower in the pot died.", "timestamp": 10.7
+    },
+    {
+      "korean": "얼른", "romanization": "eolleun", "english": "quickly; right away",
+      "spanish": "rápido", "portuguese": "depressa", "indonesian": "cepat",
+      "japanese": "早く", "thai": "รีบๆ", "french": "vite",
+      "partOfSpeech": "adverb", "emoji": "⏱️",
+      "example": "얼른 준비하고 나가자.",
+      "exampleRomanization": "eolleun junbihago nagaja.",
+      "exampleTranslation": "Get ready quickly and let's go.", "timestamp": 15.6
+    },
+    {
+      "korean": "배우다", "romanization": "baeuda", "english": "to learn",
+      "spanish": "aprender", "portuguese": "aprender", "indonesian": "belajar",
+      "japanese": "習う", "thai": "เรียน", "french": "apprendre",
+      "partOfSpeech": "verb", "emoji": "📚",
+      "example": "저는 한국어를 배우고 있어요.",
+      "exampleRomanization": "jeoneun hangugeoreul baeugo isseoyo.",
+      "exampleTranslation": "I am learning Korean.", "timestamp": 23.9
+    },
+    {
+      "korean": "뒤돌아보다", "romanization": "dwidorabodda", "english": "to look back",
+      "spanish": "mirar atrás", "portuguese": "olhar para trás", "indonesian": "menoleh",
+      "japanese": "振り返る", "thai": "หันกลับไปมอง", "french": "se retourner",
+      "partOfSpeech": "verb", "emoji": "🔙",
+      "example": "자꾸 뒤돌아보지 말고 앞을 봐요.",
+      "exampleRomanization": "jakku dwidorabojima malgo apeul bwayo.",
+      "exampleTranslation": "Stop looking back and face forward.", "timestamp": 28.8
+    },
+    {
+      "korean": "보다", "romanization": "boda", "english": "to see; to look",
+      "spanish": "ver; mirar", "portuguese": "ver; olhar", "indonesian": "melihat",
+      "japanese": "見る", "thai": "ดู; มอง", "french": "voir; regarder",
+      "partOfSpeech": "verb", "emoji": "👀",
+      "example": "저 하늘 좀 보세요.",
+      "exampleRomanization": "jeo haneul jom boseyo.",
+      "exampleTranslation": "Look at that sky.", "timestamp": 44.8
+    },
+    {
+      "korean": "결국", "romanization": "gyeolguk", "english": "in the end; after all",
+      "spanish": "al final", "portuguese": "no fim", "indonesian": "akhirnya",
+      "japanese": "結局", "thai": "ในที่สุด", "french": "finalement",
+      "partOfSpeech": "adverb", "emoji": "🔚",
+      "example": "결국 우리가 이겼어요.",
+      "exampleRomanization": "gyeolguk uriga igyeosseoyo.",
+      "exampleTranslation": "In the end, we won.", "timestamp": 47.8
+    },
+    {
+      "korean": "파국", "romanization": "paguk", "english": "catastrophe; ruin",
+      "spanish": "catástrofe", "portuguese": "catástrofe", "indonesian": "kehancuran",
+      "japanese": "破局", "thai": "หายนะ", "french": "catastrophe",
+      "partOfSpeech": "noun", "emoji": "💥",
+      "example": "두 사람의 관계는 파국을 맞았어요.",
+      "exampleRomanization": "du saramui gwangyeneun pagugeul majasseoyo.",
+      "exampleTranslation": "The two people's relationship met a catastrophic end.", "timestamp": 49.8
+    },
+    {
+      "korean": "망자", "romanization": "mangja", "english": "the dead; the deceased",
+      "spanish": "difunto", "portuguese": "falecido", "indonesian": "orang mati",
+      "japanese": "亡者", "thai": "ผู้ตาย", "french": "défunt",
+      "partOfSpeech": "noun", "emoji": "⚰️",
+      "example": "망자를 위해 기도했어요.",
+      "exampleRomanization": "mangjareul wihae gidohaesseoyo.",
+      "exampleTranslation": "We prayed for the deceased.", "timestamp": 64.3
+    },
+    {
+      "korean": "답하다", "romanization": "daphada", "english": "to answer; to respond",
+      "spanish": "responder", "portuguese": "responder", "indonesian": "menjawab",
+      "japanese": "答える", "thai": "ตอบ", "french": "répondre",
+      "partOfSpeech": "verb", "emoji": "🙋",
+      "example": "질문에 정직하게 답했어요.",
+      "exampleRomanization": "jilmune jeongjikage daphaesseoyo.",
+      "exampleTranslation": "I answered the question honestly.", "timestamp": 64.5
+    }
+  ]
+}
