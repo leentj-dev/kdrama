@@ -75,7 +75,7 @@ class SceneRepository {
     if (local.hash.isNotEmpty || remote.hash.isNotEmpty) {
       return local.hash != remote.hash;
     }
-    return local.lineCount != remote.lineCount ||
+    return local.wordCount != remote.wordCount ||
         local.youtubeId != remote.youtubeId;
   }
 

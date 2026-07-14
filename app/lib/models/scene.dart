@@ -1,11 +1,15 @@
-/// One line of dialogue in a scene — the drama analog of kpop's WordEntry.
+/// A key word taught in a scene — the same copyright-safe unit kpop uses.
 ///
-/// A word card teaches a single word at one timestamp; a line card teaches a
-/// whole spoken line over a [start]..[end] range, so the player can loop just
-/// that stretch of video for listening practice.
-class LineEntry {
+/// Copyright posture (see CLAUDE.md): we extract only individual **words** that
+/// occur in the scene (words themselves aren't copyrightable) and teach each
+/// with an **original** example sentence written for the app — never a line of
+/// the drama's dialogue. The licensed YouTube embed carries the actual scene;
+/// the app never reproduces the script as text.
+class WordEntry {
   final String korean;
   final String romanization;
+
+  // Translations of the word, into the UI language (English is the fallback).
   final String english;
   final String spanish;
   final String portuguese;
@@ -14,16 +18,19 @@ class LineEntry {
   final String thai;
   final String french;
 
-  /// Short learning note — a grammar/usage point for this line (honorific vs
-  /// casual, a contracted form, a connective ending, …). Optional.
-  final String note;
+  final String partOfSpeech;
+  final String emoji;
 
-  /// Audio-relative start/end of the line, in seconds. Video time is
-  /// [start] + introOffset (see [Scene.introOffset]).
-  final double start;
-  final double end;
+  /// Original example sentence using the word (written for the app).
+  final String example;
+  final String exampleRomanization;
+  final String exampleTranslation;
 
-  const LineEntry({
+  /// Seconds into the audio where the word is heard (single point, like kpop).
+  /// Video time = timestamp + introOffset.
+  final double? timestamp;
+
+  const WordEntry({
     required this.korean,
     this.romanization = '',
     this.english = '',
@@ -33,12 +40,15 @@ class LineEntry {
     this.japanese = '',
     this.thai = '',
     this.french = '',
-    this.note = '',
-    required this.start,
-    required this.end,
+    this.partOfSpeech = '',
+    this.emoji = '',
+    this.example = '',
+    this.exampleRomanization = '',
+    this.exampleTranslation = '',
+    this.timestamp,
   });
 
-  factory LineEntry.fromJson(Map<String, dynamic> json) => LineEntry(
+  factory WordEntry.fromJson(Map<String, dynamic> json) => WordEntry(
         korean: json['korean'] as String? ?? '',
         romanization: json['romanization'] as String? ?? '',
         english: json['english'] as String? ?? '',
@@ -48,12 +58,14 @@ class LineEntry {
         japanese: json['japanese'] as String? ?? '',
         thai: json['thai'] as String? ?? '',
         french: json['french'] as String? ?? '',
-        note: json['note'] as String? ?? '',
-        start: (json['start'] as num?)?.toDouble() ?? 0,
-        end: (json['end'] as num?)?.toDouble() ?? 0,
+        partOfSpeech: json['partOfSpeech'] as String? ?? '',
+        emoji: json['emoji'] as String? ?? '',
+        example: json['example'] as String? ?? '',
+        exampleRomanization: json['exampleRomanization'] as String? ?? '',
+        exampleTranslation: json['exampleTranslation'] as String? ?? '',
+        timestamp: (json['timestamp'] as num?)?.toDouble(),
       );
 
-  /// Translation for the given language code, falling back to English.
   String translation(String lang) {
     final value = switch (lang) {
       'spanish' => spanish,
@@ -68,23 +80,18 @@ class LineEntry {
   }
 }
 
-/// A drama scene — a single YouTube clip broken into teachable lines.
-/// Mirrors kpop's Song (id / title / youtubeId / introOffset / list of units).
+/// A drama scene — a YouTube clip and the key words drawn from it.
 class Scene {
   final String id;
   final String title;
-
-  /// The drama this scene is from (the "artist" slot in the kpop model).
   final String drama;
   final String youtubeId;
 
-  /// Seconds the video runs ahead of the dialogue audio (channel intro, logo
-  /// sting, …). Line timestamps are audio-relative, so
-  /// video time = line.start + introOffset. The user can nudge it live and the
-  /// override is stored per-scene on device.
+  /// Seconds the video runs ahead of the dialogue audio. Video time =
+  /// word.timestamp + introOffset. User can nudge it live (stored per-scene).
   final double introOffset;
 
-  final List<LineEntry> lines;
+  final List<WordEntry> words;
 
   const Scene({
     required this.id,
@@ -92,7 +99,7 @@ class Scene {
     required this.drama,
     required this.youtubeId,
     this.introOffset = 0,
-    required this.lines,
+    required this.words,
   });
 
   factory Scene.fromJson(Map<String, dynamic> json) => Scene(
@@ -101,27 +108,20 @@ class Scene {
         drama: json['drama'] as String? ?? '',
         youtubeId: json['youtubeId'] as String? ?? '',
         introOffset: (json['introOffset'] as num?)?.toDouble() ?? 0,
-        lines: (json['lines'] as List<dynamic>? ?? [])
-            .map((l) => LineEntry.fromJson(l as Map<String, dynamic>))
+        words: (json['words'] as List<dynamic>? ?? [])
+            .map((w) => WordEntry.fromJson(w as Map<String, dynamic>))
             .toList(),
       );
 }
 
-/// Lightweight manifest entry — enough to render the feed and detect updates,
-/// without loading every line. Mirrors kpop's SongSummary.
+/// Lightweight manifest entry for the feed + update detection.
 class SceneSummary {
   final String id;
   final String title;
   final String drama;
   final String youtubeId;
-  final int lineCount;
-
-  /// When the scene was first added (unix seconds). The feed sorts descending,
-  /// so the most recently added scene is on top.
+  final int wordCount;
   final int order;
-
-  /// Content hash from the manifest. Any change to the scene changes it, which
-  /// is how [SceneRepository] detects a scene needs re-downloading.
   final String hash;
 
   const SceneSummary({
@@ -129,7 +129,7 @@ class SceneSummary {
     required this.title,
     required this.drama,
     required this.youtubeId,
-    required this.lineCount,
+    required this.wordCount,
     this.order = 0,
     this.hash = '',
   });
@@ -139,7 +139,7 @@ class SceneSummary {
         title: json['title'] as String? ?? '',
         drama: json['drama'] as String? ?? '',
         youtubeId: json['youtubeId'] as String? ?? '',
-        lineCount: json['lineCount'] as int? ?? 0,
+        wordCount: json['wordCount'] as int? ?? 0,
         order: json['order'] as int? ?? 0,
         hash: json['hash'] as String? ?? '',
       );

@@ -141,7 +141,7 @@ class _SceneTile extends StatelessWidget {
                             fontSize: 17,
                             fontWeight: FontWeight.w700)),
                     const SizedBox(height: 2),
-                    Text('${scene.drama} · ${scene.lineCount} lines',
+                    Text('${scene.drama} · ${scene.wordCount} words',
                         style: const TextStyle(
                             color: Colors.white60, fontSize: 13)),
                   ],

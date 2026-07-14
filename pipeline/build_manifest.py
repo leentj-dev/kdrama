@@ -34,7 +34,7 @@ def main():
             "title": scene.get("title", ""),
             "drama": scene.get("drama", ""),
             "youtubeId": scene.get("youtubeId", ""),
-            "lineCount": len(scene.get("lines", [])),
+            "wordCount": len(scene.get("words", [])),
             # order: file position for now; bump to add-time (unix sec) later.
             "order": i + 1,
             "hash": digest,
@@ -45,7 +45,7 @@ def main():
         json.dump(entries, f, ensure_ascii=False, indent=2)
     print(f"-> {out}: {len(entries)}개 장면")
     for e in entries:
-        print(f"   {e['id']}  ({e['lineCount']} lines, {e['drama']})")
+        print(f"   {e['id']}  ({e['wordCount']} words, {e['drama']})")
 
 
 if __name__ == "__main__":

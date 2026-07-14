@@ -9,11 +9,11 @@ import '../config/app_config.dart';
 import '../data/scene_repository.dart';
 import '../models/scene.dart';
 import '../utils/themes.dart';
-import '../widgets/line_card.dart';
+import '../widgets/word_card.dart';
 
-/// Plays a scene: the YouTube clip up top, a swipeable stack of line cards
+/// Plays a scene: the YouTube clip up top, a swipeable stack of word cards
 /// below that auto-follows playback. Ported from kpop's SongScreen, with a
-/// per-line loop (A–B repeat) added for listening practice.
+/// per-word loop (replay the moment the word is heard) for listening practice.
 class SceneScreen extends StatefulWidget {
   final Scene scene;
   final String lang;
@@ -40,17 +40,20 @@ class _SceneScreenState extends State<SceneScreen> {
   int _activeIndex = 0;
   bool _userScrolling = false;
 
-  /// Index of the line currently on A–B repeat, or -1 for none.
+  /// Index of the word currently being replayed, or -1 for none.
   int _loopIndex = -1;
+
+  /// How long a word-replay loop runs from the word's timestamp (seconds).
+  static const double _loopWindow = 4.0;
 
   late Scene _scene;
   late String _lang;
 
   /// Effective intro offset (seconds): the scene's data value plus any local
-  /// user nudge. video time = line.start + offset.
+  /// user nudge. video time = word.timestamp + offset.
   double _offset = 0;
 
-  List<LineEntry> get _lines => _scene.lines;
+  List<WordEntry> get _words => _scene.words;
   SceneTheme get _theme => sceneThemeFor(_scene.id);
 
   @override
@@ -79,20 +82,23 @@ class _SceneScreenState extends State<SceneScreen> {
     if (!mounted) return;
     final t = await _player.currentTime;
 
-    // A–B repeat: if a line is looping and playback passed its end, jump back.
-    if (_loopIndex >= 0 && _loopIndex < _lines.length) {
-      final line = _lines[_loopIndex];
-      if (t >= line.end + _offset || t < line.start + _offset - 0.3) {
-        _player.seekTo(
-            seconds: line.start + _offset, allowSeekAhead: true);
-        return;
+    // Word replay: loop a short window from the word's timestamp.
+    if (_loopIndex >= 0 && _loopIndex < _words.length) {
+      final ts = _words[_loopIndex].timestamp;
+      if (ts != null) {
+        final start = ts + _offset;
+        if (t >= start + _loopWindow || t < start - 0.3) {
+          _player.seekTo(seconds: start, allowSeekAhead: true);
+          return;
+        }
       }
     }
 
     if (_userScrolling) return;
     var index = -1;
-    for (var i = 0; i < _lines.length; i++) {
-      if (_lines[i].start + _offset <= t) index = i;
+    for (var i = 0; i < _words.length; i++) {
+      final ts = _words[i].timestamp;
+      if (ts != null && ts + _offset <= t) index = i;
     }
     if (index >= 0 && index != _activeIndex && mounted) {
       setState(() => _activeIndex = index);
@@ -104,19 +110,22 @@ class _SceneScreenState extends State<SceneScreen> {
     }
   }
 
-  Future<void> _seekToLine(int index) async {
-    _player.seekTo(seconds: _lines[index].start + _offset, allowSeekAhead: true);
+  Future<void> _seekToWord(int index) async {
+    final ts = _words[index].timestamp;
+    if (ts != null) {
+      _player.seekTo(seconds: ts + _offset, allowSeekAhead: true);
+    }
     setState(() => _activeIndex = index);
   }
 
   void _toggleLoop(int index) {
     setState(() => _loopIndex = _loopIndex == index ? -1 : index);
-    if (_loopIndex == index) _seekToLine(index);
+    if (_loopIndex == index) _seekToWord(index);
   }
 
   Future<void> _speak(int index) async {
     await _tts.stop();
-    await _tts.speak(_lines[index].korean);
+    await _tts.speak(_words[index].korean);
   }
 
   Future<void> _loadOffset() async {
@@ -304,22 +313,22 @@ class _SceneScreenState extends State<SceneScreen> {
                     },
                     child: PageView.builder(
                       controller: _pageController,
-                      itemCount: _lines.length,
+                      itemCount: _words.length,
                       onPageChanged: (i) => setState(() => _activeIndex = i),
-                      itemBuilder: (context, i) => LineCard(
-                        line: _lines[i],
+                      itemBuilder: (context, i) => WordCard(
+                        word: _words[i],
                         lang: _lang,
                         theme: theme,
                         active: i == _activeIndex,
                         looping: i == _loopIndex,
-                        onTap: () => _seekToLine(i),
+                        onTap: () => _seekToWord(i),
                         onSpeak: () => _speak(i),
                         onLoop: () => _toggleLoop(i),
                       ),
                     ),
                   ),
                 ),
-                _ProgressDots(count: _lines.length, active: _activeIndex),
+                _ProgressDots(count: _words.length, active: _activeIndex),
                 const SizedBox(height: 12),
               ],
             ),
