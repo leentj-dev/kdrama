@@ -63,8 +63,11 @@ class SceneRepository {
       map[s.id] = s;
     }
     final list = map.values.toList();
-    // Ascending by order (episode*100+part) so earlier episodes come first.
+    // Group by drama, then ascending by order (episode*100+part) within a drama
+    // so each drama's scenes read in episode order.
     list.sort((a, b) {
+      final d = a.drama.compareTo(b.drama);
+      if (d != 0) return d;
       if (a.order != b.order) return a.order.compareTo(b.order);
       return a.title.compareTo(b.title);
     });

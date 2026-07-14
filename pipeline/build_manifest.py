@@ -29,15 +29,19 @@ def main():
             raw = f.read()
         scene = json.loads(raw)
         digest = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+        episode = scene.get("episode", 0)
+        part = scene.get("part", 0)
+        # Sort key: earlier episode/part first. Falls back to file position.
+        order = episode * 100 + part if episode else scene.get("order", i + 1)
         entries.append({
             "id": scene["id"],
             "title": scene.get("title", ""),
             "drama": scene.get("drama", ""),
             "youtubeId": scene.get("youtubeId", ""),
             "wordCount": len(scene.get("words", [])),
-            # order: scene's own field (episode*100+part) if set, else file pos.
-            # The feed sorts ascending by this, so lower = earlier episode = top.
-            "order": scene.get("order", i + 1),
+            "episode": episode,
+            "part": part,
+            "order": order,
             "hash": digest,
         })
 

@@ -5,8 +5,10 @@
     "drama": "Goblin",
     "youtubeId": "d4GaQ30slGI",
     "wordCount": 18,
+    "episode": 6,
+    "part": 9,
     "order": 609,
-    "hash": "096a99e48d75ac2e"
+    "hash": "f61a2067a492b024"
   },
   {
     "id": "goblin-ep1-01",
@@ -14,8 +16,10 @@
     "drama": "Goblin",
     "youtubeId": "Ra7coUN_lYk",
     "wordCount": 7,
+    "episode": 1,
+    "part": 1,
     "order": 101,
-    "hash": "94a694de71f07560"
+    "hash": "76dfa7cf0f0a73b0"
   },
   {
     "id": "goblin-ep1-02",
@@ -23,8 +27,10 @@
     "drama": "Goblin",
     "youtubeId": "4B1HndfrMZA",
     "wordCount": 21,
+    "episode": 1,
+    "part": 2,
     "order": 102,
-    "hash": "2a5f4dda88abba05"
+    "hash": "07ffcc94117a4677"
   },
   {
     "id": "goblin-ep1-03",
@@ -32,7 +38,9 @@
     "drama": "Goblin",
     "youtubeId": "5d0nzj_99ac",
     "wordCount": 7,
+    "episode": 1,
+    "part": 3,
     "order": 103,
-    "hash": "a310575d56921e97"
+    "hash": "871fdb9a3e3f27bd"
   }
 ]

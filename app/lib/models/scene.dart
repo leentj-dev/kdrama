@@ -121,6 +121,8 @@ class SceneSummary {
   final String drama;
   final String youtubeId;
   final int wordCount;
+  final int episode;
+  final int part;
   final int order;
   final String hash;
 
@@ -130,9 +132,14 @@ class SceneSummary {
     required this.drama,
     required this.youtubeId,
     required this.wordCount,
+    this.episode = 0,
+    this.part = 0,
     this.order = 0,
     this.hash = '',
   });
+
+  /// Episode badge like "EP1-3", or empty when the scene has no episode set.
+  String get episodeLabel => episode > 0 ? 'EP$episode-$part' : '';
 
   factory SceneSummary.fromJson(Map<String, dynamic> json) => SceneSummary(
         id: json['id'] as String,
@@ -140,6 +147,8 @@ class SceneSummary {
         drama: json['drama'] as String? ?? '',
         youtubeId: json['youtubeId'] as String? ?? '',
         wordCount: json['wordCount'] as int? ?? 0,
+        episode: json['episode'] as int? ?? 0,
+        part: json['part'] as int? ?? 0,
         order: json['order'] as int? ?? 0,
         hash: json['hash'] as String? ?? '',
       );

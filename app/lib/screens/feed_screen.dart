@@ -68,18 +68,26 @@ class _FeedScreenState extends State<FeedScreen> {
     );
   }
 
-  /// Feed rows: scenes with an ad slot (null) inserted after every
-  /// [feedAdIntervalNotifier] scenes (Remote Config). No ad slots when ads are
-  /// disabled remotely.
-  List<SceneSummary?> get _rows {
-    final out = <SceneSummary?>[];
+  /// Feed rows. Each entry is one of:
+  ///   String        → a drama section header
+  ///   SceneSummary  → a scene tile
+  ///   null          → an ad slot (every [feedAdIntervalNotifier] scenes)
+  /// Scenes come pre-sorted by drama then episode order, so headers mark where
+  /// one drama's block starts.
+  List<Object?> get _rows {
+    final out = <Object?>[];
     final interval = feedAdIntervalNotifier.value;
     final adsOn = adsEnabledNotifier.value;
-    for (var i = 0; i < _scenes.length; i++) {
-      out.add(_scenes[i]);
-      if (adsOn && (i + 1) % interval == 0 && i != _scenes.length - 1) {
-        out.add(null);
+    String? drama;
+    var sceneCount = 0;
+    for (final s in _scenes) {
+      if (s.drama != drama) {
+        drama = s.drama;
+        out.add(s.drama);
       }
+      out.add(s);
+      sceneCount++;
+      if (adsOn && sceneCount % interval == 0) out.add(null);
     }
     return out;
   }
@@ -89,7 +97,9 @@ class _FeedScreenState extends State<FeedScreen> {
   Widget _buildRow(BuildContext context, int i) {
     final row = _rows[i];
     if (row == null) return NativeAdCard(adUnitId: Ads.feedUnitId);
-    return _SceneTile(scene: row, onTap: () => _openScene(row));
+    if (row is String) return _DramaHeader(drama: row);
+    final scene = row as SceneSummary;
+    return _SceneTile(scene: scene, onTap: () => _openScene(scene));
   }
 
   @override
@@ -159,13 +169,37 @@ class _SceneTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(scene.title,
-                        style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 17,
-                            fontWeight: FontWeight.w700)),
-                    const SizedBox(height: 2),
-                    Text('${scene.drama} · ${scene.wordCount} words',
+                    Row(
+                      children: [
+                        if (scene.episodeLabel.isNotEmpty) ...[
+                          Container(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 7, vertical: 2),
+                            decoration: BoxDecoration(
+                              color: theme.accent.withValues(alpha: 0.22),
+                              borderRadius: BorderRadius.circular(6),
+                            ),
+                            child: Text(scene.episodeLabel,
+                                style: TextStyle(
+                                    color: theme.accent,
+                                    fontSize: 11,
+                                    fontWeight: FontWeight.w700)),
+                          ),
+                          const SizedBox(width: 6),
+                        ],
+                        Expanded(
+                          child: Text(scene.title,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w700)),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 3),
+                    Text('${scene.wordCount} words',
                         style: const TextStyle(
                             color: Colors.white60, fontSize: 13)),
                   ],
@@ -175,6 +209,29 @@ class _SceneTile extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// Section header naming the drama a block of scenes belongs to. As more
+/// dramas are added, each gets its own titled block of episode-ordered scenes.
+class _DramaHeader extends StatelessWidget {
+  final String drama;
+  const _DramaHeader({required this.drama});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(4, 14, 4, 6),
+      child: Row(
+        children: [
+          Text(drama,
+              style: const TextStyle(
+                  fontSize: 20, fontWeight: FontWeight.w800)),
+          const SizedBox(width: 10),
+          const Expanded(child: Divider()),
+        ],
       ),
     );
   }
