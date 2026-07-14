@@ -304,9 +304,13 @@ class _SceneScreenState extends State<SceneScreen> {
                 Expanded(
                   child: NotificationListener<ScrollNotification>(
                     onNotification: (n) {
-                      if (n is ScrollStartNotification) _userScrolling = true;
-                      if (n is ScrollEndNotification) {
-                        Future.delayed(const Duration(seconds: 2),
+                      // Only a real finger drag counts as user scrolling —
+                      // programmatic auto-sync scrolls have no dragDetails.
+                      if (n is ScrollStartNotification &&
+                          n.dragDetails != null) {
+                        _userScrolling = true;
+                      } else if (n is ScrollEndNotification) {
+                        Future.delayed(const Duration(seconds: 3),
                             () => _userScrolling = false);
                       }
                       return false;
@@ -314,7 +318,12 @@ class _SceneScreenState extends State<SceneScreen> {
                     child: PageView.builder(
                       controller: _pageController,
                       itemCount: _words.length,
-                      onPageChanged: (i) => setState(() => _activeIndex = i),
+                      onPageChanged: (i) {
+                        setState(() => _activeIndex = i);
+                        // A user swipe moves the video to that word's moment;
+                        // auto-sync page changes (dragDetails == null) don't.
+                        if (_userScrolling) _seekToWord(i);
+                      },
                       itemBuilder: (context, i) => WordCard(
                         word: _words[i],
                         lang: _lang,
