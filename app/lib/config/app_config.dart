@@ -66,6 +66,8 @@ const uiLanguages = <UiLanguage>[
   UiLanguage('portuguese', 'Português'),
   UiLanguage('indonesian', 'Indonesia'),
   UiLanguage('japanese', '日本語'),
+  UiLanguage('chinese', '简体中文'),
+  UiLanguage('chinese_traditional', '繁體中文'),
   UiLanguage('thai', 'ไทย'),
   UiLanguage('french', 'Français'),
 ];

@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../config/app_config.dart';
@@ -63,7 +62,7 @@ class _SceneScreenState extends State<SceneScreen> {
     super.initState();
     _scene = widget.scene;
     _lang = widget.lang;
-    _loadOffset();
+    _offset = _scene.introOffset;
     _player = YoutubePlayerController.fromVideoId(
       videoId: _scene.youtubeId,
       autoPlay: true,
@@ -130,27 +129,6 @@ class _SceneScreenState extends State<SceneScreen> {
     await _tts.speak(_words[index].korean);
   }
 
-  Future<void> _loadOffset() async {
-    final prefs = await SharedPreferences.getInstance();
-    final override = prefs.getDouble('offset_${_scene.id}');
-    if (mounted) {
-      setState(() => _offset = override ?? _scene.introOffset);
-    }
-  }
-
-  Future<void> _nudgeOffset(double delta) async {
-    final next = _offset + delta;
-    setState(() => _offset = next);
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setDouble('offset_${_scene.id}', next);
-  }
-
-  Future<void> _resetOffset() async {
-    setState(() => _offset = _scene.introOffset);
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.remove('offset_${_scene.id}');
-  }
-
   @override
   void dispose() {
     _syncTimer?.cancel();
@@ -193,65 +171,6 @@ class _SceneScreenState extends State<SceneScreen> {
     );
   }
 
-  void _openSyncAdjust() {
-    showModalBottomSheet<void>(
-      context: context,
-      backgroundColor: const Color(0xFF1C1C1E),
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (context) => StatefulBuilder(
-        builder: (context, setSheet) {
-          void nudge(double d) {
-            _nudgeOffset(d);
-            setSheet(() {});
-          }
-
-          return Padding(
-            padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Text('Sync adjust',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w700)),
-                const SizedBox(height: 4),
-                const Text(
-                  'If the cards run ahead of the speech, add delay (+).',
-                  style: TextStyle(color: Colors.white54, fontSize: 12),
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 20),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    for (final d in [-1.0, -0.5, 0.5, 1.0])
-                      OutlinedButton(
-                        onPressed: () => nudge(d),
-                        child: Text(d > 0 ? '+$d' : '$d'),
-                      ),
-                  ],
-                ),
-                const SizedBox(height: 12),
-                Text('offset: ${_offset.toStringAsFixed(1)}s',
-                    style: const TextStyle(color: Colors.white70)),
-                TextButton(
-                  onPressed: () {
-                    _resetOffset();
-                    setSheet(() {});
-                  },
-                  child: const Text('Reset'),
-                ),
-              ],
-            ),
-          );
-        },
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
     final theme = _theme;
@@ -289,12 +208,6 @@ class _SceneScreenState extends State<SceneScreen> {
                           color: Colors.white70),
                       onPressed: _pickLanguage,
                       tooltip: 'Translation language',
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.sync_rounded,
-                          color: Colors.white70),
-                      onPressed: _openSyncAdjust,
-                      tooltip: 'Sync adjust',
                     ),
                   ],
                 ),

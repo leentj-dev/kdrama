@@ -10,7 +10,7 @@
     {
       "korean": "비싸다", "romanization": "bissada", "english": "to be expensive",
       "spanish": "ser caro", "portuguese": "ser caro", "indonesian": "mahal",
-      "japanese": "高い（値段）", "thai": "แพง", "french": "être cher",
+      "japanese": "高い（値段）", "thai": "แพง", "french": "être cher", "chinese": "贵", "chineseTraditional": "貴",
       "partOfSpeech": "adjective", "emoji": "💸",
       "example": "이 가방은 너무 비싸요.",
       "exampleRomanization": "i gabang-eun neomu bissayo.",
@@ -19,7 +19,7 @@
     {
       "korean": "핸드폰", "romanization": "haendeupon", "english": "cellphone",
       "spanish": "móvil; celular", "portuguese": "celular", "indonesian": "ponsel; HP",
-      "japanese": "携帯電話", "thai": "โทรศัพท์มือถือ", "french": "téléphone portable",
+      "japanese": "携帯電話", "thai": "โทรศัพท์มือถือ", "french": "téléphone portable", "chinese": "手机", "chineseTraditional": "手機",
       "partOfSpeech": "noun", "emoji": "📱",
       "example": "핸드폰 배터리가 다 됐어요.",
       "exampleRomanization": "haendeupon baeteoriga da dwaesseoyo.",
@@ -28,7 +28,7 @@
     {
       "korean": "약속", "romanization": "yaksok", "english": "promise; appointment",
       "spanish": "promesa; cita", "portuguese": "promessa; compromisso", "indonesian": "janji",
-      "japanese": "約束", "thai": "สัญญา; นัด", "french": "promesse; rendez-vous",
+      "japanese": "約束", "thai": "สัญญา; นัด", "french": "promesse; rendez-vous", "chinese": "约定；约会", "chineseTraditional": "約定；約會",
       "partOfSpeech": "noun", "emoji": "🤝",
       "example": "내일 친구랑 약속이 있어요.",
       "exampleRomanization": "naeil chingurang yaksog-i isseoyo.",
@@ -37,7 +37,7 @@
     {
       "korean": "미래", "romanization": "mirae", "english": "future",
       "spanish": "futuro", "portuguese": "futuro", "indonesian": "masa depan",
-      "japanese": "未来", "thai": "อนาคต", "french": "avenir; futur",
+      "japanese": "未来", "thai": "อนาคต", "french": "avenir; futur", "chinese": "未来", "chineseTraditional": "未來",
       "partOfSpeech": "noun", "emoji": "🔮",
       "example": "미래를 위해 열심히 공부해요.",
       "exampleRomanization": "miraereul wihae yeolsimhi gongbuhaeyo.",
@@ -46,7 +46,7 @@
     {
       "korean": "냄새", "romanization": "naemsae", "english": "smell; scent",
       "spanish": "olor", "portuguese": "cheiro", "indonesian": "bau; aroma",
-      "japanese": "におい", "thai": "กลิ่น", "french": "odeur",
+      "japanese": "におい", "thai": "กลิ่น", "french": "odeur", "chinese": "气味", "chineseTraditional": "氣味",
       "partOfSpeech": "noun", "emoji": "👃",
       "example": "빵 굽는 냄새가 좋아요.",
       "exampleRomanization": "ppang gubneun naemsaega joayo.",
@@ -55,7 +55,7 @@
     {
       "korean": "배고프다", "romanization": "baegopeuda", "english": "to be hungry",
       "spanish": "tener hambre", "portuguese": "estar com fome", "indonesian": "lapar",
-      "japanese": "お腹がすいた", "thai": "หิว", "french": "avoir faim",
+      "japanese": "お腹がすいた", "thai": "หิว", "french": "avoir faim", "chinese": "饿", "chineseTraditional": "餓",
       "partOfSpeech": "adjective", "emoji": "🍽️",
       "example": "아침을 걸러서 배고파요.",
       "exampleRomanization": "achimeul geolleoseo baegopayo.",
@@ -64,7 +64,7 @@
     {
       "korean": "옷", "romanization": "ot", "english": "clothes",
       "spanish": "ropa", "portuguese": "roupa", "indonesian": "baju; pakaian",
-      "japanese": "服", "thai": "เสื้อผ้า", "french": "vêtements",
+      "japanese": "服", "thai": "เสื้อผ้า", "french": "vêtements", "chinese": "衣服", "chineseTraditional": "衣服",
       "partOfSpeech": "noun", "emoji": "👕",
       "example": "새 옷을 사고 싶어요.",
       "exampleRomanization": "sae oseul sago sipeoyo.",
@@ -73,7 +73,7 @@
     {
       "korean": "입다", "romanization": "ipda", "english": "to wear; to put on",
       "spanish": "ponerse; vestir", "portuguese": "vestir", "indonesian": "memakai (baju)",
-      "japanese": "着る", "thai": "สวม; ใส่ (เสื้อ)", "french": "porter; mettre",
+      "japanese": "着る", "thai": "สวม; ใส่ (เสื้อ)", "french": "porter; mettre", "chinese": "穿", "chineseTraditional": "穿",
       "partOfSpeech": "verb", "emoji": "🧥",
       "example": "오늘은 따뜻하게 입으세요.",
       "exampleRomanization": "oneureun ttatteuthage ibeuseyo.",

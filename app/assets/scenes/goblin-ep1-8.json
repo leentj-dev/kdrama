@@ -10,7 +10,7 @@
     {
       "korean": "소문", "romanization": "somun", "english": "rumor",
       "spanish": "rumor", "portuguese": "boato", "indonesian": "rumor; kabar",
-      "japanese": "噂", "thai": "ข่าวลือ", "french": "rumeur",
+      "japanese": "噂", "thai": "ข่าวลือ", "french": "rumeur", "chinese": "传闻；谣言", "chineseTraditional": "傳聞；謠言",
       "partOfSpeech": "noun", "emoji": "🗣️",
       "example": "이상한 소문이 돌고 있어요.",
       "exampleRomanization": "isanghan somun-i dolgo isseoyo.",
@@ -19,7 +19,7 @@
     {
       "korean": "집", "romanization": "jip", "english": "house; home",
       "spanish": "casa", "portuguese": "casa", "indonesian": "rumah",
-      "japanese": "家", "thai": "บ้าน", "french": "maison",
+      "japanese": "家", "thai": "บ้าน", "french": "maison", "chinese": "家；房子", "chineseTraditional": "家；房子",
       "partOfSpeech": "noun", "emoji": "🏠",
       "example": "저는 집에서 쉬는 걸 좋아해요.",
       "exampleRomanization": "jeoneun jibeseo swineun geol joahaeyo.",
@@ -28,7 +28,7 @@
     {
       "korean": "살다", "romanization": "salda", "english": "to live",
       "spanish": "vivir", "portuguese": "viver; morar", "indonesian": "tinggal; hidup",
-      "japanese": "住む; 生きる", "thai": "อาศัยอยู่; มีชีวิต", "french": "vivre; habiter",
+      "japanese": "住む; 生きる", "thai": "อาศัยอยู่; มีชีวิต", "french": "vivre; habiter", "chinese": "生活；居住", "chineseTraditional": "生活；居住",
       "partOfSpeech": "verb", "emoji": "🏡",
       "example": "저는 서울에 살아요.",
       "exampleRomanization": "jeoneun seoule sarayo.",
@@ -37,7 +37,7 @@
     {
       "korean": "가구", "romanization": "gagu", "english": "furniture",
       "spanish": "mueble", "portuguese": "móvel", "indonesian": "perabot",
-      "japanese": "家具", "thai": "เฟอร์นิเจอร์", "french": "meuble",
+      "japanese": "家具", "thai": "เฟอร์นิเจอร์", "french": "meuble", "chinese": "家具", "chineseTraditional": "家具",
       "partOfSpeech": "noun", "emoji": "🛋️",
       "example": "새 가구를 샀어요.",
       "exampleRomanization": "sae gagureul sasseoyo.",
@@ -46,7 +46,7 @@
     {
       "korean": "삼촌", "romanization": "samchon", "english": "uncle",
       "spanish": "tío", "portuguese": "tio", "indonesian": "paman",
-      "japanese": "おじ", "thai": "ลุง; อา", "french": "oncle",
+      "japanese": "おじ", "thai": "ลุง; อา", "french": "oncle", "chinese": "叔叔", "chineseTraditional": "叔叔",
       "partOfSpeech": "noun", "emoji": "👨",
       "example": "삼촌이 용돈을 주셨어요.",
       "exampleRomanization": "samchon-i yongdon-eul jusyeosseoyo.",
@@ -55,7 +55,7 @@
     {
       "korean": "설명하다", "romanization": "seolmyeonghada", "english": "to explain",
       "spanish": "explicar", "portuguese": "explicar", "indonesian": "menjelaskan",
-      "japanese": "説明する", "thai": "อธิบาย", "french": "expliquer",
+      "japanese": "説明する", "thai": "อธิบาย", "french": "expliquer", "chinese": "说明；解释", "chineseTraditional": "說明；解釋",
       "partOfSpeech": "verb", "emoji": "💬",
       "example": "선생님이 문법을 설명해 주셨어요.",
       "exampleRomanization": "seonsaengnim-i munbeob-eul seolmyeonghae jusyeosseoyo.",
@@ -64,7 +64,7 @@
     {
       "korean": "궁금하다", "romanization": "gunggeumhada", "english": "to be curious",
       "spanish": "tener curiosidad", "portuguese": "estar curioso", "indonesian": "penasaran",
-      "japanese": "気になる", "thai": "อยากรู้; สงสัย", "french": "être curieux",
+      "japanese": "気になる", "thai": "อยากรู้; สงสัย", "french": "être curieux", "chinese": "好奇；想知道", "chineseTraditional": "好奇；想知道",
       "partOfSpeech": "adjective", "emoji": "🤔",
       "example": "결과가 정말 궁금해요.",
       "exampleRomanization": "gyeolgwaga jeongmal gunggeumhaeyo.",
@@ -73,7 +73,7 @@
     {
       "korean": "죄송하다", "romanization": "joesonghada", "english": "to be sorry (polite)",
       "spanish": "sentirlo; disculparse", "portuguese": "sentir muito; desculpar-se", "indonesian": "minta maaf",
-      "japanese": "申し訳ない", "thai": "ขอโทษ (สุภาพ)", "french": "être désolé (poli)",
+      "japanese": "申し訳ない", "thai": "ขอโทษ (สุภาพ)", "french": "être désolé (poli)", "chinese": "抱歉；对不起", "chineseTraditional": "抱歉；對不起",
       "partOfSpeech": "adjective", "emoji": "🙇",
       "example": "늦어서 죄송합니다.",
       "exampleRomanization": "neujeoseo joesonghamnida.",
@@ -82,7 +82,7 @@
     {
       "korean": "커피", "romanization": "keopi", "english": "coffee",
       "spanish": "café", "portuguese": "café", "indonesian": "kopi",
-      "japanese": "コーヒー", "thai": "กาแฟ", "french": "café",
+      "japanese": "コーヒー", "thai": "กาแฟ", "french": "café", "chinese": "咖啡", "chineseTraditional": "咖啡",
       "partOfSpeech": "noun", "emoji": "☕",
       "example": "아침마다 커피를 마셔요.",
       "exampleRomanization": "achimmada keopireul masyeoyo.",
@@ -91,7 +91,7 @@
     {
       "korean": "돈", "romanization": "don", "english": "money",
       "spanish": "dinero", "portuguese": "dinheiro", "indonesian": "uang",
-      "japanese": "お金", "thai": "เงิน", "french": "argent",
+      "japanese": "お金", "thai": "เงิน", "french": "argent", "chinese": "钱", "chineseTraditional": "錢",
       "partOfSpeech": "noun", "emoji": "💵",
       "example": "돈을 조금씩 모으고 있어요.",
       "exampleRomanization": "don-eul jogeumssik moeugo isseoyo.",
@@ -100,7 +100,7 @@
     {
       "korean": "차", "romanization": "cha", "english": "car",
       "spanish": "coche; auto", "portuguese": "carro", "indonesian": "mobil",
-      "japanese": "車", "thai": "รถ", "french": "voiture",
+      "japanese": "車", "thai": "รถ", "french": "voiture", "chinese": "车；汽车", "chineseTraditional": "車；汽車",
       "partOfSpeech": "noun", "emoji": "🚗",
       "example": "차가 막혀서 늦었어요.",
       "exampleRomanization": "chaga makhyeoseo neujeosseoyo.",
@@ -109,7 +109,7 @@
     {
       "korean": "사연", "romanization": "sayeon", "english": "story; circumstances",
       "spanish": "historia; circunstancias", "portuguese": "história; circunstâncias", "indonesian": "kisah; alasan",
-      "japanese": "事情; いきさつ", "thai": "เรื่องราว; เหตุผล", "french": "histoire; circonstances",
+      "japanese": "事情; いきさつ", "thai": "เรื่องราว; เหตุผล", "french": "histoire; circonstances", "chinese": "缘由；隐情", "chineseTraditional": "緣由；隱情",
       "partOfSpeech": "noun", "emoji": "📖",
       "example": "그 노래에는 슬픈 사연이 있어요.",
       "exampleRomanization": "geu noraeeneun seulpeun sayeon-i isseoyo.",
@@ -118,7 +118,7 @@
     {
       "korean": "계약서", "romanization": "gyeyakseo", "english": "contract (document)",
       "spanish": "contrato", "portuguese": "contrato", "indonesian": "surat kontrak",
-      "japanese": "契約書", "thai": "สัญญา (เอกสาร)", "french": "contrat",
+      "japanese": "契約書", "thai": "สัญญา (เอกสาร)", "french": "contrat", "chinese": "合同", "chineseTraditional": "合約",
       "partOfSpeech": "noun", "emoji": "📄",
       "example": "계약서에 서명했어요.",
       "exampleRomanization": "gyeyakseoe seomyeonghaesseoyo.",
@@ -127,7 +127,7 @@
     {
       "korean": "도장", "romanization": "dojang", "english": "seal; stamp",
       "spanish": "sello", "portuguese": "carimbo; selo", "indonesian": "stempel; cap",
-      "japanese": "判子; 印鑑", "thai": "ตราประทับ", "french": "sceau; cachet",
+      "japanese": "判子; 印鑑", "thai": "ตราประทับ", "french": "sceau; cachet", "chinese": "印章", "chineseTraditional": "印章",
       "partOfSpeech": "noun", "emoji": "🔖",
       "example": "여기에 도장을 찍어 주세요.",
       "exampleRomanization": "yeogie dojang-eul jjigeo juseyo.",
@@ -136,7 +136,7 @@
     {
       "korean": "서류", "romanization": "seoryu", "english": "documents; paperwork",
       "spanish": "documentos", "portuguese": "documentos", "indonesian": "dokumen",
-      "japanese": "書類", "thai": "เอกสาร", "french": "documents",
+      "japanese": "書類", "thai": "เอกสาร", "french": "documents", "chinese": "文件", "chineseTraditional": "文件",
       "partOfSpeech": "noun", "emoji": "📑",
       "example": "서류를 제출해야 해요.",
       "exampleRomanization": "seoryureul jechulhaeya haeyo.",
@@ -145,7 +145,7 @@
     {
       "korean": "내일", "romanization": "naeil", "english": "tomorrow",
       "spanish": "mañana", "portuguese": "amanhã", "indonesian": "besok",
-      "japanese": "明日", "thai": "พรุ่งนี้", "french": "demain",
+      "japanese": "明日", "thai": "พรุ่งนี้", "french": "demain", "chinese": "明天", "chineseTraditional": "明天",
       "partOfSpeech": "noun", "emoji": "📅",
       "example": "내일 아침에 만나요.",
       "exampleRomanization": "naeil achime mannayo.",
@@ -154,7 +154,7 @@
     {
       "korean": "방", "romanization": "bang", "english": "room",
       "spanish": "habitación; cuarto", "portuguese": "quarto", "indonesian": "kamar",
-      "japanese": "部屋", "thai": "ห้อง", "french": "chambre; pièce",
+      "japanese": "部屋", "thai": "ห้อง", "french": "chambre; pièce", "chinese": "房间", "chineseTraditional": "房間",
       "partOfSpeech": "noun", "emoji": "🚪",
       "example": "제 방은 2층에 있어요.",
       "exampleRomanization": "je bang-eun icheunge isseoyo.",

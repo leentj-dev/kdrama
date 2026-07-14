@@ -17,6 +17,8 @@ class WordEntry {
   final String japanese;
   final String thai;
   final String french;
+  final String chinese; // Simplified 简体
+  final String chineseTraditional; // Traditional 繁體
 
   final String partOfSpeech;
   final String emoji;
@@ -40,6 +42,8 @@ class WordEntry {
     this.japanese = '',
     this.thai = '',
     this.french = '',
+    this.chinese = '',
+    this.chineseTraditional = '',
     this.partOfSpeech = '',
     this.emoji = '',
     this.example = '',
@@ -58,6 +62,8 @@ class WordEntry {
         japanese: json['japanese'] as String? ?? '',
         thai: json['thai'] as String? ?? '',
         french: json['french'] as String? ?? '',
+        chinese: json['chinese'] as String? ?? '',
+        chineseTraditional: json['chineseTraditional'] as String? ?? '',
         partOfSpeech: json['partOfSpeech'] as String? ?? '',
         emoji: json['emoji'] as String? ?? '',
         example: json['example'] as String? ?? '',
@@ -74,6 +80,8 @@ class WordEntry {
       'japanese' => japanese,
       'thai' => thai,
       'french' => french,
+      'chinese' => chinese,
+      'chinese_traditional' => chineseTraditional,
       _ => english,
     };
     return value.isEmpty ? english : value;

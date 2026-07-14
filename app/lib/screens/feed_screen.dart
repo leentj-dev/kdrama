@@ -52,6 +52,11 @@ class _FeedScreenState extends State<FeedScreen> {
     await prefs.setString('ui_lang', lang);
   }
 
+  String _langLabel(String code) => uiLanguages
+      .firstWhere((l) => l.code == code,
+          orElse: () => uiLanguages.first)
+      .label;
+
   Future<void> _openScene(SceneSummary summary) async {
     final scene = await _repo.loadScene(summary.id);
     if (!mounted) return;
@@ -104,8 +109,10 @@ class _FeedScreenState extends State<FeedScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
     return Scaffold(
       appBar: AppBar(
+        titleSpacing: 16,
         title: Text(appConfig.appTitle),
         actions: [
           ValueListenableBuilder<ThemeMode>(
@@ -116,6 +123,65 @@ class _FeedScreenState extends State<FeedScreen> {
                   : Icons.dark_mode_rounded),
               onPressed: () => setThemeMode(
                   mode == ThemeMode.dark ? ThemeMode.light : ThemeMode.dark),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: PopupMenuButton<String>(
+              initialValue: _lang,
+              onSelected: _setLang,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+              offset: const Offset(0, 44),
+              itemBuilder: (context) => [
+                for (final l in uiLanguages)
+                  PopupMenuItem(
+                    value: l.code,
+                    child: Row(
+                      children: [
+                        Icon(
+                          l.code == _lang
+                              ? Icons.check_circle_rounded
+                              : Icons.circle_outlined,
+                          size: 18,
+                          color: l.code == _lang
+                              ? const Color(0xFFF0ABFC)
+                              : onSurface.withValues(alpha: 0.3),
+                        ),
+                        const SizedBox(width: 10),
+                        Text(l.label, style: TextStyle(color: onSurface)),
+                      ],
+                    ),
+                  ),
+              ],
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
+                decoration: BoxDecoration(
+                  color: onSurface.withValues(alpha: 0.08),
+                  borderRadius: BorderRadius.circular(999),
+                  border: Border.all(color: onSurface.withValues(alpha: 0.18)),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.language_rounded,
+                        size: 16, color: onSurface.withValues(alpha: 0.7)),
+                    const SizedBox(width: 6),
+                    Text(
+                      _langLabel(_lang),
+                      style: TextStyle(
+                        color: onSurface,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    Icon(Icons.keyboard_arrow_down_rounded,
+                        size: 18, color: onSurface.withValues(alpha: 0.5)),
+                  ],
+                ),
+              ),
             ),
           ),
         ],

@@ -10,7 +10,7 @@
     {
       "korean": "미치다", "romanization": "michida", "english": "to go crazy",
       "spanish": "volverse loco", "portuguese": "enlouquecer", "indonesian": "menjadi gila",
-      "japanese": "気が狂う", "thai": "บ้า", "french": "devenir fou",
+      "japanese": "気が狂う", "thai": "บ้า", "french": "devenir fou", "chinese": "发疯", "chineseTraditional": "發瘋",
       "partOfSpeech": "verb", "emoji": "🤪",
       "example": "너무 바빠서 미칠 것 같아요.",
       "exampleRomanization": "neomu bappaseo michil geot gatayo.",
@@ -19,7 +19,7 @@
     {
       "korean": "생각하다", "romanization": "saenggakada", "english": "to think",
       "spanish": "pensar", "portuguese": "pensar", "indonesian": "berpikir; memikirkan",
-      "japanese": "考える; 思う", "thai": "คิด", "french": "penser",
+      "japanese": "考える; 思う", "thai": "คิด", "french": "penser", "chinese": "思考", "chineseTraditional": "思考",
       "partOfSpeech": "verb", "emoji": "🤔",
       "example": "하루 종일 너 생각했어.",
       "exampleRomanization": "haru jongil neo saenggakaesseo.",
@@ -28,7 +28,7 @@
     {
       "korean": "좋아하다", "romanization": "joahada", "english": "to like",
       "spanish": "gustar", "portuguese": "gostar", "indonesian": "menyukai",
-      "japanese": "好む; 好きだ", "thai": "ชอบ", "french": "aimer bien",
+      "japanese": "好む; 好きだ", "thai": "ชอบ", "french": "aimer bien", "chinese": "喜欢", "chineseTraditional": "喜歡",
       "partOfSpeech": "verb", "emoji": "💕",
       "example": "저는 겨울을 제일 좋아해요.",
       "exampleRomanization": "jeoneun gyeoureul jeil joahaeyo.",
@@ -37,7 +37,7 @@
     {
       "korean": "자연스럽다", "romanization": "jayeonseureopda", "english": "to be natural",
       "spanish": "ser natural", "portuguese": "ser natural", "indonesian": "alami; wajar",
-      "japanese": "自然だ", "thai": "เป็นธรรมชาติ", "french": "être naturel",
+      "japanese": "自然だ", "thai": "เป็นธรรมชาติ", "french": "être naturel", "chinese": "自然", "chineseTraditional": "自然",
       "partOfSpeech": "adjective", "emoji": "🌿",
       "example": "그의 연기가 정말 자연스러워요.",
       "exampleRomanization": "geuui yeongiga jeongmal jayeonseureowoyo.",
@@ -46,7 +46,7 @@
     {
       "korean": "꿈", "romanization": "kkum", "english": "dream",
       "spanish": "sueño", "portuguese": "sonho", "indonesian": "mimpi",
-      "japanese": "夢", "thai": "ความฝัน", "french": "rêve",
+      "japanese": "夢", "thai": "ความฝัน", "french": "rêve", "chinese": "梦", "chineseTraditional": "夢",
       "partOfSpeech": "noun", "emoji": "💭",
       "example": "어젯밤에 이상한 꿈을 꿨어요.",
       "exampleRomanization": "eojetbame isanghan kkumeul kkwosseoyo.",
@@ -55,7 +55,7 @@
     {
       "korean": "사진", "romanization": "sajin", "english": "photo; photograph",
       "spanish": "foto", "portuguese": "foto", "indonesian": "foto",
-      "japanese": "写真", "thai": "รูปถ่าย", "french": "photo",
+      "japanese": "写真", "thai": "รูปถ่าย", "french": "photo", "chinese": "照片", "chineseTraditional": "照片",
       "partOfSpeech": "noun", "emoji": "📷",
       "example": "사진 한 장 찍어 주세요.",
       "exampleRomanization": "sajin han jang jjigeo juseyo.",
@@ -64,7 +64,7 @@
     {
       "korean": "풍경", "romanization": "punggyeong", "english": "scenery; landscape",
       "spanish": "paisaje", "portuguese": "paisagem", "indonesian": "pemandangan",
-      "japanese": "風景", "thai": "ทิวทัศน์", "french": "paysage",
+      "japanese": "風景", "thai": "ทิวทัศน์", "french": "paysage", "chinese": "风景", "chineseTraditional": "風景",
       "partOfSpeech": "noun", "emoji": "🏞️",
       "example": "창밖 풍경이 아름다워요.",
       "exampleRomanization": "changbak punggyeong-i areumdawoyo.",
@@ -73,7 +73,7 @@
     {
       "korean": "누르다", "romanization": "nureuda", "english": "to press; to push (a button)",
       "spanish": "presionar; pulsar", "portuguese": "pressionar; apertar", "indonesian": "menekan",
-      "japanese": "押す", "thai": "กด", "french": "appuyer",
+      "japanese": "押す", "thai": "กด", "french": "appuyer", "chinese": "按", "chineseTraditional": "按",
       "partOfSpeech": "verb", "emoji": "👆",
       "example": "이 버튼을 누르세요.",
       "exampleRomanization": "i beoteun-eul nureuseyo.",
@@ -82,7 +82,7 @@
     {
       "korean": "소리", "romanization": "sori", "english": "sound; noise",
       "spanish": "sonido", "portuguese": "som", "indonesian": "suara",
-      "japanese": "音", "thai": "เสียง", "french": "son; bruit",
+      "japanese": "音", "thai": "เสียง", "french": "son; bruit", "chinese": "声音", "chineseTraditional": "聲音",
       "partOfSpeech": "noun", "emoji": "🔊",
       "example": "밖에서 이상한 소리가 나요.",
       "exampleRomanization": "bakkeseo isanghan soriga nayo.",
@@ -91,7 +91,7 @@
     {
       "korean": "찍다", "romanization": "jjikda", "english": "to take (a photo)",
       "spanish": "tomar (foto); sacar", "portuguese": "tirar (foto)", "indonesian": "memotret",
-      "japanese": "撮る", "thai": "ถ่าย (รูป)", "french": "prendre (une photo)",
+      "japanese": "撮る", "thai": "ถ่าย (รูป)", "french": "prendre (une photo)", "chinese": "拍照", "chineseTraditional": "拍照",
       "partOfSpeech": "verb", "emoji": "📸",
       "example": "우리 같이 사진 찍어요.",
       "exampleRomanization": "uri gachi sajin jjigeoyo.",

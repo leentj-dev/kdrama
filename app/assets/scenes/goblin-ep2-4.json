@@ -10,7 +10,7 @@
     {
       "korean": "소환하다", "romanization": "sohwanhada", "english": "to summon",
       "spanish": "invocar; convocar", "portuguese": "invocar; convocar", "indonesian": "memanggil; menyummon",
-      "japanese": "召喚する", "thai": "เรียกออกมา; อัญเชิญ", "french": "invoquer",
+      "japanese": "召喚する", "thai": "เรียกออกมา; อัญเชิญ", "french": "invoquer", "chinese": "召唤", "chineseTraditional": "召喚",
       "partOfSpeech": "verb", "emoji": "🔮",
       "example": "게임에서 괴물을 소환했어요.",
       "exampleRomanization": "geimeseo goemureul sohwanhaesseoyo.",
@@ -19,7 +19,7 @@
     {
       "korean": "사랑하다", "romanization": "saranghada", "english": "to love",
       "spanish": "amar", "portuguese": "amar", "indonesian": "mencintai",
-      "japanese": "愛する", "thai": "รัก", "french": "aimer",
+      "japanese": "愛する", "thai": "รัก", "french": "aimer", "chinese": "爱", "chineseTraditional": "愛",
       "partOfSpeech": "verb", "emoji": "❤️",
       "example": "저는 이 도시를 사랑해요.",
       "exampleRomanization": "jeoneun i dosireul saranghaeyo.",
@@ -28,7 +28,7 @@
     {
       "korean": "진심", "romanization": "jinsim", "english": "sincerity; true heart",
       "spanish": "sinceridad", "portuguese": "sinceridade", "indonesian": "ketulusan; hati yang tulus",
-      "japanese": "本心; 真心", "thai": "ความจริงใจ", "french": "sincérité",
+      "japanese": "本心; 真心", "thai": "ความจริงใจ", "french": "sincérité", "chinese": "真心；诚意", "chineseTraditional": "真心；誠意",
       "partOfSpeech": "noun", "emoji": "💗",
       "example": "제 진심을 믿어 주세요.",
       "exampleRomanization": "je jinsimeul mideo juseyo.",
@@ -37,7 +37,7 @@
     {
       "korean": "호기심", "romanization": "hogisim", "english": "curiosity",
       "spanish": "curiosidad", "portuguese": "curiosidade", "indonesian": "rasa ingin tahu",
-      "japanese": "好奇心", "thai": "ความอยากรู้อยากเห็น", "french": "curiosité",
+      "japanese": "好奇心", "thai": "ความอยากรู้อยากเห็น", "french": "curiosité", "chinese": "好奇心", "chineseTraditional": "好奇心",
       "partOfSpeech": "noun", "emoji": "🧐",
       "example": "아이들은 호기심이 많아요.",
       "exampleRomanization": "aideureun hogisim-i manayo.",
@@ -46,7 +46,7 @@
     {
       "korean": "밤", "romanization": "bam", "english": "night",
       "spanish": "noche", "portuguese": "noite", "indonesian": "malam",
-      "japanese": "夜", "thai": "กลางคืน", "french": "nuit",
+      "japanese": "夜", "thai": "กลางคืน", "french": "nuit", "chinese": "夜晚", "chineseTraditional": "夜晚",
       "partOfSpeech": "noun", "emoji": "🌙",
       "example": "어젯밤에 잠을 못 잤어요.",
       "exampleRomanization": "eojetbame jameul mot jasseoyo.",
@@ -55,7 +55,7 @@
     {
       "korean": "생각하다", "romanization": "saenggakada", "english": "to think",
       "spanish": "pensar", "portuguese": "pensar", "indonesian": "berpikir; memikirkan",
-      "japanese": "考える; 思う", "thai": "คิด", "french": "penser",
+      "japanese": "考える; 思う", "thai": "คิด", "french": "penser", "chinese": "思考；想", "chineseTraditional": "思考；想",
       "partOfSpeech": "verb", "emoji": "🤔",
       "example": "지금 무슨 생각 해요?",
       "exampleRomanization": "jigeum museun saenggak haeyo?",
@@ -64,7 +64,7 @@
     {
       "korean": "꼬마", "romanization": "kkoma", "english": "little kid; kiddo",
       "spanish": "niño pequeño", "portuguese": "garotinho", "indonesian": "anak kecil",
-      "japanese": "ちびっ子", "thai": "เด็กน้อย", "french": "petit; gamin",
+      "japanese": "ちびっ子", "thai": "เด็กน้อย", "french": "petit; gamin", "chinese": "小孩；小家伙", "chineseTraditional": "小孩；小傢伙",
       "partOfSpeech": "noun", "emoji": "🧒",
       "example": "귀여운 꼬마가 인사했어요.",
       "exampleRomanization": "gwiyeoun kkomaga insahaesseoyo.",

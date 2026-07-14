@@ -10,7 +10,7 @@
     {
       "korean": "보따리", "romanization": "bottari", "english": "bundle; wrapped pack",
       "spanish": "hatillo; fardo", "portuguese": "trouxa; embrulho", "indonesian": "buntalan",
-      "japanese": "風呂敷包み", "thai": "ห่อผ้า", "french": "baluchon",
+      "japanese": "風呂敷包み", "thai": "ห่อผ้า", "french": "baluchon", "chinese": "包袱", "chineseTraditional": "包袱",
       "partOfSpeech": "noun", "emoji": "🎒",
       "example": "할머니가 보따리를 이고 오셨어요.",
       "exampleRomanization": "halmeoniga bottarireul igo osyeosseoyo.",
@@ -19,7 +19,7 @@
     {
       "korean": "무게", "romanization": "muge", "english": "weight",
       "spanish": "peso", "portuguese": "peso", "indonesian": "berat",
-      "japanese": "重さ", "thai": "น้ำหนัก", "french": "poids",
+      "japanese": "重さ", "thai": "น้ำหนัก", "french": "poids", "chinese": "重量", "chineseTraditional": "重量",
       "partOfSpeech": "noun", "emoji": "⚖️",
       "example": "짐의 무게를 줄여야 해요.",
       "exampleRomanization": "jimui mugereul juryeoya haeyo.",
@@ -28,7 +28,7 @@
     {
       "korean": "아이", "romanization": "ai", "english": "child",
       "spanish": "niño/a", "portuguese": "criança", "indonesian": "anak",
-      "japanese": "子供", "thai": "เด็ก", "french": "enfant",
+      "japanese": "子供", "thai": "เด็ก", "french": "enfant", "chinese": "孩子", "chineseTraditional": "孩子",
       "partOfSpeech": "noun", "emoji": "🧒",
       "example": "아이가 곤히 자고 있어요.",
       "exampleRomanization": "aiga gonhi jago isseoyo.",
@@ -37,7 +37,7 @@
     {
       "korean": "목숨", "romanization": "moksum", "english": "life (living breath)",
       "spanish": "vida", "portuguese": "vida", "indonesian": "nyawa",
-      "japanese": "命", "thai": "ชีวิต", "french": "vie",
+      "japanese": "命", "thai": "ชีวิต", "french": "vie", "chinese": "性命", "chineseTraditional": "性命",
       "partOfSpeech": "noun", "emoji": "💗",
       "example": "소방관이 목숨을 걸고 구했어요.",
       "exampleRomanization": "sobanggwan-i moksumeul geolgo guhaesseoyo.",
@@ -46,7 +46,7 @@
     {
       "korean": "파도", "romanization": "pado", "english": "wave (sea)",
       "spanish": "ola", "portuguese": "onda", "indonesian": "ombak",
-      "japanese": "波", "thai": "คลื่น", "french": "vague",
+      "japanese": "波", "thai": "คลื่น", "french": "vague", "chinese": "波浪", "chineseTraditional": "波浪",
       "partOfSpeech": "noun", "emoji": "🌊",
       "example": "파도가 아주 높아요.",
       "exampleRomanization": "padoga aju nopayo.",
@@ -55,7 +55,7 @@
     {
       "korean": "인간", "romanization": "ingan", "english": "human being",
       "spanish": "ser humano", "portuguese": "ser humano", "indonesian": "manusia",
-      "japanese": "人間", "thai": "มนุษย์", "french": "être humain",
+      "japanese": "人間", "thai": "มนุษย์", "french": "être humain", "chinese": "人类", "chineseTraditional": "人類",
       "partOfSpeech": "noun", "emoji": "🧑",
       "example": "인간은 누구나 실수해요.",
       "exampleRomanization": "ingan-eun nuguna silsuhaeyo.",
@@ -64,7 +64,7 @@
     {
       "korean": "짐승", "romanization": "jimseung", "english": "beast; animal",
       "spanish": "bestia; animal", "portuguese": "besta; animal", "indonesian": "binatang buas",
-      "japanese": "獣", "thai": "สัตว์ร้าย", "french": "bête",
+      "japanese": "獣", "thai": "สัตว์ร้าย", "french": "bête", "chinese": "野兽", "chineseTraditional": "野獸",
       "partOfSpeech": "noun", "emoji": "🐺",
       "example": "숲에서 짐승 소리가 들렸어요.",
       "exampleRomanization": "supeseo jimseung soriga deullyeosseoyo.",
@@ -73,7 +73,7 @@
     {
       "korean": "분노", "romanization": "bunno", "english": "rage; fury",
       "spanish": "furia; ira", "portuguese": "fúria; raiva", "indonesian": "kemarahan; amarah",
-      "japanese": "怒り; 憤怒", "thai": "ความโกรธเกรี้ยว", "french": "colère; fureur",
+      "japanese": "怒り; 憤怒", "thai": "ความโกรธเกรี้ยว", "french": "colère; fureur", "chinese": "愤怒", "chineseTraditional": "憤怒",
       "partOfSpeech": "noun", "emoji": "😡",
       "example": "그는 분노를 참지 못했어요.",
       "exampleRomanization": "geuneun bunnoreul chamji mothaesseoyo.",
