@@ -2156,6 +2156,116 @@
     "hash": "ba81093af34bcfc2"
   },
   {
+    "id": "queen-of-tears-ep10-1",
+    "title": "Eat Meat, Don't Cry",
+    "drama": "Queen of Tears",
+    "youtubeId": "Mkz1WIu7MB8",
+    "wordCount": 16,
+    "episode": 10,
+    "part": 1,
+    "order": 1001,
+    "hash": "f43ba086311d3950"
+  },
+  {
+    "id": "queen-of-tears-ep10-2",
+    "title": "Loves Me, Loves Me Not",
+    "drama": "Queen of Tears",
+    "youtubeId": "SKo_elxqgY4",
+    "wordCount": 37,
+    "episode": 10,
+    "part": 2,
+    "order": 1002,
+    "hash": "94db39a81ad516c5"
+  },
+  {
+    "id": "queen-of-tears-ep10-3",
+    "title": "The Black Knight Love Shot",
+    "drama": "Queen of Tears",
+    "youtubeId": "BFKyy_E6fYA",
+    "wordCount": 17,
+    "episode": 10,
+    "part": 3,
+    "order": 1003,
+    "hash": "9a2b6b87c0b5acdf"
+  },
+  {
+    "id": "queen-of-tears-ep10-4",
+    "title": "Telling Mother the Truth",
+    "drama": "Queen of Tears",
+    "youtubeId": "lfxQXsB6EGg",
+    "wordCount": 50,
+    "episode": 10,
+    "part": 4,
+    "order": 1004,
+    "hash": "3551f349932b9772"
+  },
+  {
+    "id": "queen-of-tears-ep10-5",
+    "title": "Tending His Wounds After a Fight",
+    "drama": "Queen of Tears",
+    "youtubeId": "TjaYp3xEVaU",
+    "wordCount": 26,
+    "episode": 10,
+    "part": 5,
+    "order": 1005,
+    "hash": "9d171587f967d47f"
+  },
+  {
+    "id": "queen-of-tears-ep10-6",
+    "title": "A Drunken Confession of Love",
+    "drama": "Queen of Tears",
+    "youtubeId": "93qXxSAU3pA",
+    "wordCount": 18,
+    "episode": 10,
+    "part": 6,
+    "order": 1006,
+    "hash": "eb4ddbad4db31e3d"
+  },
+  {
+    "id": "queen-of-tears-ep10-7",
+    "title": "Suspension, Threats, and a Press Conference",
+    "drama": "Queen of Tears",
+    "youtubeId": "S2Ed1QCWvF4",
+    "wordCount": 37,
+    "episode": 10,
+    "part": 7,
+    "order": 1007,
+    "hash": "c4a5f1976af8852f"
+  },
+  {
+    "id": "queen-of-tears-ep11-1",
+    "title": "A Frightening Late-Night Attack",
+    "drama": "Queen of Tears",
+    "youtubeId": "9668zSsDMUU",
+    "wordCount": 18,
+    "episode": 11,
+    "part": 1,
+    "order": 1101,
+    "hash": "7a40cb24430c296a"
+  },
+  {
+    "id": "queen-of-tears-ep11-2",
+    "title": "Diagnosis and a Mother's Regret",
+    "drama": "Queen of Tears",
+    "youtubeId": "fY5_jaar5Ys",
+    "wordCount": 61,
+    "episode": 11,
+    "part": 2,
+    "order": 1102,
+    "hash": "a2d4458e88260e55"
+  },
+  {
+    "id": "queen-of-tears-ep11-3",
+    "title": "A Confession by the Hospital Bed",
+    "drama": "Queen of Tears",
+    "youtubeId": "hQPcs1XV3EY",
+    "wordCount": 55,
+    "episode": 11,
+    "part": 3,
+    "order": 1103,
+    "hash": "14bd35684208b281"
+  },
+  {
     "id": "queen-of-tears-ep2-1",
     "title": "From Office Romance to Marriage",
     "drama": "Queen of Tears",
@@ -2561,5 +2671,27 @@
     "part": 2,
     "order": 902,
     "hash": "cd25286a84ee996d"
+  },
+  {
+    "id": "queen-of-tears-ep9-3",
+    "title": "A Divorced Couple's Refuge",
+    "drama": "Queen of Tears",
+    "youtubeId": "vSEYiEXul0w",
+    "wordCount": 16,
+    "episode": 9,
+    "part": 3,
+    "order": 903,
+    "hash": "2bf6c25391baba61"
+  },
+  {
+    "id": "queen-of-tears-ep9-4",
+    "title": "Bottled Water at Dinner",
+    "drama": "Queen of Tears",
+    "youtubeId": "9pJFivaHPMI",
+    "wordCount": 51,
+    "episode": 9,
+    "part": 4,
+    "order": 904,
+    "hash": "950ef52ddc202b14"
   }
 ]
