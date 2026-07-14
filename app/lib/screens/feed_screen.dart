@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_config.dart';
 import '../config/theme_controller.dart';
+import '../config/remote_config.dart';
 import '../data/scene_repository.dart';
 import '../models/scene.dart';
 import '../utils/ads.dart';
@@ -68,12 +69,15 @@ class _FeedScreenState extends State<FeedScreen> {
   }
 
   /// Feed rows: scenes with an ad slot (null) inserted after every
-  /// [Ads.feedInterval] scenes — the kpop feed-ad cadence.
+  /// [feedAdIntervalNotifier] scenes (Remote Config). No ad slots when ads are
+  /// disabled remotely.
   List<SceneSummary?> get _rows {
     final out = <SceneSummary?>[];
+    final interval = feedAdIntervalNotifier.value;
+    final adsOn = adsEnabledNotifier.value;
     for (var i = 0; i < _scenes.length; i++) {
       out.add(_scenes[i]);
-      if ((i + 1) % Ads.feedInterval == 0 && i != _scenes.length - 1) {
+      if (adsOn && (i + 1) % interval == 0 && i != _scenes.length - 1) {
         out.add(null);
       }
     }
@@ -115,10 +119,16 @@ class _FeedScreenState extends State<FeedScreen> {
                   setState(() => _scenes = updated);
                 }
               },
-              child: ListView.builder(
-                padding: const EdgeInsets.all(12),
-                itemCount: _rowCount,
-                itemBuilder: _buildRow,
+              child: ValueListenableBuilder<int>(
+                valueListenable: feedAdIntervalNotifier,
+                builder: (context, _, __) => ValueListenableBuilder<bool>(
+                  valueListenable: adsEnabledNotifier,
+                  builder: (context, ___, ____) => ListView.builder(
+                    padding: const EdgeInsets.all(12),
+                    itemCount: _rowCount,
+                    itemBuilder: _buildRow,
+                  ),
+                ),
               ),
             ),
     );

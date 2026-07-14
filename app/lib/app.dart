@@ -1,18 +1,26 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'config/app_config.dart';
+import 'config/remote_config.dart';
 import 'config/theme_controller.dart';
 import 'screens/feed_screen.dart';
 
 /// Shared entrypoint. Set [appConfig] first, then call. Mirrors kpop's
-/// bootstrap. Ads use Google test units (see utils/ads.dart); Firebase Remote
-/// Config for an ads on/off toggle can be added the same way kpop did later.
+/// bootstrap: Firebase + Remote Config drive the ad controls; the app runs
+/// fine (ads at their defaults) if Firebase is unreachable.
 Future<void> bootstrap(AppConfig config) async {
   appConfig = config;
   WidgetsFlutterBinding.ensureInitialized();
   MobileAds.instance.initialize();
-  await loadThemeMode();
+  loadThemeMode();
+  try {
+    await Firebase.initializeApp();
+    await initRemoteConfig();
+  } on Exception {
+    // App runs fine without Firebase; ads stay at their defaults.
+  }
   runApp(const App());
 }
 

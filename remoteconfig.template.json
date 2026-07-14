@@ -1,0 +1,21 @@
+{
+  "parameters": {
+    "ads_enabled": {
+      "defaultValue": { "value": "true" },
+      "valueType": "BOOLEAN",
+      "description": "Show ads at all (feed + word deck)."
+    },
+    "feed_ad_interval": {
+      "defaultValue": { "value": "8" },
+      "valueType": "NUMBER",
+      "description": "Number of scenes between feed ads (min 2)."
+    },
+    "native_ad_refresh_sec": {
+      "defaultValue": { "value": "45" },
+      "valueType": "NUMBER",
+      "description": "Seconds between native-ad reloads (min 30)."
+    }
+  },
+  "parameterGroups": {},
+  "version": {}
+}

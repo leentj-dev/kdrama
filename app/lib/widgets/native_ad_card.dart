@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import '../config/remote_config.dart';
 import '../utils/ads.dart';
 
 /// A native AdMob ad rendered by the platform [Ads.factoryId] factory, styled
@@ -32,8 +33,15 @@ class _NativeAdCardState extends State<NativeAdCard> {
   void initState() {
     super.initState();
     _loadAd();
+    _startRefreshTimer();
+    // Restart the timer if Remote Config changes the refresh interval.
+    nativeAdRefreshSecNotifier.addListener(_startRefreshTimer);
+  }
+
+  void _startRefreshTimer() {
+    _refreshTimer?.cancel();
     _refreshTimer = Timer.periodic(
-      const Duration(seconds: Ads.refreshSeconds),
+      Duration(seconds: nativeAdRefreshSecNotifier.value),
       (_) => _loadAd(),
     );
   }
@@ -63,6 +71,7 @@ class _NativeAdCardState extends State<NativeAdCard> {
 
   @override
   void dispose() {
+    nativeAdRefreshSecNotifier.removeListener(_startRefreshTimer);
     _refreshTimer?.cancel();
     _ad?.dispose();
     super.dispose();
@@ -70,12 +79,19 @@ class _NativeAdCardState extends State<NativeAdCard> {
 
   @override
   Widget build(BuildContext context) {
-    if (!_loaded || _ad == null) return const SizedBox.shrink();
-    // The native layout draws its own background/border; this reserves height.
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 6),
-      height: _height,
-      child: AdWidget(ad: _ad!),
+    return ValueListenableBuilder<bool>(
+      valueListenable: adsEnabledNotifier,
+      builder: (context, enabled, _) {
+        if (!enabled || !_loaded || _ad == null) {
+          return const SizedBox.shrink();
+        }
+        // The native layout draws its own background/border; reserve height.
+        return Container(
+          margin: const EdgeInsets.symmetric(horizontal: 4, vertical: 6),
+          height: _height,
+          child: AdWidget(ad: _ad!),
+        );
+      },
     );
   }
 }
