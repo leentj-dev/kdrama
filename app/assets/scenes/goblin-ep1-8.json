@@ -1,0 +1,164 @@
+{
+  "id": "goblin-ep1-8",
+  "title": "The New Tenant",
+  "drama": "Goblin",
+  "youtubeId": "blm9nYN5AT4",
+  "episode": 1,
+  "part": 8,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "소문", "romanization": "somun", "english": "rumor",
+      "spanish": "rumor", "portuguese": "boato", "indonesian": "rumor; kabar",
+      "japanese": "噂", "thai": "ข่าวลือ", "french": "rumeur",
+      "partOfSpeech": "noun", "emoji": "🗣️",
+      "example": "이상한 소문이 돌고 있어요.",
+      "exampleRomanization": "isanghan somun-i dolgo isseoyo.",
+      "exampleTranslation": "A strange rumor is going around.", "timestamp": 11.0
+    },
+    {
+      "korean": "집", "romanization": "jip", "english": "house; home",
+      "spanish": "casa", "portuguese": "casa", "indonesian": "rumah",
+      "japanese": "家", "thai": "บ้าน", "french": "maison",
+      "partOfSpeech": "noun", "emoji": "🏠",
+      "example": "저는 집에서 쉬는 걸 좋아해요.",
+      "exampleRomanization": "jeoneun jibeseo swineun geol joahaeyo.",
+      "exampleTranslation": "I like resting at home.", "timestamp": 14.0
+    },
+    {
+      "korean": "살다", "romanization": "salda", "english": "to live",
+      "spanish": "vivir", "portuguese": "viver; morar", "indonesian": "tinggal; hidup",
+      "japanese": "住む; 生きる", "thai": "อาศัยอยู่; มีชีวิต", "french": "vivre; habiter",
+      "partOfSpeech": "verb", "emoji": "🏡",
+      "example": "저는 서울에 살아요.",
+      "exampleRomanization": "jeoneun seoule sarayo.",
+      "exampleTranslation": "I live in Seoul.", "timestamp": 19.0
+    },
+    {
+      "korean": "가구", "romanization": "gagu", "english": "furniture",
+      "spanish": "mueble", "portuguese": "móvel", "indonesian": "perabot",
+      "japanese": "家具", "thai": "เฟอร์นิเจอร์", "french": "meuble",
+      "partOfSpeech": "noun", "emoji": "🛋️",
+      "example": "새 가구를 샀어요.",
+      "exampleRomanization": "sae gagureul sasseoyo.",
+      "exampleTranslation": "I bought new furniture.", "timestamp": 21.0
+    },
+    {
+      "korean": "삼촌", "romanization": "samchon", "english": "uncle",
+      "spanish": "tío", "portuguese": "tio", "indonesian": "paman",
+      "japanese": "おじ", "thai": "ลุง; อา", "french": "oncle",
+      "partOfSpeech": "noun", "emoji": "👨",
+      "example": "삼촌이 용돈을 주셨어요.",
+      "exampleRomanization": "samchon-i yongdon-eul jusyeosseoyo.",
+      "exampleTranslation": "My uncle gave me allowance.", "timestamp": 27.0
+    },
+    {
+      "korean": "설명하다", "romanization": "seolmyeonghada", "english": "to explain",
+      "spanish": "explicar", "portuguese": "explicar", "indonesian": "menjelaskan",
+      "japanese": "説明する", "thai": "อธิบาย", "french": "expliquer",
+      "partOfSpeech": "verb", "emoji": "💬",
+      "example": "선생님이 문법을 설명해 주셨어요.",
+      "exampleRomanization": "seonsaengnim-i munbeob-eul seolmyeonghae jusyeosseoyo.",
+      "exampleTranslation": "The teacher explained the grammar.", "timestamp": 29.0
+    },
+    {
+      "korean": "궁금하다", "romanization": "gunggeumhada", "english": "to be curious",
+      "spanish": "tener curiosidad", "portuguese": "estar curioso", "indonesian": "penasaran",
+      "japanese": "気になる", "thai": "อยากรู้; สงสัย", "french": "être curieux",
+      "partOfSpeech": "adjective", "emoji": "🤔",
+      "example": "결과가 정말 궁금해요.",
+      "exampleRomanization": "gyeolgwaga jeongmal gunggeumhaeyo.",
+      "exampleTranslation": "I'm really curious about the result.", "timestamp": 34.0
+    },
+    {
+      "korean": "죄송하다", "romanization": "joesonghada", "english": "to be sorry (polite)",
+      "spanish": "sentirlo; disculparse", "portuguese": "sentir muito; desculpar-se", "indonesian": "minta maaf",
+      "japanese": "申し訳ない", "thai": "ขอโทษ (สุภาพ)", "french": "être désolé (poli)",
+      "partOfSpeech": "adjective", "emoji": "🙇",
+      "example": "늦어서 죄송합니다.",
+      "exampleRomanization": "neujeoseo joesonghamnida.",
+      "exampleTranslation": "I'm sorry for being late.", "timestamp": 48.0
+    },
+    {
+      "korean": "커피", "romanization": "keopi", "english": "coffee",
+      "spanish": "café", "portuguese": "café", "indonesian": "kopi",
+      "japanese": "コーヒー", "thai": "กาแฟ", "french": "café",
+      "partOfSpeech": "noun", "emoji": "☕",
+      "example": "아침마다 커피를 마셔요.",
+      "exampleRomanization": "achimmada keopireul masyeoyo.",
+      "exampleTranslation": "I drink coffee every morning.", "timestamp": 50.0
+    },
+    {
+      "korean": "돈", "romanization": "don", "english": "money",
+      "spanish": "dinero", "portuguese": "dinheiro", "indonesian": "uang",
+      "japanese": "お金", "thai": "เงิน", "french": "argent",
+      "partOfSpeech": "noun", "emoji": "💵",
+      "example": "돈을 조금씩 모으고 있어요.",
+      "exampleRomanization": "don-eul jogeumssik moeugo isseoyo.",
+      "exampleTranslation": "I'm saving money little by little.", "timestamp": 52.0
+    },
+    {
+      "korean": "차", "romanization": "cha", "english": "car",
+      "spanish": "coche; auto", "portuguese": "carro", "indonesian": "mobil",
+      "japanese": "車", "thai": "รถ", "french": "voiture",
+      "partOfSpeech": "noun", "emoji": "🚗",
+      "example": "차가 막혀서 늦었어요.",
+      "exampleRomanization": "chaga makhyeoseo neujeosseoyo.",
+      "exampleTranslation": "I was late because of traffic.", "timestamp": 58.0
+    },
+    {
+      "korean": "사연", "romanization": "sayeon", "english": "story; circumstances",
+      "spanish": "historia; circunstancias", "portuguese": "história; circunstâncias", "indonesian": "kisah; alasan",
+      "japanese": "事情; いきさつ", "thai": "เรื่องราว; เหตุผล", "french": "histoire; circonstances",
+      "partOfSpeech": "noun", "emoji": "📖",
+      "example": "그 노래에는 슬픈 사연이 있어요.",
+      "exampleRomanization": "geu noraeeneun seulpeun sayeon-i isseoyo.",
+      "exampleTranslation": "That song has a sad story behind it.", "timestamp": 68.0
+    },
+    {
+      "korean": "계약서", "romanization": "gyeyakseo", "english": "contract (document)",
+      "spanish": "contrato", "portuguese": "contrato", "indonesian": "surat kontrak",
+      "japanese": "契約書", "thai": "สัญญา (เอกสาร)", "french": "contrat",
+      "partOfSpeech": "noun", "emoji": "📄",
+      "example": "계약서에 서명했어요.",
+      "exampleRomanization": "gyeyakseoe seomyeonghaesseoyo.",
+      "exampleTranslation": "I signed the contract.", "timestamp": 73.0
+    },
+    {
+      "korean": "도장", "romanization": "dojang", "english": "seal; stamp",
+      "spanish": "sello", "portuguese": "carimbo; selo", "indonesian": "stempel; cap",
+      "japanese": "判子; 印鑑", "thai": "ตราประทับ", "french": "sceau; cachet",
+      "partOfSpeech": "noun", "emoji": "🔖",
+      "example": "여기에 도장을 찍어 주세요.",
+      "exampleRomanization": "yeogie dojang-eul jjigeo juseyo.",
+      "exampleTranslation": "Please stamp your seal here.", "timestamp": 75.0
+    },
+    {
+      "korean": "서류", "romanization": "seoryu", "english": "documents; paperwork",
+      "spanish": "documentos", "portuguese": "documentos", "indonesian": "dokumen",
+      "japanese": "書類", "thai": "เอกสาร", "french": "documents",
+      "partOfSpeech": "noun", "emoji": "📑",
+      "example": "서류를 제출해야 해요.",
+      "exampleRomanization": "seoryureul jechulhaeya haeyo.",
+      "exampleTranslation": "I have to submit the documents.", "timestamp": 82.0
+    },
+    {
+      "korean": "내일", "romanization": "naeil", "english": "tomorrow",
+      "spanish": "mañana", "portuguese": "amanhã", "indonesian": "besok",
+      "japanese": "明日", "thai": "พรุ่งนี้", "french": "demain",
+      "partOfSpeech": "noun", "emoji": "📅",
+      "example": "내일 아침에 만나요.",
+      "exampleRomanization": "naeil achime mannayo.",
+      "exampleTranslation": "Let's meet tomorrow morning.", "timestamp": 86.0
+    },
+    {
+      "korean": "방", "romanization": "bang", "english": "room",
+      "spanish": "habitación; cuarto", "portuguese": "quarto", "indonesian": "kamar",
+      "japanese": "部屋", "thai": "ห้อง", "french": "chambre; pièce",
+      "partOfSpeech": "noun", "emoji": "🚪",
+      "example": "제 방은 2층에 있어요.",
+      "exampleRomanization": "je bang-eun icheunge isseoyo.",
+      "exampleTranslation": "My room is on the second floor.", "timestamp": 110.0
+    }
+  ]
+}

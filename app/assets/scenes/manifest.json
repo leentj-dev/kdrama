@@ -42,5 +42,38 @@
     "part": 3,
     "order": 103,
     "hash": "871fdb9a3e3f27bd"
+  },
+  {
+    "id": "goblin-ep1-10",
+    "title": "Welcome to Canada",
+    "drama": "Goblin",
+    "youtubeId": "UucULf34v4g",
+    "wordCount": 17,
+    "episode": 1,
+    "part": 10,
+    "order": 110,
+    "hash": "797a9d7772130664"
+  },
+  {
+    "id": "goblin-ep1-7",
+    "title": "How Did You Summon Me?",
+    "drama": "Goblin",
+    "youtubeId": "mCeMgl6rR-U",
+    "wordCount": 15,
+    "episode": 1,
+    "part": 7,
+    "order": 107,
+    "hash": "5e2a9f2c1837f3cc"
+  },
+  {
+    "id": "goblin-ep1-8",
+    "title": "The New Tenant",
+    "drama": "Goblin",
+    "youtubeId": "blm9nYN5AT4",
+    "wordCount": 17,
+    "episode": 1,
+    "part": 8,
+    "order": 108,
+    "hash": "74c8191935c9a3eb"
   }
 ]

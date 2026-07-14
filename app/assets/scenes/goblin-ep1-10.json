@@ -1,0 +1,164 @@
+{
+  "id": "goblin-ep1-10",
+  "title": "Welcome to Canada",
+  "drama": "Goblin",
+  "youtubeId": "UucULf34v4g",
+  "episode": 1,
+  "part": 10,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "얘기", "romanization": "yaegi", "english": "talk; story",
+      "spanish": "conversación; historia", "portuguese": "conversa; história", "indonesian": "obrolan; cerita",
+      "japanese": "話", "thai": "เรื่องที่คุย", "french": "conversation; histoire",
+      "partOfSpeech": "noun", "emoji": "💬",
+      "example": "우리 잠깐 얘기 좀 해요.",
+      "exampleRomanization": "uri jamkkan yaegi jom haeyo.",
+      "exampleTranslation": "Let's talk for a moment.", "timestamp": 8.0
+    },
+    {
+      "korean": "문", "romanization": "mun", "english": "door",
+      "spanish": "puerta", "portuguese": "porta", "indonesian": "pintu",
+      "japanese": "ドア; 扉", "thai": "ประตู", "french": "porte",
+      "partOfSpeech": "noun", "emoji": "🚪",
+      "example": "문을 살짝 열어 주세요.",
+      "exampleRomanization": "mun-eul saljjak yeoreo juseyo.",
+      "exampleTranslation": "Please open the door a little.", "timestamp": 18.0
+    },
+    {
+      "korean": "따르다", "romanization": "ttareuda", "english": "to follow",
+      "spanish": "seguir", "portuguese": "seguir", "indonesian": "mengikuti",
+      "japanese": "ついていく; 従う", "thai": "ตามไป", "french": "suivre",
+      "partOfSpeech": "verb", "emoji": "🚶",
+      "example": "강아지가 저를 따라와요.",
+      "exampleRomanization": "gangajiga jeoreul ttarawayo.",
+      "exampleTranslation": "The puppy follows me.", "timestamp": 22.0
+    },
+    {
+      "korean": "손잡이", "romanization": "sonjabi", "english": "handle; knob",
+      "spanish": "manija; pomo", "portuguese": "maçaneta", "indonesian": "gagang; pegangan",
+      "japanese": "取っ手; ノブ", "thai": "ที่จับ; ลูกบิด", "french": "poignée",
+      "partOfSpeech": "noun", "emoji": "🚪",
+      "example": "문 손잡이가 고장 났어요.",
+      "exampleRomanization": "mun sonjabiga gojang nasseoyo.",
+      "exampleTranslation": "The door handle is broken.", "timestamp": 28.0
+    },
+    {
+      "korean": "잡다", "romanization": "japda", "english": "to grab; to hold",
+      "spanish": "agarrar; sujetar", "portuguese": "pegar; segurar", "indonesian": "memegang; menangkap",
+      "japanese": "つかむ; 握る", "thai": "จับ", "french": "attraper; saisir",
+      "partOfSpeech": "verb", "emoji": "✊",
+      "example": "제 손을 꼭 잡으세요.",
+      "exampleRomanization": "je son-eul kkok jabeuseyo.",
+      "exampleTranslation": "Hold my hand tight.", "timestamp": 29.0
+    },
+    {
+      "korean": "밀다", "romanization": "milda", "english": "to push",
+      "spanish": "empujar", "portuguese": "empurrar", "indonesian": "mendorong",
+      "japanese": "押す", "thai": "ผลัก; ดัน", "french": "pousser",
+      "partOfSpeech": "verb", "emoji": "🫸",
+      "example": "이 문은 밀어서 열어요.",
+      "exampleRomanization": "i mun-eun mireoseo yeoreoyo.",
+      "exampleTranslation": "You open this door by pushing.", "timestamp": 30.0
+    },
+    {
+      "korean": "정문", "romanization": "jeongmun", "english": "main gate; front gate",
+      "spanish": "puerta principal", "portuguese": "portão principal", "indonesian": "pintu gerbang utama",
+      "japanese": "正門", "thai": "ประตูหน้า", "french": "entrée principale",
+      "partOfSpeech": "noun", "emoji": "🚪",
+      "example": "학교 정문에서 만나요.",
+      "exampleRomanization": "hakgyo jeongmuneseo mannayo.",
+      "exampleTranslation": "Let's meet at the school's main gate.", "timestamp": 36.0
+    },
+    {
+      "korean": "통과하다", "romanization": "tonggwahada", "english": "to pass through",
+      "spanish": "pasar; atravesar", "portuguese": "passar; atravessar", "indonesian": "melewati",
+      "japanese": "通過する", "thai": "ผ่าน", "french": "passer; traverser",
+      "partOfSpeech": "verb", "emoji": "🛂",
+      "example": "검사를 무사히 통과했어요.",
+      "exampleRomanization": "geomsareul musahi tonggwahaesseoyo.",
+      "exampleTranslation": "I passed the inspection safely.", "timestamp": 37.0
+    },
+    {
+      "korean": "이상하다", "romanization": "isanghada", "english": "to be strange; odd",
+      "spanish": "ser extraño", "portuguese": "ser estranho", "indonesian": "aneh",
+      "japanese": "おかしい; 変だ", "thai": "แปลก", "french": "être étrange; bizarre",
+      "partOfSpeech": "adjective", "emoji": "🤨",
+      "example": "냄새가 좀 이상해요.",
+      "exampleRomanization": "naemsaega jom isanghaeyo.",
+      "exampleTranslation": "The smell is a bit strange.", "timestamp": 42.0
+    },
+    {
+      "korean": "어디", "romanization": "eodi", "english": "where",
+      "spanish": "dónde", "portuguese": "onde", "indonesian": "di mana",
+      "japanese": "どこ", "thai": "ที่ไหน", "french": "où",
+      "partOfSpeech": "adverb", "emoji": "📍",
+      "example": "화장실이 어디예요?",
+      "exampleRomanization": "hwajangsir-i eodiyeyo?",
+      "exampleTranslation": "Where is the restroom?", "timestamp": 45.0
+    },
+    {
+      "korean": "캐나다", "romanization": "kaenada", "english": "Canada",
+      "spanish": "Canadá", "portuguese": "Canadá", "indonesian": "Kanada",
+      "japanese": "カナダ", "thai": "แคนาดา", "french": "Canada",
+      "partOfSpeech": "noun", "emoji": "🇨🇦",
+      "example": "저는 캐나다에 가 보고 싶어요.",
+      "exampleRomanization": "jeoneun kaenadae ga bogo sipeoyo.",
+      "exampleTranslation": "I want to visit Canada.", "timestamp": 47.0
+    },
+    {
+      "korean": "단풍", "romanization": "danpung", "english": "autumn leaves; maple",
+      "spanish": "hojas de otoño; arce", "portuguese": "folhas de outono; bordo", "indonesian": "daun musim gugur; maple",
+      "japanese": "紅葉", "thai": "ใบไม้เปลี่ยนสี", "french": "feuilles d'automne; érable",
+      "partOfSpeech": "noun", "emoji": "🍁",
+      "example": "가을에는 단풍이 아름다워요.",
+      "exampleRomanization": "gaeur-eneun danpung-i areumdawoyo.",
+      "exampleTranslation": "The autumn leaves are beautiful in fall.", "timestamp": 55.0
+    },
+    {
+      "korean": "외국", "romanization": "oeguk", "english": "foreign country",
+      "spanish": "país extranjero", "portuguese": "país estrangeiro", "indonesian": "luar negeri",
+      "japanese": "外国", "thai": "ต่างประเทศ", "french": "pays étranger",
+      "partOfSpeech": "noun", "emoji": "🌍",
+      "example": "외국에서 일해 보고 싶어요.",
+      "exampleRomanization": "oegugeseo ilhae bogo sipeoyo.",
+      "exampleTranslation": "I'd like to work abroad.", "timestamp": 56.0
+    },
+    {
+      "korean": "능력", "romanization": "neungnyeok", "english": "ability; power",
+      "spanish": "habilidad; poder", "portuguese": "habilidade; poder", "indonesian": "kemampuan",
+      "japanese": "能力", "thai": "ความสามารถ", "french": "capacité; pouvoir",
+      "partOfSpeech": "noun", "emoji": "✨",
+      "example": "그는 특별한 능력이 있어요.",
+      "exampleRomanization": "geuneun teukbyeolhan neungnyeog-i isseoyo.",
+      "exampleTranslation": "He has a special ability.", "timestamp": 68.0
+    },
+    {
+      "korean": "결심하다", "romanization": "gyeolsimhada", "english": "to decide; to resolve",
+      "spanish": "decidirse; resolverse", "portuguese": "decidir-se; resolver", "indonesian": "bertekad; memutuskan",
+      "japanese": "決心する", "thai": "ตัดสินใจ", "french": "se décider; résoudre",
+      "partOfSpeech": "verb", "emoji": "💪",
+      "example": "저는 운동하기로 결심했어요.",
+      "exampleRomanization": "jeoneun undonghagiro gyeolsimhaesseoyo.",
+      "exampleTranslation": "I decided to start exercising.", "timestamp": 78.0
+    },
+    {
+      "korean": "시집가다", "romanization": "sijipgada", "english": "to get married (of a woman)",
+      "spanish": "casarse (una mujer)", "portuguese": "casar-se (mulher)", "indonesian": "menikah (perempuan)",
+      "japanese": "嫁ぐ", "thai": "แต่งงาน (ผู้หญิง)", "french": "se marier (femme)",
+      "partOfSpeech": "verb", "emoji": "💒",
+      "example": "언니가 내년에 시집가요.",
+      "exampleRomanization": "eonniga naenyeone sijipgayo.",
+      "exampleTranslation": "My older sister is getting married next year.", "timestamp": 85.0
+    },
+    {
+      "korean": "사랑하다", "romanization": "saranghada", "english": "to love",
+      "spanish": "amar", "portuguese": "amar", "indonesian": "mencintai",
+      "japanese": "愛する", "thai": "รัก", "french": "aimer",
+      "partOfSpeech": "verb", "emoji": "❤️",
+      "example": "저는 가족을 정말 사랑해요.",
+      "exampleRomanization": "jeoneun gajog-eul jeongmal saranghaeyo.",
+      "exampleTranslation": "I really love my family.", "timestamp": 90.0
+    }
+  ]
+}
