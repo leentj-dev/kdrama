@@ -1,0 +1,65 @@
+{
+  "id": "goblin-ep2-8",
+  "title": "No Reaper Can Take Her",
+  "drama": "Goblin",
+  "youtubeId": "-kWkh9rC-1E",
+  "episode": 2,
+  "part": 8,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "설명하다", "romanization": "seolmyeonghada", "english": "to explain",
+      "spanish": "explicar", "portuguese": "explicar", "indonesian": "menjelaskan",
+      "japanese": "説明する", "thai": "อธิบาย", "french": "expliquer",
+      "partOfSpeech": "verb", "emoji": "💬",
+      "example": "다시 한번 설명해 주세요.",
+      "exampleRomanization": "dasi hanbeon seolmyeonghae juseyo.",
+      "exampleTranslation": "Please explain it once more.", "timestamp": 14.0
+    },
+    {
+      "korean": "진지하다", "romanization": "jinjihada", "english": "to be serious",
+      "spanish": "ser serio", "portuguese": "ser sério", "indonesian": "serius",
+      "japanese": "真剣だ; 真面目だ", "thai": "จริงจัง", "french": "être sérieux",
+      "partOfSpeech": "adjective", "emoji": "😐",
+      "example": "그는 항상 진지해요.",
+      "exampleRomanization": "geuneun hangsang jinjihaeyo.",
+      "exampleTranslation": "He is always serious.", "timestamp": 18.0
+    },
+    {
+      "korean": "조심하다", "romanization": "josimhada", "english": "to be careful",
+      "spanish": "tener cuidado", "portuguese": "ter cuidado", "indonesian": "berhati-hati",
+      "japanese": "気をつける", "thai": "ระวัง", "french": "faire attention",
+      "partOfSpeech": "verb", "emoji": "⚠️",
+      "example": "밤길 조심하세요.",
+      "exampleRomanization": "bamgil josimhaseyo.",
+      "exampleTranslation": "Be careful on the way home at night.", "timestamp": 22.0
+    },
+    {
+      "korean": "데려가다", "romanization": "deryeogada", "english": "to take (someone) along",
+      "spanish": "llevar (a alguien)", "portuguese": "levar (alguém)", "indonesian": "membawa (seseorang)",
+      "japanese": "連れて行く", "thai": "พาไป", "french": "emmener (quelqu'un)",
+      "partOfSpeech": "verb", "emoji": "🤝",
+      "example": "동생을 병원에 데려갔어요.",
+      "exampleRomanization": "dongsaeng-eul byeongwone deryeogasseoyo.",
+      "exampleTranslation": "I took my younger sibling to the hospital.", "timestamp": 37.0
+    },
+    {
+      "korean": "눈앞", "romanization": "nunap", "english": "right in front of one's eyes",
+      "spanish": "delante de los ojos", "portuguese": "diante dos olhos", "indonesian": "di depan mata",
+      "japanese": "目の前", "thai": "ตรงหน้า", "french": "sous les yeux",
+      "partOfSpeech": "noun", "emoji": "👀",
+      "example": "기회가 눈앞에 있어요.",
+      "exampleRomanization": "gihoega nunape isseoyo.",
+      "exampleTranslation": "The opportunity is right in front of me.", "timestamp": 50.0
+    },
+    {
+      "korean": "신부", "romanization": "sinbu", "english": "bride",
+      "spanish": "novia", "portuguese": "noiva", "indonesian": "pengantin wanita",
+      "japanese": "花嫁", "thai": "เจ้าสาว", "french": "mariée",
+      "partOfSpeech": "noun", "emoji": "👰",
+      "example": "그녀가 오늘의 신부예요.",
+      "exampleRomanization": "geunyeoga oneurui sinbuyeyo.",
+      "exampleTranslation": "She is today's bride.", "timestamp": 56.0
+    }
+  ]
+}

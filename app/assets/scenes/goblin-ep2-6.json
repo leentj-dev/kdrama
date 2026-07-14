@@ -1,0 +1,83 @@
+{
+  "id": "goblin-ep2-6",
+  "title": "A Modern Promise",
+  "drama": "Goblin",
+  "youtubeId": "6Oavf16krzA",
+  "episode": 2,
+  "part": 6,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "비싸다", "romanization": "bissada", "english": "to be expensive",
+      "spanish": "ser caro", "portuguese": "ser caro", "indonesian": "mahal",
+      "japanese": "高い（値段）", "thai": "แพง", "french": "être cher",
+      "partOfSpeech": "adjective", "emoji": "💸",
+      "example": "이 가방은 너무 비싸요.",
+      "exampleRomanization": "i gabang-eun neomu bissayo.",
+      "exampleTranslation": "This bag is too expensive.", "timestamp": 11.0
+    },
+    {
+      "korean": "핸드폰", "romanization": "haendeupon", "english": "cellphone",
+      "spanish": "móvil; celular", "portuguese": "celular", "indonesian": "ponsel; HP",
+      "japanese": "携帯電話", "thai": "โทรศัพท์มือถือ", "french": "téléphone portable",
+      "partOfSpeech": "noun", "emoji": "📱",
+      "example": "핸드폰 배터리가 다 됐어요.",
+      "exampleRomanization": "haendeupon baeteoriga da dwaesseoyo.",
+      "exampleTranslation": "My cellphone battery is dead.", "timestamp": 21.0
+    },
+    {
+      "korean": "약속", "romanization": "yaksok", "english": "promise; appointment",
+      "spanish": "promesa; cita", "portuguese": "promessa; compromisso", "indonesian": "janji",
+      "japanese": "約束", "thai": "สัญญา; นัด", "french": "promesse; rendez-vous",
+      "partOfSpeech": "noun", "emoji": "🤝",
+      "example": "내일 친구랑 약속이 있어요.",
+      "exampleRomanization": "naeil chingurang yaksog-i isseoyo.",
+      "exampleTranslation": "I have an appointment with a friend tomorrow.", "timestamp": 22.0
+    },
+    {
+      "korean": "미래", "romanization": "mirae", "english": "future",
+      "spanish": "futuro", "portuguese": "futuro", "indonesian": "masa depan",
+      "japanese": "未来", "thai": "อนาคต", "french": "avenir; futur",
+      "partOfSpeech": "noun", "emoji": "🔮",
+      "example": "미래를 위해 열심히 공부해요.",
+      "exampleRomanization": "miraereul wihae yeolsimhi gongbuhaeyo.",
+      "exampleTranslation": "I study hard for the future.", "timestamp": 34.0
+    },
+    {
+      "korean": "냄새", "romanization": "naemsae", "english": "smell; scent",
+      "spanish": "olor", "portuguese": "cheiro", "indonesian": "bau; aroma",
+      "japanese": "におい", "thai": "กลิ่น", "french": "odeur",
+      "partOfSpeech": "noun", "emoji": "👃",
+      "example": "빵 굽는 냄새가 좋아요.",
+      "exampleRomanization": "ppang gubneun naemsaega joayo.",
+      "exampleTranslation": "The smell of baking bread is nice.", "timestamp": 47.0
+    },
+    {
+      "korean": "배고프다", "romanization": "baegopeuda", "english": "to be hungry",
+      "spanish": "tener hambre", "portuguese": "estar com fome", "indonesian": "lapar",
+      "japanese": "お腹がすいた", "thai": "หิว", "french": "avoir faim",
+      "partOfSpeech": "adjective", "emoji": "🍽️",
+      "example": "아침을 걸러서 배고파요.",
+      "exampleRomanization": "achimeul geolleoseo baegopayo.",
+      "exampleTranslation": "I'm hungry because I skipped breakfast.", "timestamp": 49.0
+    },
+    {
+      "korean": "옷", "romanization": "ot", "english": "clothes",
+      "spanish": "ropa", "portuguese": "roupa", "indonesian": "baju; pakaian",
+      "japanese": "服", "thai": "เสื้อผ้า", "french": "vêtements",
+      "partOfSpeech": "noun", "emoji": "👕",
+      "example": "새 옷을 사고 싶어요.",
+      "exampleRomanization": "sae oseul sago sipeoyo.",
+      "exampleTranslation": "I want to buy new clothes.", "timestamp": 59.0
+    },
+    {
+      "korean": "입다", "romanization": "ipda", "english": "to wear; to put on",
+      "spanish": "ponerse; vestir", "portuguese": "vestir", "indonesian": "memakai (baju)",
+      "japanese": "着る", "thai": "สวม; ใส่ (เสื้อ)", "french": "porter; mettre",
+      "partOfSpeech": "verb", "emoji": "🧥",
+      "example": "오늘은 따뜻하게 입으세요.",
+      "exampleRomanization": "oneureun ttatteuthage ibeuseyo.",
+      "exampleTranslation": "Dress warmly today.", "timestamp": 81.0
+    }
+  ]
+}

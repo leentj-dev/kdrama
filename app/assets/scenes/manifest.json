@@ -88,6 +88,17 @@
     "hash": "8b6d5a5e83a4f69f"
   },
   {
+    "id": "goblin-ep2-10",
+    "title": "The Taxi Kidnapping",
+    "drama": "Goblin",
+    "youtubeId": "9_QWVnPGPGE",
+    "wordCount": 8,
+    "episode": 2,
+    "part": 10,
+    "order": 210,
+    "hash": "d5870a6066603926"
+  },
+  {
     "id": "goblin-ep2-2",
     "title": "I'll Be Your Bride",
     "drama": "Goblin",
@@ -130,5 +141,38 @@
     "part": 5,
     "order": 205,
     "hash": "3692d0a7ff18af45"
+  },
+  {
+    "id": "goblin-ep2-6",
+    "title": "A Modern Promise",
+    "drama": "Goblin",
+    "youtubeId": "6Oavf16krzA",
+    "wordCount": 8,
+    "episode": 2,
+    "part": 6,
+    "order": 206,
+    "hash": "23eb03672d2d59b8"
+  },
+  {
+    "id": "goblin-ep2-8",
+    "title": "No Reaper Can Take Her",
+    "drama": "Goblin",
+    "youtubeId": "-kWkh9rC-1E",
+    "wordCount": 6,
+    "episode": 2,
+    "part": 8,
+    "order": 208,
+    "hash": "5b9b486c8a57ea3d"
+  },
+  {
+    "id": "goblin-ep2-9",
+    "title": "Teasing the Uncle",
+    "drama": "Goblin",
+    "youtubeId": "2-2VhsjRUAY",
+    "wordCount": 8,
+    "episode": 2,
+    "part": 9,
+    "order": 209,
+    "hash": "57242e9074e5aa9c"
   }
 ]

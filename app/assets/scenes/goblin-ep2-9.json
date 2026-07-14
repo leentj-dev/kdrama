@@ -1,0 +1,83 @@
+{
+  "id": "goblin-ep2-9",
+  "title": "Teasing the Uncle",
+  "drama": "Goblin",
+  "youtubeId": "2-2VhsjRUAY",
+  "episode": 2,
+  "part": 9,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "습하다", "romanization": "seuphada", "english": "to be humid; damp",
+      "spanish": "ser húmedo", "portuguese": "ser úmido", "indonesian": "lembap",
+      "japanese": "湿っぽい; じめじめする", "thai": "ชื้น", "french": "être humide",
+      "partOfSpeech": "adjective", "emoji": "💧",
+      "example": "장마철에는 날씨가 습해요.",
+      "exampleRomanization": "jangmacheore-neun nalssiga seuphaeyo.",
+      "exampleTranslation": "The weather is humid during the rainy season.", "timestamp": 8.0
+    },
+    {
+      "korean": "물어보다", "romanization": "mureoboda", "english": "to ask (a question)",
+      "spanish": "preguntar", "portuguese": "perguntar", "indonesian": "bertanya; menanyakan",
+      "japanese": "尋ねる; 聞いてみる", "thai": "ถาม", "french": "demander",
+      "partOfSpeech": "verb", "emoji": "🙋",
+      "example": "모르면 선생님께 물어보세요.",
+      "exampleRomanization": "moreumyeon seonsaengnimkke mureoboseyo.",
+      "exampleTranslation": "If you don't know, ask the teacher.", "timestamp": 28.0
+    },
+    {
+      "korean": "급하다", "romanization": "geuphada", "english": "to be urgent; in a hurry",
+      "spanish": "ser urgente; tener prisa", "portuguese": "ser urgente; estar com pressa", "indonesian": "terburu-buru; mendesak",
+      "japanese": "急ぎだ; せっかちだ", "thai": "รีบ; ด่วน", "french": "être pressé; urgent",
+      "partOfSpeech": "adjective", "emoji": "⏱️",
+      "example": "급하니까 택시를 탈게요.",
+      "exampleRomanization": "geuphanikka taeksireul talgeyo.",
+      "exampleTranslation": "I'm in a hurry, so I'll take a taxi.", "timestamp": 33.0
+    },
+    {
+      "korean": "치우다", "romanization": "chiuda", "english": "to clean up; to clear away",
+      "spanish": "recoger; quitar", "portuguese": "arrumar; tirar", "indonesian": "membereskan; menyingkirkan",
+      "japanese": "片付ける", "thai": "เก็บ; จัดให้เรียบร้อย", "french": "ranger; débarrasser",
+      "partOfSpeech": "verb", "emoji": "🧹",
+      "example": "식탁 좀 치워 주세요.",
+      "exampleRomanization": "siktak jom chiwo juseyo.",
+      "exampleTranslation": "Please clear the table.", "timestamp": 42.0
+    },
+    {
+      "korean": "여자", "romanization": "yeoja", "english": "woman",
+      "spanish": "mujer", "portuguese": "mulher", "indonesian": "perempuan; wanita",
+      "japanese": "女性; 女", "thai": "ผู้หญิง", "french": "femme",
+      "partOfSpeech": "noun", "emoji": "👩",
+      "example": "저 여자분은 제 친구예요.",
+      "exampleRomanization": "jeo yeojabun-eun je chinguyeyo.",
+      "exampleTranslation": "That woman is my friend.", "timestamp": 44.0
+    },
+    {
+      "korean": "얼굴", "romanization": "eolgul", "english": "face",
+      "spanish": "cara; rostro", "portuguese": "rosto", "indonesian": "wajah",
+      "japanese": "顔", "thai": "ใบหน้า", "french": "visage",
+      "partOfSpeech": "noun", "emoji": "😊",
+      "example": "얼굴에 미소가 가득해요.",
+      "exampleRomanization": "eolgure misoga gadeukhaeyo.",
+      "exampleTranslation": "Her face is full of smiles.", "timestamp": 45.0
+    },
+    {
+      "korean": "상처", "romanization": "sangcheo", "english": "wound; emotional hurt",
+      "spanish": "herida", "portuguese": "ferida; mágoa", "indonesian": "luka",
+      "japanese": "傷; 心の傷", "thai": "บาดแผล; แผลใจ", "french": "blessure",
+      "partOfSpeech": "noun", "emoji": "🩹",
+      "example": "그 말이 저에게 상처가 됐어요.",
+      "exampleRomanization": "geu mari jeoege sangcheoga dwaesseoyo.",
+      "exampleTranslation": "Those words hurt me.", "timestamp": 46.0
+    },
+    {
+      "korean": "싸움", "romanization": "ssaum", "english": "fight; quarrel",
+      "spanish": "pelea", "portuguese": "briga", "indonesian": "pertengkaran",
+      "japanese": "けんか", "thai": "การทะเลาะ", "french": "dispute; bagarre",
+      "partOfSpeech": "noun", "emoji": "🥊",
+      "example": "사소한 일로 싸움이 났어요.",
+      "exampleRomanization": "sasohan illo ssaum-i nasseoyo.",
+      "exampleTranslation": "A fight broke out over a trivial thing.", "timestamp": 53.0
+    }
+  ]
+}
