@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'config/app_config.dart';
 import 'config/theme_controller.dart';
 import 'screens/feed_screen.dart';
 
 /// Shared entrypoint. Set [appConfig] first, then call. Mirrors kpop's
-/// bootstrap; Firebase/ads are intentionally left out of the v0 and can be
-/// added the same way kpop did once the content pack is ready.
+/// bootstrap. Ads use Google test units (see utils/ads.dart); Firebase Remote
+/// Config for an ads on/off toggle can be added the same way kpop did later.
 Future<void> bootstrap(AppConfig config) async {
   appConfig = config;
   WidgetsFlutterBinding.ensureInitialized();
+  MobileAds.instance.initialize();
   await loadThemeMode();
   runApp(const App());
 }

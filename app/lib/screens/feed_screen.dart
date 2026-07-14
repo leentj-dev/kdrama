@@ -5,7 +5,9 @@ import '../config/app_config.dart';
 import '../config/theme_controller.dart';
 import '../data/scene_repository.dart';
 import '../models/scene.dart';
+import '../utils/ads.dart';
 import '../utils/themes.dart';
+import '../widgets/native_ad_card.dart';
 import 'scene_screen.dart';
 
 /// Home screen: the list of drama scenes. Ported from kpop's FeedScreen —
@@ -65,6 +67,27 @@ class _FeedScreenState extends State<FeedScreen> {
     );
   }
 
+  /// Feed rows: scenes with an ad slot (null) inserted after every
+  /// [Ads.feedInterval] scenes — the kpop feed-ad cadence.
+  List<SceneSummary?> get _rows {
+    final out = <SceneSummary?>[];
+    for (var i = 0; i < _scenes.length; i++) {
+      out.add(_scenes[i]);
+      if ((i + 1) % Ads.feedInterval == 0 && i != _scenes.length - 1) {
+        out.add(null);
+      }
+    }
+    return out;
+  }
+
+  int get _rowCount => _rows.length;
+
+  Widget _buildRow(BuildContext context, int i) {
+    final row = _rows[i];
+    if (row == null) return NativeAdCard(adUnitId: Ads.feedUnitId);
+    return _SceneTile(scene: row, onTap: () => _openScene(row));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,9 +117,8 @@ class _FeedScreenState extends State<FeedScreen> {
               },
               child: ListView.builder(
                 padding: const EdgeInsets.all(12),
-                itemCount: _scenes.length,
-                itemBuilder: (context, i) =>
-                    _SceneTile(scene: _scenes[i], onTap: () => _openScene(_scenes[i])),
+                itemCount: _rowCount,
+                itemBuilder: _buildRow,
               ),
             ),
     );
@@ -118,18 +140,10 @@ class _SceneTile extends StatelessWidget {
         onTap: onTap,
         child: Container(
           decoration: BoxDecoration(gradient: theme.gradient),
-          padding: const EdgeInsets.all(18),
+          padding: const EdgeInsets.all(14),
           child: Row(
             children: [
-              Container(
-                width: 46,
-                height: 46,
-                decoration: BoxDecoration(
-                  color: theme.accent.withValues(alpha: 0.2),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Icon(Icons.play_arrow_rounded, color: theme.accent),
-              ),
+              _Thumbnail(youtubeId: scene.youtubeId, theme: theme),
               const SizedBox(width: 14),
               Expanded(
                 child: Column(
@@ -151,6 +165,52 @@ class _SceneTile extends StatelessWidget {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+/// YouTube thumbnail for a scene, with a play overlay. Falls back to a plain
+/// play tile if the image can't load (offline, missing thumbnail).
+class _Thumbnail extends StatelessWidget {
+  final String youtubeId;
+  final SceneTheme theme;
+  const _Thumbnail({required this.youtubeId, required this.theme});
+
+  @override
+  Widget build(BuildContext context) {
+    const w = 124.0, h = 70.0; // 16:9
+    Widget fallback() => Container(
+          width: w,
+          height: h,
+          color: Colors.black26,
+          child: Icon(Icons.play_arrow_rounded, color: theme.accent),
+        );
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(12),
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          Image.network(
+            'https://img.youtube.com/vi/$youtubeId/mqdefault.jpg',
+            width: w,
+            height: h,
+            fit: BoxFit.cover,
+            errorBuilder: (_, __, ___) => fallback(),
+            loadingBuilder: (context, child, progress) =>
+                progress == null ? child : fallback(),
+          ),
+          Container(
+            width: 30,
+            height: 30,
+            decoration: BoxDecoration(
+              color: Colors.black.withValues(alpha: 0.5),
+              shape: BoxShape.circle,
+            ),
+            child: const Icon(Icons.play_arrow_rounded,
+                color: Colors.white, size: 20),
+          ),
+        ],
       ),
     );
   }

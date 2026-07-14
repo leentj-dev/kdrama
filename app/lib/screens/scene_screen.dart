@@ -8,7 +8,9 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import '../config/app_config.dart';
 import '../data/scene_repository.dart';
 import '../models/scene.dart';
+import '../utils/ads.dart';
 import '../utils/themes.dart';
+import '../widgets/native_ad_card.dart';
 import '../widgets/word_card.dart';
 
 /// Plays a scene: the YouTube clip up top, a swipeable stack of word cards
@@ -338,7 +340,10 @@ class _SceneScreenState extends State<SceneScreen> {
                   ),
                 ),
                 _ProgressDots(count: _words.length, active: _activeIndex),
-                const SizedBox(height: 12),
+                const SizedBox(height: 4),
+                // Ad under the word deck (kpop placement).
+                NativeAdCard(adUnitId: Ads.deckUnitId),
+                const SizedBox(height: 8),
               ],
             ),
           ),
