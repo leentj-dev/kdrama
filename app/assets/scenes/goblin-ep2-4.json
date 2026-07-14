@@ -1,0 +1,74 @@
+{
+  "id": "goblin-ep2-4",
+  "title": "Curiosity Wins",
+  "drama": "Goblin",
+  "youtubeId": "-OTbOhUZKW0",
+  "episode": 2,
+  "part": 4,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "소환하다", "romanization": "sohwanhada", "english": "to summon",
+      "spanish": "invocar; convocar", "portuguese": "invocar; convocar", "indonesian": "memanggil; menyummon",
+      "japanese": "召喚する", "thai": "เรียกออกมา; อัญเชิญ", "french": "invoquer",
+      "partOfSpeech": "verb", "emoji": "🔮",
+      "example": "게임에서 괴물을 소환했어요.",
+      "exampleRomanization": "geimeseo goemureul sohwanhaesseoyo.",
+      "exampleTranslation": "I summoned a monster in the game.", "timestamp": 0.0
+    },
+    {
+      "korean": "사랑하다", "romanization": "saranghada", "english": "to love",
+      "spanish": "amar", "portuguese": "amar", "indonesian": "mencintai",
+      "japanese": "愛する", "thai": "รัก", "french": "aimer",
+      "partOfSpeech": "verb", "emoji": "❤️",
+      "example": "저는 이 도시를 사랑해요.",
+      "exampleRomanization": "jeoneun i dosireul saranghaeyo.",
+      "exampleTranslation": "I love this city.", "timestamp": 18.0
+    },
+    {
+      "korean": "진심", "romanization": "jinsim", "english": "sincerity; true heart",
+      "spanish": "sinceridad", "portuguese": "sinceridade", "indonesian": "ketulusan; hati yang tulus",
+      "japanese": "本心; 真心", "thai": "ความจริงใจ", "french": "sincérité",
+      "partOfSpeech": "noun", "emoji": "💗",
+      "example": "제 진심을 믿어 주세요.",
+      "exampleRomanization": "je jinsimeul mideo juseyo.",
+      "exampleTranslation": "Please believe my sincerity.", "timestamp": 23.0
+    },
+    {
+      "korean": "호기심", "romanization": "hogisim", "english": "curiosity",
+      "spanish": "curiosidad", "portuguese": "curiosidade", "indonesian": "rasa ingin tahu",
+      "japanese": "好奇心", "thai": "ความอยากรู้อยากเห็น", "french": "curiosité",
+      "partOfSpeech": "noun", "emoji": "🧐",
+      "example": "아이들은 호기심이 많아요.",
+      "exampleRomanization": "aideureun hogisim-i manayo.",
+      "exampleTranslation": "Children are very curious.", "timestamp": 30.0
+    },
+    {
+      "korean": "밤", "romanization": "bam", "english": "night",
+      "spanish": "noche", "portuguese": "noite", "indonesian": "malam",
+      "japanese": "夜", "thai": "กลางคืน", "french": "nuit",
+      "partOfSpeech": "noun", "emoji": "🌙",
+      "example": "어젯밤에 잠을 못 잤어요.",
+      "exampleRomanization": "eojetbame jameul mot jasseoyo.",
+      "exampleTranslation": "I couldn't sleep last night.", "timestamp": 70.0
+    },
+    {
+      "korean": "생각하다", "romanization": "saenggakada", "english": "to think",
+      "spanish": "pensar", "portuguese": "pensar", "indonesian": "berpikir; memikirkan",
+      "japanese": "考える; 思う", "thai": "คิด", "french": "penser",
+      "partOfSpeech": "verb", "emoji": "🤔",
+      "example": "지금 무슨 생각 해요?",
+      "exampleRomanization": "jigeum museun saenggak haeyo?",
+      "exampleTranslation": "What are you thinking about right now?", "timestamp": 88.0
+    },
+    {
+      "korean": "꼬마", "romanization": "kkoma", "english": "little kid; kiddo",
+      "spanish": "niño pequeño", "portuguese": "garotinho", "indonesian": "anak kecil",
+      "japanese": "ちびっ子", "thai": "เด็กน้อย", "french": "petit; gamin",
+      "partOfSpeech": "noun", "emoji": "🧒",
+      "example": "귀여운 꼬마가 인사했어요.",
+      "exampleRomanization": "gwiyeoun kkomaga insahaesseoyo.",
+      "exampleTranslation": "A cute little kid said hello.", "timestamp": 95.0
+    }
+  ]
+}

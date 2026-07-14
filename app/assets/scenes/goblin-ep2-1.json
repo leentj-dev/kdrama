@@ -1,0 +1,101 @@
+{
+  "id": "goblin-ep2-1",
+  "title": "A Christmas Photo",
+  "drama": "Goblin",
+  "youtubeId": "yQMBmsrKBMA",
+  "episode": 2,
+  "part": 1,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "미치다", "romanization": "michida", "english": "to go crazy",
+      "spanish": "volverse loco", "portuguese": "enlouquecer", "indonesian": "menjadi gila",
+      "japanese": "気が狂う", "thai": "บ้า", "french": "devenir fou",
+      "partOfSpeech": "verb", "emoji": "🤪",
+      "example": "너무 바빠서 미칠 것 같아요.",
+      "exampleRomanization": "neomu bappaseo michil geot gatayo.",
+      "exampleTranslation": "I'm so busy I feel like I'm going crazy.", "timestamp": 0.0
+    },
+    {
+      "korean": "생각하다", "romanization": "saenggakada", "english": "to think",
+      "spanish": "pensar", "portuguese": "pensar", "indonesian": "berpikir; memikirkan",
+      "japanese": "考える; 思う", "thai": "คิด", "french": "penser",
+      "partOfSpeech": "verb", "emoji": "🤔",
+      "example": "하루 종일 너 생각했어.",
+      "exampleRomanization": "haru jongil neo saenggakaesseo.",
+      "exampleTranslation": "I thought about you all day.", "timestamp": 4.0
+    },
+    {
+      "korean": "좋아하다", "romanization": "joahada", "english": "to like",
+      "spanish": "gustar", "portuguese": "gostar", "indonesian": "menyukai",
+      "japanese": "好む; 好きだ", "thai": "ชอบ", "french": "aimer bien",
+      "partOfSpeech": "verb", "emoji": "💕",
+      "example": "저는 겨울을 제일 좋아해요.",
+      "exampleRomanization": "jeoneun gyeoureul jeil joahaeyo.",
+      "exampleTranslation": "I like winter the most.", "timestamp": 13.0
+    },
+    {
+      "korean": "자연스럽다", "romanization": "jayeonseureopda", "english": "to be natural",
+      "spanish": "ser natural", "portuguese": "ser natural", "indonesian": "alami; wajar",
+      "japanese": "自然だ", "thai": "เป็นธรรมชาติ", "french": "être naturel",
+      "partOfSpeech": "adjective", "emoji": "🌿",
+      "example": "그의 연기가 정말 자연스러워요.",
+      "exampleRomanization": "geuui yeongiga jeongmal jayeonseureowoyo.",
+      "exampleTranslation": "His acting is really natural.", "timestamp": 17.0
+    },
+    {
+      "korean": "꿈", "romanization": "kkum", "english": "dream",
+      "spanish": "sueño", "portuguese": "sonho", "indonesian": "mimpi",
+      "japanese": "夢", "thai": "ความฝัน", "french": "rêve",
+      "partOfSpeech": "noun", "emoji": "💭",
+      "example": "어젯밤에 이상한 꿈을 꿨어요.",
+      "exampleRomanization": "eojetbame isanghan kkumeul kkwosseoyo.",
+      "exampleTranslation": "I had a strange dream last night.", "timestamp": 36.0
+    },
+    {
+      "korean": "사진", "romanization": "sajin", "english": "photo; photograph",
+      "spanish": "foto", "portuguese": "foto", "indonesian": "foto",
+      "japanese": "写真", "thai": "รูปถ่าย", "french": "photo",
+      "partOfSpeech": "noun", "emoji": "📷",
+      "example": "사진 한 장 찍어 주세요.",
+      "exampleRomanization": "sajin han jang jjigeo juseyo.",
+      "exampleTranslation": "Please take a photo for me.", "timestamp": 52.0
+    },
+    {
+      "korean": "풍경", "romanization": "punggyeong", "english": "scenery; landscape",
+      "spanish": "paisaje", "portuguese": "paisagem", "indonesian": "pemandangan",
+      "japanese": "風景", "thai": "ทิวทัศน์", "french": "paysage",
+      "partOfSpeech": "noun", "emoji": "🏞️",
+      "example": "창밖 풍경이 아름다워요.",
+      "exampleRomanization": "changbak punggyeong-i areumdawoyo.",
+      "exampleTranslation": "The scenery outside the window is beautiful.", "timestamp": 66.0
+    },
+    {
+      "korean": "누르다", "romanization": "nureuda", "english": "to press; to push (a button)",
+      "spanish": "presionar; pulsar", "portuguese": "pressionar; apertar", "indonesian": "menekan",
+      "japanese": "押す", "thai": "กด", "french": "appuyer",
+      "partOfSpeech": "verb", "emoji": "👆",
+      "example": "이 버튼을 누르세요.",
+      "exampleRomanization": "i beoteun-eul nureuseyo.",
+      "exampleTranslation": "Press this button.", "timestamp": 68.0
+    },
+    {
+      "korean": "소리", "romanization": "sori", "english": "sound; noise",
+      "spanish": "sonido", "portuguese": "som", "indonesian": "suara",
+      "japanese": "音", "thai": "เสียง", "french": "son; bruit",
+      "partOfSpeech": "noun", "emoji": "🔊",
+      "example": "밖에서 이상한 소리가 나요.",
+      "exampleRomanization": "bakkeseo isanghan soriga nayo.",
+      "exampleTranslation": "There's a strange sound outside.", "timestamp": 70.0
+    },
+    {
+      "korean": "찍다", "romanization": "jjikda", "english": "to take (a photo)",
+      "spanish": "tomar (foto); sacar", "portuguese": "tirar (foto)", "indonesian": "memotret",
+      "japanese": "撮る", "thai": "ถ่าย (รูป)", "french": "prendre (une photo)",
+      "partOfSpeech": "verb", "emoji": "📸",
+      "example": "우리 같이 사진 찍어요.",
+      "exampleRomanization": "uri gachi sajin jjigeoyo.",
+      "exampleTranslation": "Let's take a photo together.", "timestamp": 74.0
+    }
+  ]
+}

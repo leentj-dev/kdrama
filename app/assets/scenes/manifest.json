@@ -75,5 +75,60 @@
     "part": 8,
     "order": 108,
     "hash": "74c8191935c9a3eb"
+  },
+  {
+    "id": "goblin-ep2-1",
+    "title": "A Christmas Photo",
+    "drama": "Goblin",
+    "youtubeId": "yQMBmsrKBMA",
+    "wordCount": 10,
+    "episode": 2,
+    "part": 1,
+    "order": 201,
+    "hash": "8b6d5a5e83a4f69f"
+  },
+  {
+    "id": "goblin-ep2-2",
+    "title": "I'll Be Your Bride",
+    "drama": "Goblin",
+    "youtubeId": "nNyDpFsTsgE",
+    "wordCount": 6,
+    "episode": 2,
+    "part": 2,
+    "order": 202,
+    "hash": "c2c2a3f9f72eebfd"
+  },
+  {
+    "id": "goblin-ep2-3",
+    "title": "Follow Me Closely",
+    "drama": "Goblin",
+    "youtubeId": "0bwm3o3_dsg",
+    "wordCount": 6,
+    "episode": 2,
+    "part": 3,
+    "order": 203,
+    "hash": "26c030b69a6f3da3"
+  },
+  {
+    "id": "goblin-ep2-4",
+    "title": "Curiosity Wins",
+    "drama": "Goblin",
+    "youtubeId": "-OTbOhUZKW0",
+    "wordCount": 7,
+    "episode": 2,
+    "part": 4,
+    "order": 204,
+    "hash": "4e45b2fd94f3aa81"
+  },
+  {
+    "id": "goblin-ep2-5",
+    "title": "The Job Interview",
+    "drama": "Goblin",
+    "youtubeId": "knoy2nwtsIE",
+    "wordCount": 7,
+    "episode": 2,
+    "part": 5,
+    "order": 205,
+    "hash": "3692d0a7ff18af45"
   }
 ]

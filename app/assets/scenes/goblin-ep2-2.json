@@ -1,0 +1,65 @@
+{
+  "id": "goblin-ep2-2",
+  "title": "I'll Be Your Bride",
+  "drama": "Goblin",
+  "youtubeId": "nNyDpFsTsgE",
+  "episode": 2,
+  "part": 2,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "찾다", "romanization": "chatda", "english": "to look for; to find",
+      "spanish": "buscar; encontrar", "portuguese": "procurar; encontrar", "indonesian": "mencari; menemukan",
+      "japanese": "探す; 見つける", "thai": "หา; พบ", "french": "chercher; trouver",
+      "partOfSpeech": "verb", "emoji": "🔍",
+      "example": "잃어버린 지갑을 찾았어요.",
+      "exampleRomanization": "ireobeorin jigabeul chajasseoyo.",
+      "exampleTranslation": "I found my lost wallet.", "timestamp": 0.0
+    },
+    {
+      "korean": "얌전하다", "romanization": "yamjeonhada", "english": "to be quiet; well-behaved",
+      "spanish": "ser tranquilo; formal", "portuguese": "ser quieto; comportado", "indonesian": "kalem; sopan",
+      "japanese": "おとなしい", "thai": "เรียบร้อย; สงบเสงี่ยม", "french": "être sage; calme",
+      "partOfSpeech": "adjective", "emoji": "😌",
+      "example": "아이가 오늘 아주 얌전해요.",
+      "exampleRomanization": "aiga oneul aju yamjeonhaeyo.",
+      "exampleTranslation": "The child is very well-behaved today.", "timestamp": 60.0
+    },
+    {
+      "korean": "볼일", "romanization": "bollil", "english": "an errand; business to do",
+      "spanish": "un asunto; una diligencia", "portuguese": "um assunto; recado", "indonesian": "urusan; keperluan",
+      "japanese": "用事", "thai": "ธุระ", "french": "une course; une affaire",
+      "partOfSpeech": "noun", "emoji": "📋",
+      "example": "잠깐 볼일이 있어서 나가요.",
+      "exampleRomanization": "jamkkan bollir-i isseoseo nagayo.",
+      "exampleTranslation": "I'm going out to run a quick errand.", "timestamp": 73.0
+    },
+    {
+      "korean": "떠나다", "romanization": "tteonada", "english": "to leave; to depart",
+      "spanish": "irse; partir", "portuguese": "partir; sair", "indonesian": "pergi; meninggalkan",
+      "japanese": "去る; 出発する", "thai": "จากไป; ออกเดินทาง", "french": "partir; quitter",
+      "partOfSpeech": "verb", "emoji": "🧳",
+      "example": "내일 여행을 떠나요.",
+      "exampleRomanization": "naeil yeohaeng-eul tteonayo.",
+      "exampleTranslation": "I'm leaving on a trip tomorrow.", "timestamp": 97.0
+    },
+    {
+      "korean": "안녕하다", "romanization": "annyeonghada", "english": "to be well (hello/goodbye root)",
+      "spanish": "estar bien (saludo)", "portuguese": "estar bem (saudação)", "indonesian": "sehat; selamat (sapaan)",
+      "japanese": "こんにちは（安寧だ）", "thai": "สวัสดี (สบายดี)", "french": "aller bien (salutation)",
+      "partOfSpeech": "adjective", "emoji": "👋",
+      "example": "안녕하세요, 처음 뵙겠습니다.",
+      "exampleRomanization": "annyeonghaseyo, cheoeum boepgesseumnida.",
+      "exampleTranslation": "Hello, nice to meet you.", "timestamp": 110.0
+    },
+    {
+      "korean": "신부", "romanization": "sinbu", "english": "bride",
+      "spanish": "novia", "portuguese": "noiva", "indonesian": "pengantin wanita",
+      "japanese": "花嫁", "thai": "เจ้าสาว", "french": "mariée",
+      "partOfSpeech": "noun", "emoji": "👰",
+      "example": "신부가 정말 아름다워요.",
+      "exampleRomanization": "sinbuga jeongmal areumdawoyo.",
+      "exampleTranslation": "The bride is really beautiful.", "timestamp": 112.0
+    }
+  ]
+}
