@@ -1,0 +1,83 @@
+{
+  "id": "goblin-ep1-4",
+  "title": "The Angered God",
+  "drama": "Goblin",
+  "youtubeId": "bYXyquedPNo",
+  "episode": 1,
+  "part": 4,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "보따리", "romanization": "bottari", "english": "bundle; wrapped pack",
+      "spanish": "hatillo; fardo", "portuguese": "trouxa; embrulho", "indonesian": "buntalan",
+      "japanese": "風呂敷包み", "thai": "ห่อผ้า", "french": "baluchon",
+      "partOfSpeech": "noun", "emoji": "🎒",
+      "example": "할머니가 보따리를 이고 오셨어요.",
+      "exampleRomanization": "halmeoniga bottarireul igo osyeosseoyo.",
+      "exampleTranslation": "Grandma came carrying a bundle on her head.", "timestamp": 28.0
+    },
+    {
+      "korean": "무게", "romanization": "muge", "english": "weight",
+      "spanish": "peso", "portuguese": "peso", "indonesian": "berat",
+      "japanese": "重さ", "thai": "น้ำหนัก", "french": "poids",
+      "partOfSpeech": "noun", "emoji": "⚖️",
+      "example": "짐의 무게를 줄여야 해요.",
+      "exampleRomanization": "jimui mugereul juryeoya haeyo.",
+      "exampleTranslation": "I need to reduce the weight of the luggage.", "timestamp": 33.0
+    },
+    {
+      "korean": "아이", "romanization": "ai", "english": "child",
+      "spanish": "niño/a", "portuguese": "criança", "indonesian": "anak",
+      "japanese": "子供", "thai": "เด็ก", "french": "enfant",
+      "partOfSpeech": "noun", "emoji": "🧒",
+      "example": "아이가 곤히 자고 있어요.",
+      "exampleRomanization": "aiga gonhi jago isseoyo.",
+      "exampleTranslation": "The child is sleeping soundly.", "timestamp": 37.0
+    },
+    {
+      "korean": "목숨", "romanization": "moksum", "english": "life (living breath)",
+      "spanish": "vida", "portuguese": "vida", "indonesian": "nyawa",
+      "japanese": "命", "thai": "ชีวิต", "french": "vie",
+      "partOfSpeech": "noun", "emoji": "💗",
+      "example": "소방관이 목숨을 걸고 구했어요.",
+      "exampleRomanization": "sobanggwan-i moksumeul geolgo guhaesseoyo.",
+      "exampleTranslation": "The firefighter risked his life to rescue them.", "timestamp": 37.0
+    },
+    {
+      "korean": "파도", "romanization": "pado", "english": "wave (sea)",
+      "spanish": "ola", "portuguese": "onda", "indonesian": "ombak",
+      "japanese": "波", "thai": "คลื่น", "french": "vague",
+      "partOfSpeech": "noun", "emoji": "🌊",
+      "example": "파도가 아주 높아요.",
+      "exampleRomanization": "padoga aju nopayo.",
+      "exampleTranslation": "The waves are very high.", "timestamp": 42.0
+    },
+    {
+      "korean": "인간", "romanization": "ingan", "english": "human being",
+      "spanish": "ser humano", "portuguese": "ser humano", "indonesian": "manusia",
+      "japanese": "人間", "thai": "มนุษย์", "french": "être humain",
+      "partOfSpeech": "noun", "emoji": "🧑",
+      "example": "인간은 누구나 실수해요.",
+      "exampleRomanization": "ingan-eun nuguna silsuhaeyo.",
+      "exampleTranslation": "Every human makes mistakes.", "timestamp": 58.0
+    },
+    {
+      "korean": "짐승", "romanization": "jimseung", "english": "beast; animal",
+      "spanish": "bestia; animal", "portuguese": "besta; animal", "indonesian": "binatang buas",
+      "japanese": "獣", "thai": "สัตว์ร้าย", "french": "bête",
+      "partOfSpeech": "noun", "emoji": "🐺",
+      "example": "숲에서 짐승 소리가 들렸어요.",
+      "exampleRomanization": "supeseo jimseung soriga deullyeosseoyo.",
+      "exampleTranslation": "I heard the sound of a beast in the forest.", "timestamp": 58.0
+    },
+    {
+      "korean": "분노", "romanization": "bunno", "english": "rage; fury",
+      "spanish": "furia; ira", "portuguese": "fúria; raiva", "indonesian": "kemarahan; amarah",
+      "japanese": "怒り; 憤怒", "thai": "ความโกรธเกรี้ยว", "french": "colère; fureur",
+      "partOfSpeech": "noun", "emoji": "😡",
+      "example": "그는 분노를 참지 못했어요.",
+      "exampleRomanization": "geuneun bunnoreul chamji mothaesseoyo.",
+      "exampleTranslation": "He couldn't hold back his rage.", "timestamp": 72.0
+    }
+  ]
+}

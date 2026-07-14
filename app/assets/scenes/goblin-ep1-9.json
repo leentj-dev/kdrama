@@ -1,0 +1,92 @@
+{
+  "id": "goblin-ep1-9",
+  "title": "How to Summon Him",
+  "drama": "Goblin",
+  "youtubeId": "iLkW5TIGSW0",
+  "episode": 1,
+  "part": 9,
+  "introOffset": 0,
+  "words": [
+    {
+      "korean": "기도하다", "romanization": "gidohada", "english": "to pray",
+      "spanish": "rezar; orar", "portuguese": "rezar; orar", "indonesian": "berdoa",
+      "japanese": "祈る", "thai": "อธิษฐาน; สวดมนต์", "french": "prier",
+      "partOfSpeech": "verb", "emoji": "🙏",
+      "example": "매일 아침 기도해요.",
+      "exampleRomanization": "maeil achim gidohaeyo.",
+      "exampleTranslation": "I pray every morning.", "timestamp": 0.0
+    },
+    {
+      "korean": "감사하다", "romanization": "gamsahada", "english": "to be grateful; to thank",
+      "spanish": "agradecer", "portuguese": "agradecer", "indonesian": "bersyukur; berterima kasih",
+      "japanese": "感謝する", "thai": "ขอบคุณ; รู้สึกขอบคุณ", "french": "remercier",
+      "partOfSpeech": "verb", "emoji": "🙇",
+      "example": "도움에 진심으로 감사합니다.",
+      "exampleRomanization": "doume jinsimeuro gamsahamnida.",
+      "exampleTranslation": "I sincerely thank you for your help.", "timestamp": 0.0
+    },
+    {
+      "korean": "걸음", "romanization": "georeum", "english": "step; pace",
+      "spanish": "paso", "portuguese": "passo", "indonesian": "langkah",
+      "japanese": "一歩; 歩み", "thai": "ก้าว", "french": "pas",
+      "partOfSpeech": "noun", "emoji": "👣",
+      "example": "한 걸음씩 나아가요.",
+      "exampleRomanization": "han georeumssik naagayo.",
+      "exampleTranslation": "Move forward one step at a time.", "timestamp": 6.0
+    },
+    {
+      "korean": "무섭다", "romanization": "museopda", "english": "to be scary; afraid",
+      "spanish": "dar miedo; tener miedo", "portuguese": "ser assustador; ter medo", "indonesian": "menakutkan; takut",
+      "japanese": "怖い", "thai": "น่ากลัว; กลัว", "french": "faire peur; avoir peur",
+      "partOfSpeech": "adjective", "emoji": "😱",
+      "example": "무서운 영화는 못 봐요.",
+      "exampleRomanization": "museoun yeonghwaneun mot bwayo.",
+      "exampleTranslation": "I can't watch scary movies.", "timestamp": 46.0
+    },
+    {
+      "korean": "불꽃", "romanization": "bulkkot", "english": "flame; spark",
+      "spanish": "llama; chispa", "portuguese": "chama; faísca", "indonesian": "api; percikan",
+      "japanese": "炎; 火花", "thai": "เปลวไฟ; ประกายไฟ", "french": "flamme; étincelle",
+      "partOfSpeech": "noun", "emoji": "🔥",
+      "example": "촛불의 불꽃이 흔들려요.",
+      "exampleRomanization": "chotbur-ui bulkkoch-i heundeullyeoyo.",
+      "exampleTranslation": "The candle's flame flickers.", "timestamp": 58.0
+    },
+    {
+      "korean": "소원", "romanization": "sowon", "english": "wish",
+      "spanish": "deseo", "portuguese": "desejo", "indonesian": "harapan; keinginan",
+      "japanese": "願い", "thai": "คำอธิษฐาน; ความปรารถนา", "french": "vœu; souhait",
+      "partOfSpeech": "noun", "emoji": "🌟",
+      "example": "생일에 소원을 빌었어요.",
+      "exampleRomanization": "saengire sowoneul bireosseoyo.",
+      "exampleTranslation": "I made a wish on my birthday.", "timestamp": 66.0
+    },
+    {
+      "korean": "해결하다", "romanization": "haegyeolhada", "english": "to solve; to resolve",
+      "spanish": "resolver", "portuguese": "resolver", "indonesian": "menyelesaikan",
+      "japanese": "解決する", "thai": "แก้ปัญหา", "french": "résoudre",
+      "partOfSpeech": "verb", "emoji": "🔧",
+      "example": "문제를 빨리 해결했어요.",
+      "exampleRomanization": "munjereul ppalli haegyeolhaesseoyo.",
+      "exampleTranslation": "I solved the problem quickly.", "timestamp": 68.0
+    },
+    {
+      "korean": "남자친구", "romanization": "namjachingu", "english": "boyfriend",
+      "spanish": "novio", "portuguese": "namorado", "indonesian": "pacar (laki-laki)",
+      "japanese": "彼氏", "thai": "แฟน (ผู้ชาย)", "french": "petit ami",
+      "partOfSpeech": "noun", "emoji": "💑",
+      "example": "남자친구랑 영화를 봤어요.",
+      "exampleRomanization": "namjachingurang yeonghwareul bwasseoyo.",
+      "exampleTranslation": "I watched a movie with my boyfriend.", "timestamp": 72.0
+    },
+    {
+      "korean": "노력", "romanization": "noryeok", "english": "effort",
+      "spanish": "esfuerzo", "portuguese": "esforço", "indonesian": "usaha",
+      "japanese": "努力", "thai": "ความพยายาม", "french": "effort",
+      "partOfSpeech": "noun", "emoji": "💪",
+      "example": "노력은 절대 배신하지 않아요.",
+      "exampleRomanization": "noryeog-eun jeoldae baesinhaji anayo.",
+      "exampleTranslation": "Effort never betrays you.", "timestamp": 74.0
+    }
+  ]
+}
