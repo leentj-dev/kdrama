@@ -63,10 +63,10 @@ class SceneRepository {
       map[s.id] = s;
     }
     final list = map.values.toList();
-    // Most recently added first; fall back to drama title for equal order.
+    // Ascending by order (episode*100+part) so earlier episodes come first.
     list.sort((a, b) {
-      if (a.order != b.order) return b.order.compareTo(a.order);
-      return a.drama.compareTo(b.drama);
+      if (a.order != b.order) return a.order.compareTo(b.order);
+      return a.title.compareTo(b.title);
     });
     return list;
   }

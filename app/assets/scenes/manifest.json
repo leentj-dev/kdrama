@@ -5,7 +5,25 @@
     "drama": "Goblin",
     "youtubeId": "d4GaQ30slGI",
     "wordCount": 18,
-    "order": 1,
-    "hash": "e7d01f2b06163c29"
+    "order": 609,
+    "hash": "096a99e48d75ac2e"
+  },
+  {
+    "id": "goblin-ep1-01",
+    "title": "The War God's Rise",
+    "drama": "Goblin",
+    "youtubeId": "Ra7coUN_lYk",
+    "wordCount": 7,
+    "order": 101,
+    "hash": "94a694de71f07560"
+  },
+  {
+    "id": "goblin-ep1-02",
+    "title": "Betrayed as a Traitor",
+    "drama": "Goblin",
+    "youtubeId": "4B1HndfrMZA",
+    "wordCount": 21,
+    "order": 102,
+    "hash": "2a5f4dda88abba05"
   }
 ]

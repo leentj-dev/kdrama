@@ -35,8 +35,9 @@ def main():
             "drama": scene.get("drama", ""),
             "youtubeId": scene.get("youtubeId", ""),
             "wordCount": len(scene.get("words", [])),
-            # order: file position for now; bump to add-time (unix sec) later.
-            "order": i + 1,
+            # order: scene's own field (episode*100+part) if set, else file pos.
+            # The feed sorts ascending by this, so lower = earlier episode = top.
+            "order": scene.get("order", i + 1),
             "hash": digest,
         })
 
