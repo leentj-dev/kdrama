@@ -138,38 +138,14 @@ class _SceneScreenState extends State<SceneScreen> {
     super.dispose();
   }
 
-  void _pickLanguage() {
-    showModalBottomSheet<void>(
-      context: context,
-      backgroundColor: const Color(0xFF1C1C1E),
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (context) => SafeArea(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const SizedBox(height: 12),
-            const Text('Translation language',
-                style: TextStyle(color: Colors.white70, fontSize: 13)),
-            for (final l in uiLanguages)
-              ListTile(
-                title: Text(l.label,
-                    style: const TextStyle(color: Colors.white)),
-                trailing: l.code == _lang
-                    ? Icon(Icons.check_rounded, color: _theme.accent)
-                    : null,
-                onTap: () {
-                  setState(() => _lang = l.code);
-                  widget.onLangChanged(l.code);
-                  Navigator.pop(context);
-                },
-              ),
-          ],
-        ),
-      ),
-    );
+  void _setLang(String code) {
+    setState(() => _lang = code);
+    widget.onLangChanged(code);
   }
+
+  String _langLabel(String code) => uiLanguages
+      .firstWhere((l) => l.code == code, orElse: () => uiLanguages.first)
+      .label;
 
   @override
   Widget build(BuildContext context) {
@@ -203,11 +179,67 @@ class _SceneScreenState extends State<SceneScreen> {
                         ],
                       ),
                     ),
-                    IconButton(
-                      icon: const Icon(Icons.translate_rounded,
-                          color: Colors.white70),
-                      onPressed: _pickLanguage,
+                    PopupMenuButton<String>(
+                      initialValue: _lang,
+                      onSelected: _setLang,
+                      color: const Color(0xFF1C1C1E),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(14),
+                      ),
+                      offset: const Offset(0, 44),
                       tooltip: 'Translation language',
+                      itemBuilder: (context) => [
+                        for (final l in uiLanguages)
+                          PopupMenuItem(
+                            value: l.code,
+                            child: Row(
+                              children: [
+                                Icon(
+                                  l.code == _lang
+                                      ? Icons.check_circle_rounded
+                                      : Icons.circle_outlined,
+                                  size: 18,
+                                  color: l.code == _lang
+                                      ? theme.accent
+                                      : Colors.white24,
+                                ),
+                                const SizedBox(width: 10),
+                                Text(l.label,
+                                    style:
+                                        const TextStyle(color: Colors.white)),
+                              ],
+                            ),
+                          ),
+                      ],
+                      child: Container(
+                        margin: const EdgeInsets.only(right: 12),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 12, vertical: 7),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withValues(alpha: 0.14),
+                          borderRadius: BorderRadius.circular(999),
+                          border: Border.all(
+                              color: Colors.white.withValues(alpha: 0.3)),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(Icons.language_rounded,
+                                size: 16, color: Colors.white70),
+                            const SizedBox(width: 6),
+                            Text(
+                              _langLabel(_lang),
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 13,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            const Icon(Icons.keyboard_arrow_down_rounded,
+                                size: 18, color: Colors.white70),
+                          ],
+                        ),
+                      ),
                     ),
                   ],
                 ),

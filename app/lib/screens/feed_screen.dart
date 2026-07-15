@@ -27,6 +27,18 @@ class _FeedScreenState extends State<FeedScreen> {
   bool _loading = true;
   String _lang = 'english';
 
+  /// Which drama the feed is filtered to. null = show all dramas.
+  String? _dramaFilter;
+
+  /// Distinct drama names, in the order they appear in the (pre-sorted) feed.
+  List<String> get _dramas {
+    final seen = <String>[];
+    for (final s in _scenes) {
+      if (!seen.contains(s.drama)) seen.add(s.drama);
+    }
+    return seen;
+  }
+
   @override
   void initState() {
     super.initState();
@@ -36,14 +48,29 @@ class _FeedScreenState extends State<FeedScreen> {
   Future<void> _boot() async {
     final prefs = await SharedPreferences.getInstance();
     _lang = prefs.getString('ui_lang') ?? 'english';
+    _dramaFilter = prefs.getString('drama_filter');
     final scenes = await _repo.loadManifest();
     if (!mounted) return;
     setState(() {
       _scenes = scenes;
+      // Drop a stale filter if that drama is no longer present.
+      if (_dramaFilter != null && !_dramas.contains(_dramaFilter)) {
+        _dramaFilter = null;
+      }
       _loading = false;
     });
     final updated = await _repo.syncRemote();
     if (updated != null && mounted) setState(() => _scenes = updated);
+  }
+
+  Future<void> _setDramaFilter(String? drama) async {
+    setState(() => _dramaFilter = drama);
+    final prefs = await SharedPreferences.getInstance();
+    if (drama == null) {
+      await prefs.remove('drama_filter');
+    } else {
+      await prefs.setString('drama_filter', drama);
+    }
   }
 
   Future<void> _setLang(String lang) async {
@@ -83,10 +110,14 @@ class _FeedScreenState extends State<FeedScreen> {
     final out = <Object?>[];
     final interval = feedAdIntervalNotifier.value;
     final adsOn = adsEnabledNotifier.value;
+    // When a single drama is selected the filter chip already names it, so the
+    // in-list header is redundant; show headers only in the "All" view.
+    final showHeaders = _dramaFilter == null;
     String? drama;
     var sceneCount = 0;
     for (final s in _scenes) {
-      if (s.drama != drama) {
+      if (_dramaFilter != null && s.drama != _dramaFilter) continue;
+      if (showHeaders && s.drama != drama) {
         drama = s.drama;
         out.add(s.drama);
       }
@@ -185,6 +216,16 @@ class _FeedScreenState extends State<FeedScreen> {
             ),
           ),
         ],
+        bottom: _dramas.length > 1
+            ? PreferredSize(
+                preferredSize: const Size.fromHeight(50),
+                child: _DramaFilterBar(
+                  dramas: _dramas,
+                  selected: _dramaFilter,
+                  onSelected: _setDramaFilter,
+                ),
+              )
+            : null,
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
@@ -207,6 +248,59 @@ class _FeedScreenState extends State<FeedScreen> {
                 ),
               ),
             ),
+    );
+  }
+}
+
+/// Horizontal drama filter pinned under the app bar: "All" + one chip per
+/// drama. Lets the user jump straight to a drama instead of scrolling past a
+/// long block of another. Scrolls horizontally as more dramas are added.
+class _DramaFilterBar extends StatelessWidget {
+  final List<String> dramas;
+  final String? selected;
+  final ValueChanged<String?> onSelected;
+  const _DramaFilterBar({
+    required this.dramas,
+    required this.selected,
+    required this.onSelected,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final onSurface = Theme.of(context).colorScheme.onSurface;
+    final accent = Theme.of(context).colorScheme.primary;
+    Widget chip(String label, bool active, VoidCallback onTap) => Padding(
+          padding: const EdgeInsets.only(right: 8),
+          child: ChoiceChip(
+            label: Text(label),
+            selected: active,
+            onSelected: (_) => onTap(),
+            showCheckmark: false,
+            labelStyle: TextStyle(
+              fontSize: 13,
+              fontWeight: active ? FontWeight.w700 : FontWeight.w500,
+              color: active ? accent : onSurface.withValues(alpha: 0.75),
+            ),
+            side: BorderSide(
+              color: active
+                  ? accent.withValues(alpha: 0.6)
+                  : onSurface.withValues(alpha: 0.18),
+            ),
+            backgroundColor: Colors.transparent,
+            selectedColor: accent.withValues(alpha: 0.15),
+          ),
+        );
+    return SizedBox(
+      height: 50,
+      child: ListView(
+        scrollDirection: Axis.horizontal,
+        padding: const EdgeInsets.symmetric(horizontal: 12),
+        children: [
+          chip('All', selected == null, () => onSelected(null)),
+          for (final d in dramas)
+            chip(d, selected == d, () => onSelected(d)),
+        ],
+      ),
     );
   }
 }
