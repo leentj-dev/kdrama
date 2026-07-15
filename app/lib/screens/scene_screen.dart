@@ -21,12 +21,21 @@ class SceneScreen extends StatefulWidget {
   final ValueChanged<String> onLangChanged;
   final SceneRepository repo;
 
+  /// Scenes to auto-advance through (the list the user tapped from, in order).
+  /// When the current clip ends, the next one in this list loads automatically.
+  final List<SceneSummary> playlist;
+
+  /// Index of [scene] within [playlist].
+  final int index;
+
   const SceneScreen({
     super.key,
     required this.scene,
     required this.lang,
     required this.onLangChanged,
     required this.repo,
+    this.playlist = const [],
+    this.index = 0,
   });
 
   @override
@@ -50,6 +59,12 @@ class _SceneScreenState extends State<SceneScreen> {
   late Scene _scene;
   late String _lang;
 
+  /// Position in [widget.playlist]; drives auto-advance to the next scene.
+  late int _index;
+
+  /// Guards against firing the next-scene load more than once per clip end.
+  bool _advancing = false;
+
   /// Effective intro offset (seconds): the scene's data value plus any local
   /// user nudge. video time = word.timestamp + offset.
   double _offset = 0;
@@ -62,6 +77,7 @@ class _SceneScreenState extends State<SceneScreen> {
     super.initState();
     _scene = widget.scene;
     _lang = widget.lang;
+    _index = widget.index;
     _offset = _scene.introOffset;
     _player = YoutubePlayerController.fromVideoId(
       videoId: _scene.youtubeId,
@@ -81,6 +97,13 @@ class _SceneScreenState extends State<SceneScreen> {
 
   Future<void> _syncToPlayback() async {
     if (!mounted) return;
+
+    // Clip finished → auto-advance to the next scene in the playlist.
+    if (_player.value.playerState == PlayerState.ended && !_advancing) {
+      _playNext();
+      return;
+    }
+
     final t = await _player.currentTime;
 
     // Word replay: loop a short window from the word's timestamp.
@@ -108,6 +131,31 @@ class _SceneScreenState extends State<SceneScreen> {
         duration: const Duration(milliseconds: 350),
         curve: Curves.easeOutCubic,
       );
+    }
+  }
+
+  /// Loads the next scene in the playlist and starts it, so a finished clip
+  /// rolls straight into the next episode/scene (in-place, no new screen).
+  Future<void> _playNext() async {
+    if (_advancing) return;
+    final next = _index + 1;
+    if (next >= widget.playlist.length) return; // end of the list
+    _advancing = true;
+    try {
+      final scene = await widget.repo.loadScene(widget.playlist[next].id);
+      if (!mounted) return;
+      setState(() {
+        _index = next;
+        _scene = scene;
+        _offset = scene.introOffset;
+        _activeIndex = 0;
+        _loopIndex = -1;
+        _userScrolling = false;
+      });
+      await _player.loadVideoById(videoId: scene.youtubeId);
+      if (_pageController.hasClients) _pageController.jumpToPage(0);
+    } finally {
+      _advancing = false;
     }
   }
 

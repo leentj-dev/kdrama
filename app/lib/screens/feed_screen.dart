@@ -84,9 +84,17 @@ class _FeedScreenState extends State<FeedScreen> {
           orElse: () => uiLanguages.first)
       .label;
 
+  /// The scenes currently visible (respecting the drama filter), in feed order.
+  /// Used as the auto-advance playlist for the scene screen.
+  List<SceneSummary> get _playlist => _dramaFilter == null
+      ? _scenes
+      : _scenes.where((s) => s.drama == _dramaFilter).toList();
+
   Future<void> _openScene(SceneSummary summary) async {
     final scene = await _repo.loadScene(summary.id);
     if (!mounted) return;
+    final playlist = _playlist;
+    final index = playlist.indexWhere((s) => s.id == summary.id);
     Navigator.push(
       context,
       MaterialPageRoute(
@@ -95,6 +103,8 @@ class _FeedScreenState extends State<FeedScreen> {
           lang: _lang,
           onLangChanged: _setLang,
           repo: _repo,
+          playlist: playlist,
+          index: index < 0 ? 0 : index,
         ),
       ),
     );
