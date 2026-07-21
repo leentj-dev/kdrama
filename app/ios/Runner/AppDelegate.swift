@@ -1,5 +1,6 @@
 import Flutter
 import UIKit
+import google_mobile_ads
 
 @main
 @objc class AppDelegate: FlutterAppDelegate, FlutterImplicitEngineDelegate {
@@ -12,5 +13,11 @@ import UIKit
 
   func didInitializeImplicitFlutterEngine(_ engineBridge: FlutterImplicitEngineBridge) {
     GeneratedPluginRegistrant.register(with: engineBridge.pluginRegistry)
+
+    // Must match Ads.factoryId on the Dart side (see MainActivity.kt).
+    FLTGoogleMobileAdsPlugin.registerNativeAdFactory(
+      engineBridge.pluginRegistry,
+      factoryId: "sceneCard",
+      nativeAdFactory: SceneCardNativeAdFactory())
   }
 }

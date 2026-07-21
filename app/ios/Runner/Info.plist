@@ -47,11 +47,9 @@
 			</array>
 		</dict>
 	</dict>
-	<!-- TODO: AdMob 콘솔에서 iOS 앱을 만든 뒤 실제 App ID 로 교체할 것.
-	     현재 값은 Google 공식 테스트 App ID (실 광고 아님).
-	     Android 는 ca-app-pub-6232115093331648~8797899562 -->
+	<!-- AdMob iOS App ID (Ads.appIdIos 와 동일하게 유지할 것). -->
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<string>ca-app-pub-6232115093331648~8334865134</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>맞춤 광고를 제공하기 위해 사용됩니다. 허용하지 않아도 앱은 그대로 이용할 수 있습니다.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
