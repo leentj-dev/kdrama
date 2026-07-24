@@ -31,6 +31,11 @@ app/ios/fastlane/README.md
 app/ios/Runner.ipa
 app/ios/*.dSYM.zip
 
+# Play service account key (secret — never commit)
+app/android/fastlane/play-store-key.json
+app/android/fastlane/report.xml
+app/android/fastlane/README.md
+
 # IDE
 .idea/
 *.iml

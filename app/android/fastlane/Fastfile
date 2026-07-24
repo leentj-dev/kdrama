@@ -1,0 +1,22 @@
+default_platform(:android)
+
+AAB = "../build/app/outputs/bundle/release/app-release.aab"
+
+platform :android do
+  desc "Build release AAB via Flutter"
+  lane :build do
+    sh("cd ../.. && flutter build appbundle --release")
+  end
+
+  desc "Upload AAB to Play Store Internal track (draft)"
+  lane :internal do
+    upload_to_play_store(
+      track: "internal",
+      aab: AAB,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true,
+      release_status: "draft",
+    )
+  end
+end
