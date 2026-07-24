@@ -1,0 +1,55 @@
+default_platform(:ios)
+
+APP_ID  = "dev.leentj.kdramaHangul"
+TEAM_ID = "2U6RJTHK3V"
+# App Store Connect API key — shared across all leentj apps. The .p8 lives
+# outside the repo (never committed); reference the global copy.
+KEY_PATH = File.expand_path("~/.appstoreconnect/private_keys/AuthKey_DPCWVWG2NC.p8")
+
+platform :ios do
+  before_all do
+    app_store_connect_api_key(
+      key_id: "DPCWVWG2NC",
+      issuer_id: "940731f5-e618-431d-921d-cc336fd1682a",
+      key_filepath: KEY_PATH,
+    )
+  end
+
+  # Build a signed App Store IPA (no upload). Registers the App ID and creates
+  # the provisioning profile via the API if they don't exist yet.
+  desc "Build a signed App Store IPA (no upload)"
+  lane :ipa do
+    sh("cd .. && flutter build ios --release --no-codesign --config-only")
+    get_provisioning_profile(app_identifier: APP_ID, readonly: false)
+    update_code_signing_settings(
+      use_automatic_signing: false, path: "Runner.xcodeproj",
+      team_id: TEAM_ID, bundle_identifier: APP_ID,
+      code_sign_identity: "Apple Distribution",
+      profile_name: lane_context[SharedValues::SIGH_NAME],
+    )
+    build_app(
+      workspace: "Runner.xcworkspace", scheme: "Runner", export_method: "app-store",
+      export_options: { provisioningProfiles: { APP_ID => lane_context[SharedValues::SIGH_NAME] } },
+    )
+  end
+
+  # Same as :ipa, then upload to TestFlight. Needs the app record to exist in
+  # App Store Connect first (create it once, or run the :create lane).
+  desc "Build a signed IPA and upload to TestFlight"
+  lane :beta do
+    ipa
+    upload_to_testflight(skip_waiting_for_build_processing: true)
+  end
+
+  # One-time: register the app record in App Store Connect.
+  desc "Create the App Store Connect app record"
+  lane :create do
+    produce(
+      app_identifier: APP_ID,
+      app_name: "K-Drama Hangul",
+      language: "English (U.S.)",
+      app_version: "1.0.0",
+      sku: "kdramaHangul",
+    )
+  end
+end
