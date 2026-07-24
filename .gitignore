@@ -25,7 +25,11 @@ app/ios/Flutter/flutter_export_environment.sh
 **/*.p8
 app/ios/fastlane/report.xml
 app/ios/fastlane/README.md
-app/ios/fastlane/*.mobileprovision
+**/*.mobileprovision
+
+# iOS build artifacts
+app/ios/Runner.ipa
+app/ios/*.dSYM.zip
 
 # IDE
 .idea/
